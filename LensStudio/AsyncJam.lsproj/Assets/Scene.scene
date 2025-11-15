@@ -1470,7 +1470,7 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Position: {x: 0.000000, y: 0.000000, z: -29.539362}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
     HasSegmentScaleCompensation: false
@@ -3241,6 +3241,7 @@
       microphoneRecorder: !<MappingBased.AssignableType> af7d96d3-b663-4ff4-a90d-f07b414fc5a7
       musicBox: !<reference.SceneObject> 075db334-bf87-4bc2-bcd5-b026c06ec9c1
       musicBoxMaterial: !<reference.Material> 484500d0-2962-4d77-8f11-dc90d57d2be2
+      musicBoxMesh: !<reference.RenderMeshVisual> ba61f923-178a-4da2-9600-b19839b26ef3
   ScriptTypes:
     "":
       {}
@@ -3915,7 +3916,7 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> 80b1e55a-215b-4259-9af5-40302bc26f9e
+    - !<reference> 484500d0-2962-4d77-8f11-dc90d57d2be2
   Mesh: !<reference> 0ac4d6c4-eefa-4a9c-ade2-63b80345e398
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true

@@ -13,6 +13,9 @@ export class AsyncJamController extends BaseScriptComponent {
     @input
     musicBoxMaterial: Material;
 
+    @input
+    musicBoxMesh: RenderMeshVisual;
+
     private isRecording: boolean = false;
     private hasRecording: boolean = false;
     private recordingTimer: number = 0;
@@ -26,6 +29,10 @@ export class AsyncJamController extends BaseScriptComponent {
         this.recorder = this.microphoneRecorder;
         
         this.musicBox.enabled = false;
+
+        const clonedMaterial = this.musicBoxMaterial.clone();
+        this.musicBoxMesh.mainMaterial = clonedMaterial;
+        this.musicBoxMaterial = clonedMaterial;
 
         const updateEvent = this.createEvent('UpdateEvent');
         updateEvent.bind(() => {
@@ -79,11 +86,11 @@ export class AsyncJamController extends BaseScriptComponent {
     startRecording() {
         print('START RECORDING');
         this.isRecording = true;
+        this.musicBoxMaterial.mainPass.baseColor = new vec4(1, 0, 0, 1);
         this.recorder.recordMicrophoneAudio(true);
         
         this.musicBox.enabled = true;
 
-        this.musicBoxMaterial.mainPass.baseColor = new vec4(1, 0, 0, 1);
     }
 
 

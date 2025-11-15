@@ -6,6 +6,7 @@
     - !<own> 19c2b881-29f4-4ce8-bc11-7627f0d8c6fa
     - !<own> 900692d4-3f9a-4aa9-8de7-098260d842f6
     - !<own> 10726b41-125b-4ccf-b1c1-e97a13d6ca2a
+    - !<own> 071897d7-c8ff-492f-9754-06aaf7c61adb
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -327,6 +328,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/071897d7-c8ff-492f-9754-06aaf7c61adb>
+  PrefabRemaps:
+    []
+  Name: DemoController
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bdd21b88-17f5-43ad-af84-1c402ae8c48d
 - !<SceneObject/074c6606-b89c-4a0d-a9bf-adcb3f98e862>
   PrefabRemaps:
     []
@@ -342,6 +358,21 @@
     - !<own> 7c45a8da-4483-4606-ae95-7ac82d5b8b55
   Components:
     []
+- !<SceneObject/075db334-bf87-4bc2-bcd5-b026c06ec9c1>
+  PrefabRemaps:
+    []
+  Name: MusicBox
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.500000, z: 2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4df21192-15c5-4e53-890a-6fcf8de3f94f
+  Components:
+    - !<own> fbbee436-906a-4047-bb48-d79cc7029e40
 - !<ScriptComponent/076e1793-103a-4c8c-99b0-3d5c6a6f9319>
   PrefabRemaps:
     []
@@ -531,6 +562,7 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 83154605-80e2-4cb2-8227-c2d14658bde3
+    - !<own> 075db334-bf87-4bc2-bcd5-b026c06ec9c1
   Components:
     - !<own> 060b4ff0-951c-437b-a8b8-35c6ac5d43aa
 - !<SceneObject/1196e5c9-29a5-486e-9412-5d9bfdeb7339>
@@ -1431,6 +1463,21 @@
     - !<own> 1196e5c9-29a5-486e-9412-5d9bfdeb7339
   Components:
     []
+- !<SceneObject/4df21192-15c5-4e53-890a-6fcf8de3f94f>
+  PrefabRemaps:
+    []
+  Name: Mesh using MusicBoxMaterial
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ba61f923-178a-4da2-9600-b19839b26ef3
 - !<Skin/4f40bcfd-3ab7-439b-9618-b55e1e4024b4>
   PrefabRemaps:
     []
@@ -3144,6 +3191,26 @@
     - !<own> 2e364d02-0ffe-4bee-beb1-4d5c05a559e1
   Components:
     []
+- !<RenderMeshVisual/ba61f923-178a-4da2-9600-b19839b26ef3>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 484500d0-2962-4d77-8f11-dc90d57d2be2
+  Mesh: !<reference> 2e5e428e-9a20-4c3f-ad4a-4451f07df611
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/bbc6f6a0-e0d1-4cce-a511-c60ab177d141>
   PrefabRemaps:
     []
@@ -3159,6 +3226,24 @@
     []
   Components:
     - !<own> 3cb37ba7-eb1a-4b74-aac7-4b32cfd05522
+- !<ScriptComponent/bdd21b88-17f5-43ad-af84-1c402ae8c48d>
+  PrefabRemaps:
+    []
+  Name: AsyncJamController
+  Enabled: true
+  ScriptAsset: !<reference> c755a945-1a75-44e3-a7d2-81638bed0037
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      microphoneRecorder: !<MappingBased.AssignableType> af7d96d3-b663-4ff4-a90d-f07b414fc5a7
+      musicBox: !<reference.SceneObject> 075db334-bf87-4bc2-bcd5-b026c06ec9c1
+      musicBoxMaterial: !<reference.Material> 484500d0-2962-4d77-8f11-dc90d57d2be2
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/be800613-0543-4e3c-b251-af3f11d6025e>
   PrefabRemaps:
     []
@@ -3817,6 +3902,26 @@
     - !<own> 11dc9d7b-32b8-4d36-af01-e6ff03777f9c
   Components:
     []
+- !<RenderMeshVisual/fbbee436-906a-4047-bb48-d79cc7029e40>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 80b1e55a-215b-4259-9af5-40302bc26f9e
+  Mesh: !<reference> 0ac4d6c4-eefa-4a9c-ade2-63b80345e398
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<ScriptComponent/fde389ee-7611-464f-ae35-af8218402960>
   PrefabRemaps:
     []

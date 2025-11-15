@@ -21,7 +21,7 @@ export class AsyncJamController extends BaseScriptComponent {
     private recorder: any;
 
     onAwake() {
-        print('🎵 Async Jam Controller Initialized');
+        print('Async Jam Controller Initialized');
 
         this.recorder = this.microphoneRecorder;
         
@@ -96,10 +96,6 @@ export class AsyncJamController extends BaseScriptComponent {
         this.musicBoxMaterial.mainPass.baseColor = new vec4(0, 1, 0, 1);
     }
 
-    /**
-     * 播放录音
-     * 音乐盒子变蓝色并旋转
-     */
     playback() {
         print('PLAYBACK');
         const success = this.recorder.playbackRecordedAudio();

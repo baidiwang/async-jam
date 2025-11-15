@@ -27,6 +27,9 @@
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     anchorModule: false
+    camera: false
+    pinchButton: false
+    prefab: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -37,8 +40,14 @@
     []
   DefaultScriptInputs:
     - anchorModule: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      pinchButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input AssignableType anchorModule
+    - // @input AssignableType_1 pinchButton
+    - // @input SceneObject camera
+    - // @input Asset.ObjectPrefab prefab

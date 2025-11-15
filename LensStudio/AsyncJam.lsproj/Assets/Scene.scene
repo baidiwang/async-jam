@@ -7,6 +7,7 @@
     - !<own> 900692d4-3f9a-4aa9-8de7-098260d842f6
     - !<own> 10726b41-125b-4ccf-b1c1-e97a13d6ca2a
     - !<own> 071897d7-c8ff-492f-9754-06aaf7c61adb
+    - !<own> 075db334-bf87-4bc2-bcd5-b026c06ec9c1
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -365,9 +366,9 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.500000, z: 2.000000}
+    Position: {x: 0.000000, y: -4.500000, z: -63.000000}
     Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    Scale: {x: 20.000000, y: 20.000000, z: 20.000000}
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 4df21192-15c5-4e53-890a-6fcf8de3f94f
@@ -553,7 +554,7 @@
   PrefabRemaps:
     []
   Name: MicrophoneRecorderUI
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: -5.000000, z: -65.000000}
@@ -562,7 +563,6 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> 83154605-80e2-4cb2-8227-c2d14658bde3
-    - !<own> 075db334-bf87-4bc2-bcd5-b026c06ec9c1
   Components:
     - !<own> 060b4ff0-951c-437b-a8b8-35c6ac5d43aa
 - !<SceneObject/1196e5c9-29a5-486e-9412-5d9bfdeb7339>
@@ -1467,7 +1467,7 @@
   PrefabRemaps:
     []
   Name: Mesh using MusicBoxMaterial
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: -29.539362}
@@ -2383,7 +2383,7 @@
   PrefabRemaps:
     []
   Name: Controls
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -3241,7 +3241,6 @@
       microphoneRecorder: !<MappingBased.AssignableType> af7d96d3-b663-4ff4-a90d-f07b414fc5a7
       musicBox: !<reference.SceneObject> 075db334-bf87-4bc2-bcd5-b026c06ec9c1
       musicBoxMaterial: !<reference.Material> 484500d0-2962-4d77-8f11-dc90d57d2be2
-      musicBoxMesh: !<reference.RenderMeshVisual> ba61f923-178a-4da2-9600-b19839b26ef3
   ScriptTypes:
     "":
       {}

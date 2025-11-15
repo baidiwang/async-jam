@@ -13,26 +13,34 @@ export class AsyncJamController extends BaseScriptComponent {
     @input
     musicBoxMaterial: Material;
 
-    @input
-    musicBoxMesh: RenderMeshVisual;
+    // @input
+    // musicBoxMesh: RenderMeshVisual;
 
     private isRecording: boolean = false;
     private hasRecording: boolean = false;
     private recordingTimer: number = 0;
-    private playbackTimer: number = 0;
     
-    private recorder: any;
+    // flosting values
+    private floatTimer: number = 0; 
+    private baseYPosition: number = 0.5; 
+    private floatAmplitude: number = 0.15; 
+    private floatSpeed: number = 1.5;
+
+    // private recorder: any;
 
     onAwake() {
         print('Async Jam Controller Initialized');
 
-        this.recorder = this.microphoneRecorder;
+        // this.recorder = this.microphoneRecorder;
         
         this.musicBox.enabled = false;
 
-        const clonedMaterial = this.musicBoxMaterial.clone();
-        this.musicBoxMesh.mainMaterial = clonedMaterial;
-        this.musicBoxMaterial = clonedMaterial;
+        // const clonedMaterial = this.musicBoxMaterial.clone();
+        // this.musicBoxMesh.mainMaterial = clonedMaterial;
+        // this.musicBoxMaterial = clonedMaterial;
+
+        const initialPos = this.musicBox.getTransform().getLocalPosition();
+        this.baseYPosition = initialPos.y;
 
         const updateEvent = this.createEvent('UpdateEvent');
         updateEvent.bind(() => {
@@ -41,7 +49,6 @@ export class AsyncJamController extends BaseScriptComponent {
 
         this.startAutoDemo();
     }
-
 
     startAutoDemo() {
         print('Starting auto demo sequence...');
@@ -74,41 +81,60 @@ export class AsyncJamController extends BaseScriptComponent {
             );
         }
 
-        if (this.hasRecording && !this.isRecording) {
-            this.playbackTimer += getDeltaTime();
-            this.musicBox.getTransform().setLocalRotation(
-                quat.fromEulerAngles(0, this.playbackTimer * 2, 0)
-            );
-        }
+        // if (this.hasRecording && !this.isRecording) {
+        //     this.playbackTimer += getDeltaTime();
+        //     // this.musicBox.getTransform().setLocalRotation(
+        //     //     quat.fromEulerAngles(0, this.playbackTimer * 2, 0)
+        //     // );
+        // } 
+
+ if (this.hasRecording && !this.isRecording) {
+      this.floatTimer += getDeltaTime();
+      
+      const floatOffset = Math.sin(this.floatTimer * this.floatSpeed) * this.floatAmplitude;
+      const newY = this.baseYPosition + floatOffset;
+      
+      const currentPos = this.musicBox.getTransform().getLocalPosition();
+      
+      this.musicBox.getTransform().setLocalPosition(
+        new vec3(currentPos.x, newY, currentPos.z)
+      );
+    }
+    
     }
 
-
+    // red
     startRecording() {
         print('START RECORDING');
         this.isRecording = true;
+        this.microphoneRecorder.recordMicrophoneAudio(true);
+
         this.musicBoxMaterial.mainPass.baseColor = new vec4(1, 0, 0, 1);
-        this.recorder.recordMicrophoneAudio(true);
+        this.musicBox.getTransform().setLocalScale(new vec3(0.3, 0.3, 0.3));
         
         this.musicBox.enabled = true;
 
     }
 
-
+    // green
     stopRecording() {
         print('STOP RECORDING');
         this.isRecording = false;
         this.hasRecording = true;
-        this.recorder.recordMicrophoneAudio(false);
+        this.microphoneRecorder.recordMicrophoneAudio(false);
         
         this.musicBoxMaterial.mainPass.baseColor = new vec4(0, 1, 0, 1);
+        this.musicBox.getTransform().setLocalScale(new vec3(0.3, 0.3, 0.3));
     }
 
+    // blue
     playback() {
         print('PLAYBACK');
-        const success = this.recorder.playbackRecordedAudio();
+        const success = this.microphoneRecorder.playbackRecordedAudio();
         
         if (success) {
             this.musicBoxMaterial.mainPass.baseColor = new vec4(0, 0, 1, 1);
+            this.floatTimer = 0;
         } else {
             print('No audio to play!');
         }

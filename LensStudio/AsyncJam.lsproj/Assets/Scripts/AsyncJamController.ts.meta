@@ -29,7 +29,6 @@
     microphoneRecorder: false
     musicBox: false
     musicBoxMaterial: false
-    musicBoxMesh: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -42,7 +41,6 @@
     - microphoneRecorder: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
       musicBox: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       musicBoxMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
-      musicBoxMesh: !<reference.RenderMeshVisual> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -50,4 +48,3 @@
     - // @input AssignableType microphoneRecorder
     - // @input SceneObject musicBox
     - // @input Asset.Material musicBoxMaterial
-    - // @input Component.RenderMeshVisual musicBoxMesh

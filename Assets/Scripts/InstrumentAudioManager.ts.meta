@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/5de4337a-77d2-47f2-970c-e81ed1e97884>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 366881b9-a057-44fb-8a38-223c21a31b60
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 366881b9-a057-44fb-8a38-223c21a31b60
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8ee535ba-e0bd-425f-8ecd-2c5d54bf850a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/8ee535ba-e0bd-425f-8ecd-2c5d54bf850a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 38d8cbb6-a345-412e-9afa-4e7ba0275cc0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colliders: false
+    sounds: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - colliders: !<MappingBased.AssignableType[]>
+        []
+      sounds: !<reference.AudioTrackAsset[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input AssignableType[] colliders"
+    - "// @input Asset.AudioTrackAsset[] sounds"

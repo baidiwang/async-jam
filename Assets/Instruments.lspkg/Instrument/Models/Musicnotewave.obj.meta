@@ -1,0 +1,213 @@
+- !<AssetImportMetadata/4b04f9c7-fe40-c24f-0072-455a7b08e4c2>
+  ImportedAssetIds:
+    .hidden/Material.001: !<reference> 53ca0b60-8e56-4d4b-8517-f2a41b4889ec
+    .hidden/white: !<reference> ccd1725c-79f0-4189-9d6d-fcf968470fd5
+    1140ff4410517f95: !<reference> 593afca2-a1a0-449a-939e-24e22c605b26
+    1c8b0cf156a84a7c: !<reference> bb820d2b-d772-41de-878b-0b6243ac7e34
+    1ff701f473ce311f: !<reference> 22eeb33c-19e3-419f-9a86-340f92298ace
+    2fbce8e209829ef2: !<reference> e9c9c276-edee-4368-8fb1-0131e7b0ebed
+    44d9128c513c60b2: !<reference> d2b64d20-fdd7-4463-aa00-186a7cbc483b
+    4cf4700ad405057e: !<reference> 9d99f103-f0be-49ca-a8d0-a8b90b56078c
+    4f320e23a60c0b31: !<reference> 2ee6114d-cf2e-4750-ad6a-2d7c6a9ee48c
+    66780cf3a4dcb2b8: !<reference> dfe9d2e2-6c9a-40ed-9ec5-ef977a1e41db
+    Materials/Material.001: !<reference> cdcc55f4-0b63-4c82-a40b-f0163d7ac828
+    Materials/Material.001|Material.001|GraphPassInfo: !<reference> 66139d1b-4a1f-4b56-b222-58af48dcd994
+    Meshes/Belt.001_环体.002: !<reference> c54aa2ca-ecad-4c23-8c14-0af6ca4fb91f
+    Meshes/Belt.002_环体.003: !<reference> bd40ea22-705a-4c0d-9fe4-84bbd5b1a05d
+    Meshes/Belt_环体.001: !<reference> e94e0240-a758-4f05-b728-c661716f7071
+    Meshes/Note_Mesh: !<reference> 1e7bce98-9059-4be7-adf0-a7dd7adb6f4a
+    Scene: !<reference> e26ebab2-eb17-49bc-b462-c210f12ed806
+    cf728832fa23561e: !<reference> 3e8c24f0-d6e3-49e8-a471-932a12e6689e
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> e26ebab2-eb17-49bc-b462-c210f12ed806
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 7b1bcc5d-b6f4-415a-b31d-1264aadf8b8c
+  DependentFiles:
+    - Musicnotewave.mtl
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      jpg: Performance Compression
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/22eeb33c-19e3-419f-6579-cbf06dd67531>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cdcc55f4-0b63-4c82-a40b-f0163d7ac828
+  Mesh: !<reference> 1e7bce98-9059-4be7-adf0-a7dd7adb6f4a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/2ee6114d-cf2e-4750-5295-d28395611b73>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cdcc55f4-0b63-4c82-a40b-f0163d7ac828
+  Mesh: !<reference> e94e0240-a758-4f05-b728-c661716f7071
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3e8c24f0-d6e3-49e8-5b8e-6cd5ed199761>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cdcc55f4-0b63-4c82-a40b-f0163d7ac828
+  Mesh: !<reference> bd40ea22-705a-4c0d-9fe4-84bbd5b1a05d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/593afca2-a1a0-449a-6c61-db1dd39fa4d9>
+  PrefabRemaps:
+    []
+  Name: Belt_环体.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ee6114d-cf2e-4750-5295-d28395611b73
+- !<ObjectPrefabAssetData/7b1bcc5d-b6f4-415a-b31d-1264aadf8b8c>
+  Prototype: !<ObjectOwner/fe98261b-df95-4bf1-8582-f9917a8958c5>
+    PackagePath: ""
+    objects:
+      - !<own> dfe9d2e2-6c9a-40ed-613a-106885e1be24
+- !<SceneObject/9d99f103-f0be-49ca-572f-5746f4a9f873>
+  PrefabRemaps:
+    []
+  Name: Belt.002_环体.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e8c24f0-d6e3-49e8-5b8e-6cd5ed199761
+- !<SceneObject/bb820d2b-d772-41de-7874-f49dbc5381cb>
+  PrefabRemaps:
+    []
+  Name: Note_Mesh
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 22eeb33c-19e3-419f-6579-cbf06dd67531
+- !<RenderMeshVisual/d2b64d20-fdd7-4463-55ff-e7958343b7c4>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cdcc55f4-0b63-4c82-a40b-f0163d7ac828
+  Mesh: !<reference> c54aa2ca-ecad-4c23-8c14-0af6ca4fb91f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dfe9d2e2-6c9a-40ed-613a-106885e1be24>
+  PrefabRemaps:
+    []
+  Name: Musicnotewave
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bb820d2b-d772-41de-7874-f49dbc5381cb
+    - !<own> 593afca2-a1a0-449a-6c61-db1dd39fa4d9
+    - !<own> e9c9c276-edee-4368-704e-fece184f1412
+    - !<own> 9d99f103-f0be-49ca-572f-5746f4a9f873
+  Components:
+    []
+- !<SceneObject/e9c9c276-edee-4368-704e-fece184f1412>
+  PrefabRemaps:
+    []
+  Name: Belt.001_环体.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d2b64d20-fdd7-4463-55ff-e7958343b7c4

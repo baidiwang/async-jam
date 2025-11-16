@@ -2,6 +2,7 @@ import { PinchButton } from "SpectaclesInteractionKit.lspkg/Components/UI/PinchB
 import { Interactor, InteractorInputType } from "SpectaclesInteractionKit.lspkg/Core/Interactor/Interactor";
 import SIK from "SpectaclesInteractionKit.lspkg/SIK";
 import { JukeboxPlacementController } from "./JukeboxPlacementController";
+import WorldCameraFinderProvider from "SpectaclesInteractionKit.lspkg/Providers/CameraProvider/WorldCameraFinderProvider";
 
 @component
 export class DebugMenuController extends BaseScriptComponent {
@@ -44,8 +45,9 @@ export class DebugMenuController extends BaseScriptComponent {
         if (this._jukeboxGhost) {
             const hand = SIK.HandInputData.getHand(this._openDebugMenuHand == "lt" ? "left" : 'right')
             const pos = hand.indexTip.position;
+            const rot = quat.lookAt(vec3.forward(), vec3.up());
+            const transform = mat4.compose(pos, rot, vec3.one());
 
-            const transform = mat4.fromTranslation(pos);
             this._jukeboxGhost
                 .getTransform()
                 .setWorldTransform(transform);
@@ -80,7 +82,7 @@ export class DebugMenuController extends BaseScriptComponent {
             }
         }
 
-        if (this._openDebugMenuTime >= 5) {
+        if (this._openDebugMenuTime >= 2) {
             if (this._jukeboxGhost) {
                 this.destroyJukeboxGhost();
             }

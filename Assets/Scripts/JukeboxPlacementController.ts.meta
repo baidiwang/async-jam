@@ -28,6 +28,7 @@
   ScriptInputsHidden:
     anchorModule: false
     jukeboxPrefab: false
+    localizationTooltip: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -39,9 +40,11 @@
   DefaultScriptInputs:
     - anchorModule: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
       jukeboxPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      localizationTooltip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input AssignableType anchorModule
     - // @input Asset.ObjectPrefab jukeboxPrefab
+    - // @input SceneObject localizationTooltip

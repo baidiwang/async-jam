@@ -8,6 +8,7 @@ import { Jukebox } from "./Jukebox";
 export class JukeboxPlacementController extends BaseScriptComponent {
     @input anchorModule: AnchorModule;
     @input jukeboxPrefab: ObjectPrefab;
+    @input localizationTooltip: SceneObject;
     
     private anchorSession?: AnchorSession;
     
@@ -20,24 +21,35 @@ export class JukeboxPlacementController extends BaseScriptComponent {
     private async onStart() {
         const anchorSessionOptions = new AnchorSessionOptions();
         
+        anchorSessionOptions.area = "devland2";
         anchorSessionOptions.scanForWorldAnchors = true;
+
         this.anchorSession = await this.anchorModule.openSession(anchorSessionOptions);
         this.anchorSession.onAnchorNearby.add(this.onAnchorNearby.bind(this));
+
+        this.localizationTooltip.enabled = false;
     }
 
     private onAnchorNearby(anchor: Anchor) {
-
+        this.attachNewObjectToAnchor(anchor);
     }
 
     public async createAnchor(worldTransform: mat4) {
         const anchor = await this.anchorSession.createWorldAnchor(worldTransform);
 
-        this.attachNewObjectToAnchor(anchor);
         try {
-            this.anchorSession.saveAnchor(anchor);
+            this.localizationTooltip.enabled = true;
+            const userAnchor = await this.anchorSession.saveAnchor(anchor);
+
+            // if made it this far (call above has finished), then the area scan is done
+            
+            this.attachNewObjectToAnchor(userAnchor);
         } catch (e) {
-            console.error(`Error saving anchor: ${e}`);
+            console.error(`Error saving anchor: ${e}`)
+            console.error(`Error saving anchor. stack trace: ${e.stack}`);
         }
+
+        this.localizationTooltip.enabled = false;
     }
 
     private attachNewObjectToAnchor(anchor: Anchor) {

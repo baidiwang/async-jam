@@ -31,6 +31,7 @@ export class InstrumentAudioManager extends BaseScriptComponent {
     }
 
     private playNote(sound: AudioTrackAsset) {
+        console.log(`playing ${sound.name}`);
         let audioComponent: AudioComponent;
         if (this._audioComponentPool.length > 0) {
             audioComponent = this._audioComponentPool.pop();

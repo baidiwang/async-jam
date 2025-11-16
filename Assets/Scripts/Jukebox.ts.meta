@@ -28,10 +28,14 @@
   ScriptInputsHidden:
     audio: false
     audioOutput: false
+    badBubble: false
     bubbles: false
     camera: false
+    drumKit: false
     firstTrackTooltip: false
+    goodBubble: false
     internetModule: false
+    notImplementedTooltip: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -48,6 +52,11 @@
       camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       bubbles: !<reference.SceneObject[]>
         []
+      drumKit: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      goodBubble: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      badBubble: !<MappingBased.AssignableType_1[]>
+        []
+      notImplementedTooltip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -58,3 +67,7 @@
     - // @input Asset.InternetModule internetModule
     - // @input SceneObject camera
     - "// @input SceneObject[] bubbles"
+    - // @input SceneObject drumKit
+    - // @input AssignableType goodBubble
+    - "// @input AssignableType_1[] badBubble"
+    - // @input SceneObject notImplementedTooltip

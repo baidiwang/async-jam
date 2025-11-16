@@ -263,6 +263,24 @@
     - !<own> a267de1e-18aa-486d-5d4f-eec2dea8b65a
     - !<own> c9758176-a616-4aa5-6193-acd4ca6c13b0
     - !<own> 3111ec8d-3340-4679-7db6-f0b6f38529b2
+- !<ColliderComponent/911cf144-7ee4-4423-9017-08fd792a7726>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
 - !<RenderMeshVisual/a267de1e-18aa-486d-5d4f-eec2dea8b65a>
   PrefabRemaps:
     []
@@ -283,6 +301,43 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/aa9f58a5-d0a4-43aa-8604-1917cd74daba>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/b70cf880-0c7a-4720-4204-cf8b002ba932>
   PrefabRemaps:
     []
@@ -380,6 +435,8 @@
   Components:
     - !<own> de1dc7da-68a7-471f-5f7e-e8ab83fe6adf
     - !<own> fe1a4769-1040-4118-7b63-0fd2030ca295
+    - !<own> aa9f58a5-d0a4-43aa-8604-1917cd74daba
+    - !<own> 911cf144-7ee4-4423-9017-08fd792a7726
 - !<AnimationPlayer/de1dc7da-68a7-471f-5f7e-e8ab83fe6adf>
   PrefabRemaps:
     []

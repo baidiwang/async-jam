@@ -115,7 +115,7 @@
     - f6036451-55cc-4c5e-843d-25d88da3ddb9: f6036451-55cc-4c5e-7bc2-da27725c2246
     - fdf11fb5-3578-4c30-97ea-cc777bf94822: fdf11fb5-3578-4c30-6815-33888406b7dd
   Name: Musicnote
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}

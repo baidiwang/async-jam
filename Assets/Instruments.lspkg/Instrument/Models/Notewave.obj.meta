@@ -2,19 +2,19 @@
   ImportedAssetIds:
     .hidden/Material 1: !<reference> c540b4ac-72cc-49e6-8622-7c6a842795d1
     .hidden/white: !<reference> 85637876-f50d-47d2-942f-a2c5f49cc144
-    6470a1667aff9751: !<reference> 743187cf-d7dd-4fd3-81ee-e527da468778
-    7a0dd5cd69df73fa: !<reference> c3c9436b-80ab-4dda-8aa9-bd69cc1174bd
-    82365121475de575: !<reference> 18f8e61c-b8ad-44bf-a936-0c13c7d8e00c
-    8e2cad0051f0bc41: !<reference> cd1d4c4f-6231-48be-9bdb-44a3ec825a2a
+    1140ff4410516f84: !<reference> 027cf7de-1534-4a1b-9367-f53c1a4ad600
+    2fbce8e20982ad03: !<reference> 82f1329c-f65c-491b-963e-b7e62d094cdd
+    44d9128c513c60b2: !<reference> 93c3acc0-a87b-4b48-91b6-f3720dd2a576
+    4cf4700ad40575ed: !<reference> 71fac840-15c8-46f5-b0b5-64e662cb9cdd
+    4f320e23a60c0b31: !<reference> a9cf25d4-e594-4952-9196-49fbc0dc11a5
+    66780cf3a4dcb2b8: !<reference> abbe6069-76fa-44c2-9146-7cbc91314948
     Materials/Material 1: !<reference> c2eb1a5d-09c1-49c4-b56e-b88ac0a368cb
     Materials/Material 1|Material 1|GraphPassInfo: !<reference> 21a9119a-b417-4927-9e7f-a622ab35df73
     Meshes/Belt.001_环体.002: !<reference> 557ec612-f207-40a0-8c54-4ccdfa99a2ea
     Meshes/Belt.002_环体.003: !<reference> f70d7974-3ae2-4a73-bcb5-8b99f60519c7
     Meshes/Belt_环体.001: !<reference> 16a88eee-dcfe-46eb-9cbb-32a0745f9af6
     Scene: !<reference> 5f65d47e-a8ac-4120-8867-12a76f8dea1e
-    c2c1b283b1c11a47: !<reference> b3421755-fe74-4792-b471-0d6136486dc6
-    cf5b32d49e278d6a: !<reference> 0d221e09-03d8-4d8e-b8f3-3970555527c1
-    f3a949d12bd5ac2b: !<reference> 66365139-137d-44f6-88b9-09905a8d59c3
+    cf728832fa23561e: !<reference> c83e6019-2d04-4e4c-8844-46000f6077f5
   ImporterName: ObjImporter
   PrimaryAsset: !<reference> 5f65d47e-a8ac-4120-8867-12a76f8dea1e
   PackageType: LegacyPackage
@@ -45,42 +45,7 @@
       mesh: None Compression
     Overrides:
       {}
-- !<RenderMeshVisual/0d221e09-03d8-4d8e-470c-c68faaaad83e>
-  PrefabRemaps:
-    []
-  Name: component_2
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> f70d7974-3ae2-4a73-bcb5-8b99f60519c7
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/18f8e61c-b8ad-44bf-56c9-f3ec38271ff3>
-  PrefabRemaps:
-    []
-  Name: Belt.001_环体.002
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 743187cf-d7dd-4fd3-7e11-1ad825b97887
-- !<SceneObject/66365139-137d-44f6-7746-f66fa572a63c>
+- !<SceneObject/027cf7de-1534-4a1b-6c98-0ac3e5b529ff>
   PrefabRemaps:
     []
   Name: Belt_环体.001
@@ -94,8 +59,38 @@
   Children:
     []
   Components:
-    - !<own> cd1d4c4f-6231-48be-6424-bb5c137da5d5
-- !<RenderMeshVisual/743187cf-d7dd-4fd3-7e11-1ad825b97887>
+    - !<own> a9cf25d4-e594-4952-6e69-b6043f23ee5a
+- !<SceneObject/71fac840-15c8-46f5-4f4a-9b199d346322>
+  PrefabRemaps:
+    []
+  Name: Belt.002_环体.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c83e6019-2d04-4e4c-77bb-b9fff09f880a
+- !<SceneObject/82f1329c-f65c-491b-69c1-4819d2f6b322>
+  PrefabRemaps:
+    []
+  Name: Belt.001_环体.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 93c3acc0-a87b-4b48-6e49-0c8df22d5a89
+- !<RenderMeshVisual/93c3acc0-a87b-4b48-6e49-0c8df22d5a89>
   PrefabRemaps:
     []
   Name: component_1
@@ -119,40 +114,8 @@
   Prototype: !<ObjectOwner/a9e9d385-b3f4-408e-8e59-2122f8dc1028>
     PackagePath: ""
     objects:
-      - !<own> c3c9436b-80ab-4dda-7556-429633ee8b42
-- !<SceneObject/b3421755-fe74-4792-4b8e-f29ec9b79239>
-  PrefabRemaps:
-    []
-  Name: Belt.002_环体.003
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 0d221e09-03d8-4d8e-470c-c68faaaad83e
-- !<SceneObject/c3c9436b-80ab-4dda-7556-429633ee8b42>
-  PrefabRemaps:
-    []
-  Name: Notewave
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    - !<own> 66365139-137d-44f6-7746-f66fa572a63c
-    - !<own> 18f8e61c-b8ad-44bf-56c9-f3ec38271ff3
-    - !<own> b3421755-fe74-4792-4b8e-f29ec9b79239
-  Components:
-    []
-- !<RenderMeshVisual/cd1d4c4f-6231-48be-6424-bb5c137da5d5>
+      - !<own> abbe6069-76fa-44c2-6eb9-83436eceb6b7
+- !<RenderMeshVisual/a9cf25d4-e594-4952-6e69-b6043f23ee5a>
   PrefabRemaps:
     []
   Name: component_0
@@ -167,6 +130,43 @@
   Materials:
     []
   Mesh: !<reference> 16a88eee-dcfe-46eb-9cbb-32a0745f9af6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/abbe6069-76fa-44c2-6eb9-83436eceb6b7>
+  PrefabRemaps:
+    []
+  Name: Notewave
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 027cf7de-1534-4a1b-6c98-0ac3e5b529ff
+    - !<own> 82f1329c-f65c-491b-69c1-4819d2f6b322
+    - !<own> 71fac840-15c8-46f5-4f4a-9b199d346322
+  Components:
+    []
+- !<RenderMeshVisual/c83e6019-2d04-4e4c-77bb-b9fff09f880a>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f70d7974-3ae2-4a73-bcb5-8b99f60519c7
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false

@@ -3,6 +3,7 @@ import { AudioRecording, expandAudioRecording, flattenAudioRecording, SAMPLE_RAT
 import { Instrument, shuffledInstruments } from "./Instrument";
 import { MusicGenerator } from "./MusicGenerator";
 import { setTimeout } from "SpectaclesInteractionKit.lspkg/Utils/FunctionTimingUtils";
+import { Interactable } from "SpectaclesInteractionKit.lspkg/Components/Interaction/Interactable/Interactable";
 
 const SERVER_URL = "https://unattempted-darline-pertinently.ngrok-free.dev";
 
@@ -45,6 +46,10 @@ export class Jukebox extends BaseScriptComponent {
     @input internetModule: InternetModule;
     @input camera: SceneObject;
     @input bubbles: SceneObject[];
+    @input drumKit: SceneObject;
+    @input goodBubble: Interactable;
+    @input badBubble: Interactable[];
+    @input notImplementedTooltip: SceneObject;
     
     private _anchorComponent?: AnchorComponent;
     private _audioRecording: AudioRecording;
@@ -59,6 +64,25 @@ export class Jukebox extends BaseScriptComponent {
         this._audioOutputProvider.sampleRate = SAMPLE_RATE;
 
         this.createEvent("UpdateEvent").bind(() => this.onUpdate());
+        this.createEvent("OnStartEvent").bind(() => this.onStart());
+    }
+
+    onStart() {
+        for (const bubble of this.badBubble) {
+            bubble.onTriggerStart(() => {
+                this.notImplementedTooltip.enabled = true;
+
+                setTimeout(() => {
+                    this.notImplementedTooltip.enabled = false;
+                }, 3500);
+            });
+        }
+        this.goodBubble.onTriggerStart(() => {
+            this.drumKit.enabled = true;
+            for (const bubble of this.bubbles) {
+                bubble.enabled = false;
+            }
+        });
     }
 
     onUpdate() {

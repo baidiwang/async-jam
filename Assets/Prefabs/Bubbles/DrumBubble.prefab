@@ -104,6 +104,43 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/3986c80a-70b7-41c5-8fed-653fa72bff15>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/405b6819-f3d1-4377-852f-aa76d6dc17c5>
   PrefabRemaps:
     []
@@ -355,6 +392,7 @@
     - 1e681671-32f0-41a0-a896-67a135f9db83: 1e681671-32f0-41a0-5769-985eca06247c
     - 2c57a0c2-abde-46cd-84c0-195c3a716b3b: 2c57a0c2-abde-46cd-7b3f-e6a3c58e94c4
     - 3111ec8d-3340-4679-8249-0f490c7ad64d: 3111ec8d-3340-4679-7db6-f0b6f38529b2
+    - 3986c80a-70b7-41c5-8fed-653fa72bff15: aa9f58a5-d0a4-43aa-8604-1917cd74daba
     - 405b6819-f3d1-4377-852f-aa76d6dc17c5: 405b6819-f3d1-4377-7ad0-55892923e83a
     - 4298cc8e-6f29-458e-bc07-26fe3ce78304: 4298cc8e-6f29-458e-43f8-d901c3187cfb
     - 4a3cd0e4-9a11-4dd3-9c1f-6c48deaab135: 4a3cd0e4-9a11-4dd3-63e0-93b721554eca
@@ -372,6 +410,7 @@
     - e0408ab0-9d16-4ce1-b5b1-f15aa9bf06b6: e0408ab0-9d16-4ce1-4a4e-0ea55640f949
     - eac847b0-6d54-431e-929a-2064ef8d56c4: eac847b0-6d54-431e-6d65-df9b1072a93b
     - ef6ca096-2ea2-4062-abd5-b7337ed4d989: ef6ca096-2ea2-4062-542a-48cc812b2676
+    - f3a70226-f46a-4e52-ac61-1bf34b1c346f: 911cf144-7ee4-4423-9017-08fd792a7726
     - fe1a4769-1040-4118-849c-f02dfcf35d6a: fe1a4769-1040-4118-7b63-0fd2030ca295
   Name: DrumBubble
   Enabled: true
@@ -387,6 +426,8 @@
   Components:
     - !<own> de1dc7da-68a7-471f-a081-17547c019520
     - !<own> fe1a4769-1040-4118-849c-f02dfcf35d6a
+    - !<own> 3986c80a-70b7-41c5-8fed-653fa72bff15
+    - !<own> f3a70226-f46a-4e52-ac61-1bf34b1c346f
 - !<AnimationPlayer/de1dc7da-68a7-471f-a081-17547c019520>
   PrefabRemaps:
     []
@@ -1282,6 +1323,24 @@
     []
   Components:
     - !<own> 4b85f7c9-476f-4762-91df-383033a7b5c3
+- !<ColliderComponent/f3a70226-f46a-4e52-ac61-1bf34b1c346f>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
 - !<ScriptComponent/fe1a4769-1040-4118-849c-f02dfcf35d6a>
   PrefabRemaps:
     []

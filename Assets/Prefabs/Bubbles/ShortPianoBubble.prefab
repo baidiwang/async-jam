@@ -37,24 +37,6 @@
     []
   Components:
     - !<own> 6765d31f-cd20-4b30-9320-6bb43c3f750c
-- !<ScriptComponent/2eea2436-3d52-4144-903f-a131f26e2c12>
-  PrefabRemaps:
-    []
-  Name: Bobbing
-  Enabled: true
-  ScriptAsset: !<reference> 56669e33-9d11-4514-8811-3155ffcf0515
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      child: !<reference.SceneObject> 14719bb8-37f2-44fb-8591-46556fc74bcc
-      amp: !<float> 6.000000
-      freq: 0.500000
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/3636ed43-bf00-42b6-8ae3-9f45eb2c2d88>
   PrefabRemaps:
     []
@@ -95,15 +77,16 @@
   PrefabRemaps:
     - 128cbdc9-5064-418e-bb24-6d2c19b472fd: 128cbdc9-5064-418e-44db-92d3e64b8d02
     - 14719bb8-37f2-44fb-8591-46556fc74bcc: 14719bb8-37f2-44fb-7a6e-b9aa9038b433
-    - 2eea2436-3d52-4144-903f-a131f26e2c12: 2eea2436-3d52-4144-6fc0-5ece0d91d3ed
     - 3636ed43-bf00-42b6-8ae3-9f45eb2c2d88: 3636ed43-bf00-42b6-751c-60ba14d3d277
     - 3bac3218-d2f8-4b57-82c3-65dc83e153d8: 3bac3218-d2f8-4b57-7d3c-9a237c1eac27
     - 3d6a21d7-975f-498d-aaec-ee21f9f73865: 3d6a21d7-975f-498d-5513-11de0608c79a
+    - 4f78d6ee-88e3-449f-b11b-f421d5274b4d: 6b314c35-5fbb-42fa-8d6c-d57993bc127e
     - 6765d31f-cd20-4b30-9320-6bb43c3f750c: 6765d31f-cd20-4b30-6cdf-944bc3c08af3
     - 908dbf9b-b1f9-4716-a4dc-70803c11879b: 908dbf9b-b1f9-4716-5b23-8f7fc3ee7864
     - a2eb396c-8baf-4d12-aeb1-59e49ad41c3b: a2eb396c-8baf-4d12-514e-a61b652be3c4
     - ba18c604-a821-48ca-abb1-e4f7499dc5a8: ba18c604-a821-48ca-544e-1b08b6623a57
     - c9f389a1-2f87-4b76-92b1-ef2b9bc3a0ca: c9f389a1-2f87-4b76-6d4e-10d4643c5f35
+    - dd304097-461d-414f-9705-aa805afa3c90: 0abe82d3-ddd2-495e-b43f-afb026c033f5
   Name: ShortPianoBubble
   Enabled: true
   Layers: 1
@@ -118,7 +101,45 @@
   Components:
     - !<own> a2eb396c-8baf-4d12-aeb1-59e49ad41c3b
     - !<own> 128cbdc9-5064-418e-bb24-6d2c19b472fd
-    - !<own> 2eea2436-3d52-4144-903f-a131f26e2c12
+    - !<own> 4f78d6ee-88e3-449f-b11b-f421d5274b4d
+    - !<own> dd304097-461d-414f-9705-aa805afa3c90
+- !<ScriptComponent/4f78d6ee-88e3-449f-b11b-f421d5274b4d>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/6765d31f-cd20-4b30-9320-6bb43c3f750c>
   PrefabRemaps:
     []
@@ -215,3 +236,21 @@
     []
   Components:
     - !<own> ba18c604-a821-48ca-abb1-e4f7499dc5a8
+- !<ColliderComponent/dd304097-461d-414f-9705-aa805afa3c90>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false

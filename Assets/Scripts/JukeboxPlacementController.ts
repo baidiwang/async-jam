@@ -31,7 +31,7 @@ export class JukeboxPlacementController extends BaseScriptComponent {
 
         this.localizationTooltip.enabled = false;
 
-        this.anchorSession.reset();
+        // this.anchorSession.reset();
     }
 
     private onAnchorNearby(anchor: Anchor) {

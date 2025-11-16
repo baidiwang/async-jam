@@ -31,6 +31,8 @@
   Components:
     - !<own> b7113fab-12ce-4603-6e3d-afb1dae866e3
     - !<own> b3643609-36f3-4059-7bc9-67b3637ddd62
+    - !<own> a4cd9658-4c57-44e2-8aca-9588e8c51fa0
+    - !<own> 1c6d6de1-f591-421b-b259-bb2afc7bc4bc
 - !<SceneObject/10abef73-10a5-4577-4db1-012fee24015d>
   PrefabRemaps:
     []
@@ -68,6 +70,24 @@
       BlendMode: Default
       ScaleMode: Multiply
       PlaybackMode: Loop
+- !<ColliderComponent/1c6d6de1-f591-421b-b259-bb2afc7bc4bc>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
 - !<RenderMeshVisual/29e49695-b254-4aca-5b5b-fcf905f5b9fa>
   PrefabRemaps:
     []
@@ -128,6 +148,43 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/a4cd9658-4c57-44e2-8aca-9588e8c51fa0>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/b3643609-36f3-4059-7bc9-67b3637ddd62>
   PrefabRemaps:
     []

@@ -11,10 +11,12 @@
     - 11dcf5fe-83f5-4f6e-90af-2386b945aff5: 11dcf5fe-83f5-4f6e-6f50-dc7946ba500a
     - 29e49695-b254-4aca-a4a4-0306fa0a4605: 29e49695-b254-4aca-5b5b-fcf905f5b9fa
     - 41890de7-5b19-4917-b649-3cc46d85cb58: 41890de7-5b19-4917-49b6-c33b927a34a7
+    - 7a400e19-6b10-4a74-8e96-be28146ea5ea: 1c6d6de1-f591-421b-b259-bb2afc7bc4bc
     - 9b4e9773-4968-48c2-af44-5f74fb09b2f2: 9b4e9773-4968-48c2-50bb-a08b04f64d0d
     - b3643609-36f3-4059-8436-984c9c82229d: b3643609-36f3-4059-7bc9-67b3637ddd62
     - b7113fab-12ce-4603-91c2-504e2517991c: b7113fab-12ce-4603-6e3d-afb1dae866e3
     - de60666e-4ec3-4571-a4eb-495ddb978a6a: de60666e-4ec3-4571-5b14-b6a224687595
+    - e25947d9-5749-4e79-8a53-5ba49dbdcbbc: a4cd9658-4c57-44e2-8aca-9588e8c51fa0
     - f166cce2-8a83-4eab-ae23-de2283d9637e: f166cce2-8a83-4eab-51dc-21dd7c269c81
   Name: KolintangBubble
   Enabled: true
@@ -30,6 +32,8 @@
   Components:
     - !<own> b7113fab-12ce-4603-91c2-504e2517991c
     - !<own> b3643609-36f3-4059-8436-984c9c82229d
+    - !<own> e25947d9-5749-4e79-8a53-5ba49dbdcbbc
+    - !<own> 7a400e19-6b10-4a74-8e96-be28146ea5ea
 - !<SceneObject/10abef73-10a5-4577-b24e-fed011dbfea2>
   PrefabRemaps:
     []
@@ -102,6 +106,24 @@
     - !<own> f166cce2-8a83-4eab-ae23-de2283d9637e
   Components:
     - !<own> 29e49695-b254-4aca-a4a4-0306fa0a4605
+- !<ColliderComponent/7a400e19-6b10-4a74-8e96-be28146ea5ea>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
 - !<RenderMeshVisual/9b4e9773-4968-48c2-af44-5f74fb09b2f2>
   PrefabRemaps:
     []
@@ -1000,6 +1022,43 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/e25947d9-5749-4e79-8a53-5ba49dbdcbbc>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/f166cce2-8a83-4eab-ae23-de2283d9637e>
   PrefabRemaps:
     []

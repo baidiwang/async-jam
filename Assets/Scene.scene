@@ -34,6 +34,7 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> adb37b61-0670-4f07-9e2c-c6125c5158d4
+    - !<own> 11d86ea5-dddc-4271-b454-b2b84e737dd4
   Components:
     - !<own> 00000000-0000-0065-0000-000000000065
     - !<own> e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1
@@ -225,6 +226,44 @@
     - !<own> bbba4bf0-30c2-4d4f-9bb3-15ab4345db9c
     - !<own> 4a279923-0978-4d7c-affa-611d25e71da2
     - !<own> 5f15d311-c756-42d0-952e-f82b731baa62
+- !<ScriptComponent/00f9205c-fa9c-4753-8bad-906c3ce97100>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/00fdb93a-85d7-4497-9622-9fad02238fc3>
   PrefabRemaps:
     []
@@ -344,6 +383,22 @@
     []
   Components:
     - !<own> 92c50a32-64ba-489a-b1cd-78125fa626e5
+- !<ScriptComponent/0494ed6b-9236-40dd-a09a-783653b922b9>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/04c2beda-4182-4b4f-8d7c-5caf67ef33bb>
   PrefabRemaps:
     []
@@ -427,6 +482,63 @@
     []
   Components:
     - !<own> c5f43269-1bae-4067-9004-3861d38eb981
+- !<ScriptComponent/06e1af84-1a00-42c4-b6e9-39c7c1de55b8>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/078e192a-30db-426c-8582-11d91ad6650a>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.250000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/086f2343-b8d0-48f6-9753-b2c8f377e07a>
   PrefabRemaps:
     []
@@ -464,6 +576,7 @@
     - 00ea17c6-9008-4957-90b4-73e82ef3f30b: 64a8c76c-cdf4-4869-44e5-60c7cae5545e
     - 08771a7d-3ee7-4033-9f76-434188ee2f5d: d54b7f1f-4901-455a-5645-7c4f2a31b85e
     - 0b3f4478-f275-46e6-a763-03be6e98ee70: de1dc7da-68a7-471f-5f7e-e8ab83fe6adf
+    - 360cb25b-6f3f-4068-a98b-aeb323428df3: 911cf144-7ee4-4423-9017-08fd792a7726
     - 3da41461-b021-46fb-b20b-ff3ff6bd0c9e: 08459047-578d-4ec9-7400-0e63bc19fb92
     - 4a279923-0978-4d7c-affa-611d25e71da2: c9758176-a616-4aa5-6193-acd4ca6c13b0
     - 50864bb7-85ae-444e-95d3-44118abb77c9: 15d74bcb-3cbe-49cc-72f1-71f62c18d43f
@@ -476,6 +589,7 @@
     - 8883253d-6091-4b46-ade7-a993821f8387: 405b6819-f3d1-4377-7ad0-55892923e83a
     - 910abdf3-8235-4b1b-8f31-ee2e6cf3fb33: b70cf880-0c7a-4720-4204-cf8b002ba932
     - 977b7b8f-5bc7-4bf2-9798-578f391f0f8e: ef6ca096-2ea2-4062-542a-48cc812b2676
+    - ab3ee2bb-ed73-4b79-9891-468cb3e5d599: aa9f58a5-d0a4-43aa-8604-1917cd74daba
     - ae3cf5d4-a61c-4d4f-bd93-d3c300b34d09: bc81c21b-ec6e-461d-5a93-ea8931d233e8
     - bbba4bf0-30c2-4d4f-9bb3-15ab4345db9c: a267de1e-18aa-486d-5d4f-eec2dea8b65a
     - c55891d9-da79-40db-9b13-d06e21e8bc14: 2c57a0c2-abde-46cd-7b3f-e6a3c58e94c4
@@ -498,6 +612,8 @@
   Components:
     - !<own> 0b3f4478-f275-46e6-a763-03be6e98ee70
     - !<own> d55db6e8-05e8-44d9-beca-3e3f474bc932
+    - !<own> ab3ee2bb-ed73-4b79-9891-468cb3e5d599
+    - !<own> 360cb25b-6f3f-4068-a98b-aeb323428df3
 - !<SceneObject/08ab4b2c-3d2b-4b8d-8213-d54be763198b>
   PrefabRemaps:
     []
@@ -1468,6 +1584,23 @@
     []
   Components:
     - !<own> f67df4e9-cb53-4d79-ae11-b6a03315227a
+- !<SceneObject/0dff6bb4-610e-45ad-acb1-5cbb2913764c>
+  PrefabRemaps:
+    []
+  Name: floor-tom
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.363625, y: 0.373295, z: -0.021819}
+    Rotation: {x: 0.000000, y: -0.000000, z: -176.336975}
+    Scale: {x: 0.698422, y: 0.698422, z: 0.698422}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5fdfbd0c-f91b-4833-8140-4564eda90757
+    - !<own> 1c35da18-9e02-4276-8ebf-7ef19cbd1129
+    - !<own> 0494ed6b-9236-40dd-a09a-783653b922b9
 - !<SceneObject/0f704a07-d079-4984-9aaf-bf4a989b3490>
   PrefabRemaps:
     []
@@ -1545,6 +1678,44 @@
     - !<own> 11011e74-164a-4fc3-a8a0-763f6a9795d3
   Components:
     []
+- !<ScriptComponent/1090c0a0-7e51-48bf-8e41-42e3d8b3321d>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/10956a6b-93a5-46f8-937e-fdfe91a1d3d0>
   PrefabRemaps:
     []
@@ -1565,6 +1736,23 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/10e59d92-46bd-4a5c-8a1e-524229cfaef7>
+  PrefabRemaps:
+    []
+  Name: ride-symbal
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.673228, y: 0.555207, z: 0.219413}
+    Rotation: {x: 35.928314, y: -0.000000, z: -176.336975}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 06e1af84-1a00-42c4-b6e9-39c7c1de55b8
+    - !<own> 078e192a-30db-426c-8582-11d91ad6650a
+    - !<own> d175a4fa-50f4-490e-932b-1604b5f515dd
 - !<SceneObject/11011e74-164a-4fc3-a8a0-763f6a9795d3>
   PrefabRemaps:
     []
@@ -1580,6 +1768,22 @@
     - !<own> 0f704a07-d079-4984-9aaf-bf4a989b3490
   Components:
     []
+- !<SceneObject/11d86ea5-dddc-4271-b454-b2b84e737dd4>
+  PrefabRemaps:
+    []
+  Name: not implemented tooltip
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -42.714020}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 522cb447-42a4-494c-bf47-0448f0193e0b
+    - !<own> 7fff003a-2faf-4e39-9b1e-322dffae8666
 - !<SceneObject/11fcf3ea-da8b-4694-80a7-167693341344>
   PrefabRemaps:
     []
@@ -1876,6 +2080,43 @@
     - !<own> 2b48df55-44c4-4516-b674-91f4c5d5481b
   Components:
     []
+- !<ScriptComponent/18fef359-faf6-4327-b86b-9be436cbe294>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/1a90888e-d4d2-4c81-b8cb-9e2370b94e8a>
   PrefabRemaps:
     []
@@ -1944,6 +2185,25 @@
     - !<own> 298f274e-575f-40f7-a4f3-e4eaeaaecd67
   Components:
     []
+- !<ColliderComponent/1c35da18-9e02-4276-8ebf-7ef19cbd1129>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.250000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<RenderMeshVisual/1c5256d8-033f-468b-801d-3b826cec5d9c>
   PrefabRemaps:
     []
@@ -2006,6 +2266,7 @@
   PrefabRemaps:
     - 0142783d-ce0d-41e6-b327-1c54a3410ac6: f1701557-dbea-4379-5458-8c814081b3f4
     - 03f41405-1304-4251-a50b-25a22204469d: 380f5e06-962d-4877-4446-806fbfb9dc5f
+    - 053736c0-c973-4990-9da2-32198c4378ca: a04e1054-dd6b-4cf2-ae02-b63b4e475d08
     - 0600a985-099e-4362-814e-0c32ac3d9ecd: 53b17995-476c-44de-7eda-1be3d10ec9c4
     - 068071c6-5e27-432c-9633-fb761275f4bf: f564656e-0091-4485-4e04-af3123760c81
     - 08ab4b2c-3d2b-4b8d-8213-d54be763198b: 77f0a3ea-459b-4987-507f-c89ac49147a4
@@ -2015,23 +2276,28 @@
     - 0c028720-85da-42ec-809a-0441a63b677e: 6296130f-1f08-4b74-5ac4-60dcbe08d63a
     - 10956a6b-93a5-46f8-937e-fdfe91a1d3d0: c05d1605-176e-482a-443d-1f8dade8c005
     - 122bbdef-9cfb-4eba-abc9-520fe1498f8d: e691e327-c731-473e-6c76-079a965adf03
+    - 12f24d18-07b5-4ac0-8547-71406407c150: 5b74437d-1f21-4f91-a7ee-c87b837d5ffc
     - 13a96e7d-2104-4a82-8496-f6453dc0a23d: 86a27204-fb24-4cdb-7c94-23823e6a76bf
     - 143abcef-fe7c-4edb-a3ff-6a43439338f1: 2db18ce9-36c0-40e1-791c-82f560795111
     - 1779490d-22af-4c50-8abe-b522d2205033: d0dee334-fd57-4a93-6160-555a24fb685b
     - 1c5256d8-033f-468b-801d-3b826cec5d9c: ee4d0314-ebca-4b29-4ff1-2fce43bd9b69
     - 1e24280a-206c-411c-a4cd-a1dc7395c703: 024b261a-9ed5-45b0-5bf9-0d7b93b3408d
+    - 1ed613a3-304a-4f67-9577-074e4027eece: 2b391534-5407-48e5-940f-81b822a08d79
     - 1ed9c129-dc25-4adc-83a0-6d655bf776a3: 9ff25dde-3cfd-4825-7342-69bdf1436eb5
     - 1f4188fe-ba48-4bf3-907c-cdce6e47ff78: 00bb4a9e-dc5b-434a-57f8-9163744df812
     - 20d7f671-811f-4d85-b38e-4a35b0c33df8: 75c2666e-2baa-4bdc-72b8-8071d9666ec2
     - 21240bc4-49eb-43de-8e53-b85a414ba074: 6783fff4-5ad0-4d1b-7ee8-a0897e7b3205
+    - 21bd4b22-1e47-4b31-901d-fb00c39973e2: 9ee3a9d2-52da-4663-9f50-0eddd67a7cc2
     - 22015b83-ae8b-490f-bdca-0afaffdb4f2d: 3659661c-d06d-4296-6102-86484c7e8fcd
     - 2428558e-cd7e-4830-acfe-28d7e362a69a: c3010eea-dd8d-43c6-4473-e350602c66c4
     - 242e593f-2676-4fc7-886e-5a20e19cc1cb: ccb12b59-6cf2-4d11-7a97-d8cce685c1ed
     - 24fed02b-e32b-4beb-b3a7-883e900cc6d6: ffdcd00b-13af-4495-7e21-19cad80023a6
+    - 250bc246-cd3d-48af-9824-118188a608c4: b6eec90b-7c3f-41dd-8e48-ae8df775f3bb
     - 27b2404a-ec4b-4c73-a2d9-6d1590868ee8: a234a946-acc7-46db-7359-94b0829474ec
     - 298bbf66-9190-42a8-9349-655c74222bf7: 08fe9765-a573-4a2c-59d9-1269debc5544
     - 2a2d87e8-1922-4a8f-ac48-3566d097aae6: da633782-975d-4363-6b79-57e5edc29989
     - 2bf16882-44ea-4922-be4e-3cd45c577974: 0e4315eb-b329-4be8-4b0c-134c0ad042d1
+    - 2ca27ec6-42b1-4e06-93fc-c926d0e09a2d: 0c15c604-b88a-458f-b7c3-3f2927408628
     - 2d03d9f4-c1e3-438a-97a0-79563f8691a5: cba0e1b2-5868-4c64-588b-5bdf5451ba76
     - 2effee05-b804-456a-8891-9142743ce0c8: 29cfc37f-56ff-4333-775d-85d40f82aad4
     - 2f81f060-04df-4b23-ab2f-26a6c632e102: 251fecfa-be5a-47dc-4bd2-16a76f68a7c8
@@ -2040,9 +2306,12 @@
     - 38ceb6f5-3973-4a36-82c5-98eb47bd1ef9: cbf86b47-836e-4619-7571-026dd4b38981
     - 39256843-b7df-402e-9c5d-9dcf44cb0c25: 203eadb8-cd3c-4171-a481-385e5b9499a8
     - 3947f89f-f328-4980-a820-5cef25f80042: 9a6e22e9-67ef-426d-46cf-fbd5a8eab883
+    - 39641de3-0cc4-41b2-8d2b-5e101fbbf025: 0d316e00-a33b-4983-8b69-353d6aeae038
+    - 3c535022-2996-490e-9cf4-f1a216a6f8f3: a906d6b4-1f18-4aaa-b755-e1c9864ade42
     - 3cafefc7-ebcb-42fd-84b9-ac97568a6eca: 3e6586b6-7616-4560-64ed-222b75b1b032
     - 4135e6fa-47a2-4745-bf67-249579c0b177: bc3051fd-5984-4ed8-735f-08d414db4e79
     - 42129068-789d-4114-bc81-f499a438185c: 30e61f25-d4d3-4791-7a6a-1995bbc5bc29
+    - 43aa79dd-9373-4559-8757-fd37d6a4f849: 77b39155-753c-4d99-9850-5aff722cbcc6
     - 46fffaf9-d5f7-41b1-8949-4663ba4ffb2d: a1f83209-c999-4ae5-7a95-f38b23469d54
     - 477a2b54-d59b-4039-81a2-8a1c740216ff: d73b83b4-2a16-4362-7260-90a996d9beca
     - 477a68f5-97d8-4eef-8b76-893191c7da6b: 03e89565-647f-4973-5908-da799a4aa08f
@@ -2051,20 +2320,28 @@
     - 4a6bc529-6de0-40d2-ad0d-a89bc7cbaa23: 02ee997f-b792-4116-4973-f0873bd45afa
     - 4b3fc4f0-9286-4b8f-9f80-569e4d1205e9: 83b93c04-4757-4ac9-637e-9e3c40b22683
     - 527c9bcc-278b-4adc-b763-ba86e876e3ae: b1706c98-ec54-4d33-407d-2713e856974d
+    - 5832f72f-5c53-4c0a-ad03-412436ef034e: f7fd3f82-e6a7-457d-939e-a51c5dc31c0a
     - 58de4094-0e36-475b-8d93-ec4037723000: 71144d38-b2b2-4052-5e74-e371d117cb25
+    - 5cd6b443-f9d6-46ac-8b70-0a238750b0c1: da7b4569-4f54-4602-92bc-02b6a17339c7
     - 6041a973-27c0-4cc4-8f40-8e9035dc9432: ab26824e-929e-4849-aadd-d1ad438a5881
     - 61123592-257d-4ab0-8330-7e120bb7beb2: 9c6df463-c17c-4fcd-6134-03061dde97dd
     - 61b2260f-f92b-472e-bfc9-1dcc992383c3: 09f670a5-0a2a-4a6b-7c39-11fcde9f62a4
     - 61bb071d-eff7-4317-9cf8-0e64d03e2e22: 772e66c6-4593-4d19-7497-1218dbcafa65
+    - 64320972-0104-4b72-8617-c9af46cbcce2: 26fdad1b-ba2a-4700-b892-18e07ce16cf2
     - 6e48c0c5-2ec8-4134-83b0-824706b29819: b1fc1c9f-63fe-400f-667b-1ecd2c417691
+    - 6e580c47-b867-4310-81bd-a8b61d5b2920: df12cead-fd88-4873-80a2-f5a249e17d68
     - 6f327898-cc15-4bfa-9d02-374cd7a453e5: 3f2d93b0-515f-41f2-6350-2496a48c06f8
     - 7277c6a7-6dc8-49f2-a3ef-695ba4f85826: 8a73c491-72d0-40e0-7b3a-309c562b6428
     - 728d872a-8048-42b7-b71b-93f250ca37b4: 81961317-3098-4e05-6593-7537eb683822
+    - 73976d77-0f2d-4737-bcbf-86e6021bfe03: 19bd55a1-7ccf-44d2-8e47-027dd081ff9c
     - 77a90eb1-2f4a-4789-a67a-58c781d09022: aa2e5580-eaa2-4d62-73e4-542d3fafeb19
+    - 7933572d-b0ec-4b76-8686-4867e15821e0: 52619412-2e14-4ac8-a104-cd5596500c23
     - 7ddb5252-8683-4328-b566-1e68890e7a42: 257e1cf1-8296-4462-5ea1-3aed1fe95ece
     - 7e03dec5-203e-4272-b513-83b761138bcd: f280d91b-cb4f-4433-53c5-0fb8cf57a6f7
     - 7e0433e2-e34c-495c-8ce6-76ea3dd7e50c: f93db20a-c7ab-436d-673e-db5560ae1200
+    - 7e789c8f-b28b-46e9-abfe-58d4719ce4f9: d2484ff4-81d7-4e13-8829-539e3d916c4d
     - 7f085133-ad5c-4d92-8c05-1256cd52c5e1: b0c3e7f7-6e5b-4b74-6f22-44013ec9554a
+    - 7f6edf9b-17de-47f4-b385-62f22a3b02b4: 9a53596e-3038-48be-99aa-b5e86ef94220
     - 7fd61abe-83c7-415f-bdd3-64f6cfb7c8d3: f6664c61-af16-420d-87a6-63f8eeb05737
     - 80744ef7-76bf-4e5c-b267-3dd19c55d6af: d8750e37-b45b-4e3b-7237-be6b5cd31659
     - 8117be72-0032-4cda-8775-6e0ad85f4fb8: 31def316-334b-438e-4892-4956e9d9acfe
@@ -2074,14 +2351,19 @@
     - 85e55793-d253-49ee-ac59-37e3070392d0: 5d95651d-7a24-4573-506b-84d2b0cae3c6
     - 8653e8d7-3b4a-499f-b3ef-0c950bf8dafb: 3f31e277-8ae1-4771-62d1-6896551774c7
     - 8971fee4-b2d7-49a4-bae8-c2d27d7dcb35: b56809d0-ebdf-4a24-6e42-1b20ad1f74d7
+    - 8a0bb6a7-0da8-4507-97b5-e26878466aba: 27e5ebfd-212a-4181-a7ec-50f9515fa8f8
+    - 8a84bfbf-99f3-4fa7-abae-13e20b32a22b: 31762895-071f-4d71-a3e2-64f502e8cb57
     - 8aa46f95-25c0-487e-becb-07b3b090b697: 85576ce6-fcb0-48ea-4ebb-25e49f3e4f04
+    - 8bd452f3-0ff9-45c1-952f-2704215e76fc: b8fc61b5-41f9-43e8-93ac-b6a07a53e967
     - 8f312d11-6b5b-4a16-bce9-ca07dcfa6f53: dee1d888-3060-43be-56c3-914521921be0
     - 9019d88d-c4c6-4846-b25c-7e59fab4334d: e162e011-6313-4e3b-502a-252e108e7245
     - 901ba4b4-4766-4464-a844-4ef9e949f650: b4bf3ec0-ce7e-4736-4a2e-68bff80a37ce
     - 9082a24e-c0dd-49dd-9fe2-55627db81727: 2a332ce7-d888-4fe2-8e0d-4b230fd5aabc
+    - 918e84d8-8a75-4389-8ec0-6550a1cd48fe: 34d121fd-74ce-46be-b3c2-5d1b4e8c0e94
     - 92ae4364-5b4b-41b9-a8f0-6d1f4d7e5318: 5b66b18a-5260-4982-50f9-9dfdb01010e6
     - 92c50a32-64ba-489a-b1cd-78125fa626e5: fe076207-99b1-465f-747a-ed2dc5c64e6d
     - 9325dcde-02fc-41e2-921d-a307bd57cb7c: 7f69263a-96f9-4cfc-6157-9f9cc3a5146e
+    - 950060e7-dfe8-4179-ac09-4f408ef432bf: 1e9b36c3-1aa6-4963-b486-4749813e4493
     - 96b81186-4ce3-4711-bc3c-5365e2658a9a: a31878cf-727a-4490-5f95-764ef788008e
     - 973f6fc5-1224-498b-aa07-b159fff93501: 6b23c6dc-9666-45a5-7e89-124105f01cc5
     - 99e1a5ec-7780-489d-b49a-8074a728dac8: 840e1d3f-4680-46f1-749b-4b64418addb3
@@ -2090,10 +2372,13 @@
     - 9e2d9436-e11b-491a-946c-7f40e42e61d5: 686f9645-cc77-45b1-500f-39ffbefb9dce
     - 9e2daefd-e95a-46d1-98fb-f12f000d1c7c: 75d4925d-311e-41ad-63d4-dbac862936bd
     - 9ed5759f-989a-4d4d-a217-65230a78a006: 811c301d-a265-4cb0-5db0-b1c1ae3513a5
+    - 9f54a186-f59d-4348-9a8c-0feabaca8919: 69fb8bcd-b71d-4d86-b87c-ba3d909ee343
     - 9f8be456-9dc9-46a8-b4b0-02bb27662512: d39b93e1-2f18-47f7-6558-1eae45c9509c
     - a10d4db6-f34e-4b76-9ab5-194e216cbea9: c64eca99-c80d-4049-418c-5702ce2a5940
     - a14ede9f-e399-47dd-8384-5a1752852297: 3df93220-b90c-4651-4ba3-fb2b39de7e88
+    - a4330fbb-98c8-440f-bdad-4bb6d027a721: b171d84e-b28e-463d-9fcf-5f7f159169e5
     - a60d4fa0-b312-4c4d-9356-a48aa011d7cf: cb36b863-44ea-4501-560a-a38aa6360b64
+    - a73516c8-2b37-48ff-bf60-e16f8021b6a7: 94d1c040-f0da-4cf2-ae53-14314a89ca03
     - aa72a5dc-b497-4d49-b393-b0da61180160: 9307f9e9-b2c0-4600-6094-fb94352f037f
     - aa995c16-323e-44b9-98e7-227a42a56088: 5efda58f-225d-4ff7-733a-844cd1769922
     - ab624069-ec68-4e9a-8e2c-c717952a64d5: 9b2d19e6-abba-409c-4e82-a4341a06999f
@@ -2119,11 +2404,17 @@
     - ca0f6499-b510-4414-a2e7-215883b4616c: 83529754-9ef4-47b8-629b-621b619801f8
     - ca8385b3-b39a-4d67-b030-c94e670594b7: 33ae5104-db81-4a1e-570d-453ead79f666
     - cbbbb0cf-57c1-4974-bec1-eb50109e1b1a: a8aae687-b4d1-4cab-679b-fe53de3f8455
+    - cc3a318d-0e50-4b48-a8db-92c27cd8f26c: cc973886-59a3-40af-b99b-56be684fd50b
     - cc4483ba-71b0-468d-bd56-666d80b58947: d4ad5578-a8c6-4048-4722-6150c632619e
+    - cc70df57-a015-409c-847e-38a927c8c567: 423eac35-eb5b-4124-9a88-7e033d063177
+    - cc72833d-b8d0-4600-8dfc-028d43423475: 959cf97a-0c80-4fb0-97e7-4cfdf22dbdb5
     - cd5efcfc-6e03-4449-bb8d-13819dd39675: c20c15e8-d7f3-47cf-44f5-c71c37009b65
+    - d0861261-5319-48b2-b70f-76aac7ac199d: 135e60c6-1ea0-445b-8926-0ce584bb5ff4
     - d3f914b7-9ce3-463e-8740-ee9873bf3a45: 5fb365df-2020-4545-7673-82c33590c298
+    - d476010c-8dff-4fcb-9832-a86cc59652fb: daf49e2f-6370-4f66-b261-7a8a083f8fbf
     - d4cf873a-c438-4b67-818b-4d8a653948b4: 1b790305-b039-4635-54d3-5978a37d2205
     - d52f97b9-b1b9-41bf-8da0-223c1538a242: a66e74de-4387-4159-66cf-88604c5504b8
+    - d55911c5-2b55-4142-bb71-7542e5523b8e: 8571d676-a4b7-4d3a-ab76-db49516b9047
     - da63ce60-b145-4805-abdd-8d0a1da11344: b95654cf-f764-472e-4396-ec329b070504
     - e13a4341-eb98-4cd3-80a0-b76dbed42500: 36e44a0f-e46d-40e5-74e4-0c6edb0c88ba
     - e1cd4328-cbba-42ec-aa91-08a2bba3af95: 1dc51397-0d9c-440d-49fe-f37c7ac93706
@@ -2132,9 +2423,10 @@
     - e58dcdc9-4506-41fb-af9b-888939c32d3f: f166d450-dd26-448e-44e7-d3ac11306902
     - e8f21c16-e8e0-421d-a546-c7aa21a612aa: d308127f-9821-4740-6f57-cf62a8b57413
     - eb64ef44-c377-4b8b-91f0-6bde757ed299: c2c60e38-c10b-499d-57ee-a4524a9f6260
-    - ed2038bf-3ff8-42e0-bd2a-ce564c76cc3c: 7d56e060-1f55-45c8-8e6e-f47ea930b339
+    - ed333f7b-18e6-4f01-996d-715d50eb1071: 08d2430e-6783-4388-b170-689ea15d084c
     - ed98dfe9-91ca-46d8-96c2-6cb8ffec1bb0: 28ae09b6-aa3c-4c07-736e-03c8d846e8ee
     - ef320f47-2599-4153-9b6c-7e7fe0092599: 2945bf3c-58e3-41dc-7a4f-cb3d5632023e
+    - f1253995-248b-4685-bf88-c09bdb38f644: 41f7f6fb-5eaa-42be-875a-a87f221998b1
     - f29de8b8-5f71-43c1-ba5f-733a7189cb82: 99d3fdf8-790e-4f25-4c74-2722874dbf21
     - f675f673-9808-4001-a8e6-54e964a76a67: 66861b18-fd35-488d-67a3-6ced34974479
     - f7527343-2958-4d49-af1c-aae0e5e32168: d79a1643-a795-4018-737c-4268cfc98445
@@ -2143,7 +2435,7 @@
     - fb3a1b75-659c-449d-8acb-a235f899f6d9: 122b2ffd-6598-4a54-7c55-299f32c0262a
     - fef8829f-2931-43de-a6bf-e986824808eb: 81557430-89f8-4120-4f44-e8735ff1ec3e
   Name: Drums
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -2431,24 +2723,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<ScriptComponent/2220a148-bd1b-40c7-a773-e300550dde2a>
-  PrefabRemaps:
-    []
-  Name: Bobbing
-  Enabled: true
-  ScriptAsset: !<reference> 56669e33-9d11-4514-8811-3155ffcf0515
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      child: !<reference.SceneObject> 2b298a7c-0d85-4438-87d1-c9b47642ec04
-      amp: !<float> 6.000000
-      freq: 0.500000
-  ScriptTypes:
-    "":
-      {}
 - !<RenderMeshVisual/2428558e-cd7e-4830-acfe-28d7e362a69a>
   PrefabRemaps:
     []
@@ -2504,6 +2778,44 @@
     []
   Components:
     - !<own> f7527343-2958-4d49-af1c-aae0e5e32168
+- !<ScriptComponent/25010678-192c-43ef-ac66-5eaf438aada1>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/250bc246-cd3d-48af-9824-118188a608c4>
   PrefabRemaps:
     []
@@ -2524,6 +2836,7 @@
     - !<own> 8a0bb6a7-0da8-4507-97b5-e26878466aba
     - !<own> 7fd61abe-83c7-415f-bdd3-64f6cfb7c8d3
     - !<own> cc70df57-a015-409c-847e-38a927c8c567
+    - !<own> 8bd452f3-0ff9-45c1-952f-2704215e76fc
   Components:
     []
 - !<Text/25746385-7e9f-40d6-bc3f-500745a279d7>
@@ -2688,9 +3001,25 @@
   ScriptInputs:
     "":
       colliders: !<MappingBased.AssignableType[]>
+        - !<reference> f2b2f10a-9901-4991-ae59-74165a19fecc
+        - !<reference> 06e1af84-1a00-42c4-b6e9-39c7c1de55b8
+        - !<reference> 1090c0a0-7e51-48bf-8e41-42e3d8b3321d
+        - !<reference> 00f9205c-fa9c-4753-8bad-906c3ce97100
+        - !<reference> 25010678-192c-43ef-ac66-5eaf438aada1
+        - !<reference> 5fdfbd0c-f91b-4833-8140-4564eda90757
         - !<reference> a9b12d52-b9f8-4e6b-aaa5-30b35d58e42e
+        - !<reference> 8d774bba-637d-4fe3-8691-645e66301e12
+        - !<reference> a1f80824-9958-47bb-b14f-6ffe4d54bdf6
       sounds: !<reference.AudioTrackAsset[]>
         - !<reference> 4008ed8a-1098-4caa-bec8-a45ad3efcc3a
+        - !<reference> efb58836-f51b-4b63-8c30-c6bd938bec50
+        - !<reference> 50bfe644-5861-4aa2-bbdc-2faf6ff3bad4
+        - !<reference> 36f19df1-028f-4baf-ab59-17d3f21e0c41
+        - !<reference> 36f19df1-028f-4baf-ab59-17d3f21e0c41
+        - !<reference> 0fa22ab7-cd70-4253-8715-41c0c6a2797c
+        - !<reference> 72e6799f-bdda-4c5c-a989-cc21b9a83f12
+        - !<reference> 4008ed8a-1098-4caa-bec8-a45ad3efcc3a
+        - !<reference> 61f4e923-541a-4e87-8e1d-8a594b1bb7ed
   ScriptTypes:
     "":
       {}
@@ -2863,6 +3192,22 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/2a675a66-930b-488b-8338-e2e0380bb328>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/2a7f0891-f602-4f25-bee3-994ad5dcb37b>
   PrefabRemaps:
     []
@@ -3186,6 +3531,43 @@
     - !<own> b6967747-d54d-4fdf-b8cc-652d7e6080ba
   Components:
     []
+- !<ScriptComponent/30afdeda-21fa-4c47-b2d5-047640cf5663>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/319c29db-cd9c-448c-8028-20ef49b55a70>
   PrefabRemaps:
     []
@@ -3289,6 +3671,24 @@
     []
   Components:
     - !<own> 3aa5bf79-69f2-4d72-bb86-fb5690041b23
+- !<ColliderComponent/360cb25b-6f3f-4068-a98b-aeb323428df3>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
 - !<SceneObject/366cd97a-0d98-4ca0-9505-8169f15f9f35>
   PrefabRemaps:
     []
@@ -4226,7 +4626,7 @@
   Shape: !<Cylinder>
     Axis: Y
     Length: 0.050000
-    Radius: 0.250000
+    Radius: 0.200000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -4270,22 +4670,32 @@
       {}
 - !<SceneObject/39bc5e6b-eb72-41ca-8809-64d85f161f5c>
   PrefabRemaps:
+    - 00f9205c-fa9c-4753-8bad-906c3ce97100: 959cf97a-0c80-4fb0-97e7-4cfdf22dbdb5
+    - 0494ed6b-9236-40dd-a09a-783653b922b9: 1e9b36c3-1aa6-4963-b486-4749813e4493
+    - 06e1af84-1a00-42c4-b6e9-39c7c1de55b8: a906d6b4-1f18-4aaa-b755-e1c9864ade42
+    - 078e192a-30db-426c-8582-11d91ad6650a: 41f7f6fb-5eaa-42be-875a-a87f221998b1
     - 086f2343-b8d0-48f6-9753-b2c8f377e07a: 66861b18-fd35-488d-67a3-6ced34974479
     - 08763b88-2ce9-4a18-a836-59ff41168a99: 215522e9-7236-45d0-4a1a-6a1319513939
     - 0c174834-cbb7-4ce0-a96f-744cf1f87f8b: de00b4b6-46d9-421e-598b-9c898825b39e
+    - 0dff6bb4-610e-45ad-acb1-5cbb2913764c: 27e5ebfd-212a-4181-a7ec-50f9515fa8f8
     - 0f8e1824-fbc1-4ef1-a90f-5abd04eb9792: 77f0a3ea-459b-4987-507f-c89ac49147a4
     - 104348af-dbea-4c7d-83ac-a065f89b0125: 122b2ffd-6598-4a54-7c55-299f32c0262a
+    - 1090c0a0-7e51-48bf-8e41-42e3d8b3321d: cc973886-59a3-40af-b99b-56be684fd50b
+    - 10e59d92-46bd-4a5c-8a1e-524229cfaef7: 69fb8bcd-b71d-4d86-b87c-ba3d909ee343
     - 136e82fe-6561-4669-82cf-c0f42218cb30: 2db18ce9-36c0-40e1-791c-82f560795111
     - 15db056b-3a1a-4d67-a9f3-7261a6deb657: 3f31e277-8ae1-4771-62d1-6896551774c7
     - 175e8f31-e9ff-465a-a8ba-38f46a47c533: 676ab806-b8dc-48e0-5e54-0ec9265436a4
     - 17dd5448-eea7-4136-b51e-c52ddbeb8dfd: b95654cf-f764-472e-4396-ec329b070504
     - 1b262662-6b61-4b5e-bf1a-db85299e7842: 31def316-334b-438e-4892-4956e9d9acfe
+    - 1c35da18-9e02-4276-8ebf-7ef19cbd1129: b171d84e-b28e-463d-9fcf-5f7f159169e5
     - 1d5de84e-85f5-4f53-b27c-36b51f327d19: a234a946-acc7-46db-7359-94b0829474ec
     - 1fe5228a-88ac-445f-9755-885da57cb31a: 7f69263a-96f9-4cfc-6157-9f9cc3a5146e
     - 2173638d-e8ad-47f0-871c-489e148368ca: a66e74de-4387-4159-66cf-88604c5504b8
+    - 25010678-192c-43ef-ac66-5eaf438aada1: 08d2430e-6783-4388-b170-689ea15d084c
     - 25fb8775-2eb8-4132-a77f-9e351b3fa4c3: da633782-975d-4363-6b79-57e5edc29989
     - 27be6c12-118a-475a-8432-9756db13b597: 6d972ab5-9850-4323-ad2a-e6ad235ecbd1
     - 29dd18ef-ba92-417c-82d3-af52a3fcacfd: a991eac5-eb62-4b36-5745-e3fbeb01023e
+    - 2a675a66-930b-488b-8338-e2e0380bb328: 34d121fd-74ce-46be-b3c2-5d1b4e8c0e94
     - 2a7f0891-f602-4f25-bee3-994ad5dcb37b: cbf09e3f-8db4-4ccf-47ef-c17e4972940e
     - 2aba9921-27de-4fdd-96ba-e6eb7b03c78f: b1706c98-ec54-4d33-407d-2713e856974d
     - 2b00b21f-e7cd-44cc-a50c-598b0e2a8938: 896ebfa7-9db3-4fbe-60f6-dfaa89ffcc4e
@@ -4301,19 +4711,24 @@
     - 3fc80985-7cb0-47aa-8b00-aaa44980a415: 9c6df463-c17c-4fcd-6134-03061dde97dd
     - 3fca1157-369a-42d0-b86f-471a08d8070a: d0dee334-fd57-4a93-6160-555a24fb685b
     - 40ab962d-2aa4-4e38-8bdf-5c0dde0aba07: 28ae09b6-aa3c-4c07-736e-03c8d846e8ee
+    - 41b4fbd7-c36a-40ec-961b-691b32a46614: 19bd55a1-7ccf-44d2-8e47-027dd081ff9c
     - 4207d700-3ca2-41f8-8375-736969693b2f: ffdcd00b-13af-4495-7e21-19cad80023a6
     - 42fbda12-e783-4757-bb49-793dabbcbe99: 5b66b18a-5260-4982-50f9-9dfdb01010e6
+    - 44c48970-d37e-4a53-8f93-1d50b9dbd766: 2b391534-5407-48e5-940f-81b822a08d79
+    - 458d9bda-5d54-4ea4-ab5b-96125390214e: b6eec90b-7c3f-41dd-8e48-ae8df775f3bb
     - 466e41b9-6bb8-4f27-a7dd-c5b7dd6feeba: d8750e37-b45b-4e3b-7237-be6b5cd31659
     - 47778aaa-a6e2-40bd-843f-419c00b70a7f: 09f670a5-0a2a-4a6b-7c39-11fcde9f62a4
     - 4851f0d9-4409-4716-b809-20d97613072a: d73b83b4-2a16-4362-7260-90a996d9beca
     - 4a99ed5b-2a0e-4e44-9888-44f911aa9432: 83b93c04-4757-4ac9-637e-9e3c40b22683
+    - 4c1d639f-bbd2-447c-915a-a001700d72ab: 135e60c6-1ea0-445b-8926-0ce584bb5ff4
     - 4dd243ca-1df9-4658-b275-419260fd9f11: 686f9645-cc77-45b1-500f-39ffbefb9dce
     - 4f5be274-8b07-4598-9989-29292df83ae8: a8aae687-b4d1-4cab-679b-fe53de3f8455
-    - 505de98f-35a1-4f1c-96dd-732d6ed1008f: 7d56e060-1f55-45c8-8e6e-f47ea930b339
+    - 57c344cd-c374-423a-b338-b4dced03b266: 9a53596e-3038-48be-99aa-b5e86ef94220
     - 5868bb31-a855-4639-a4fd-3e77886664da: 251fecfa-be5a-47dc-4bd2-16a76f68a7c8
     - 5a5faf57-15ae-4b41-be05-eda8acb3493f: dcc3ad47-9f41-442f-54e2-c3f9809fe2f8
     - 5b88a803-d587-4fc5-8e92-8db32d69a978: 9a6e22e9-67ef-426d-46cf-fbd5a8eab883
     - 5f40e9e8-24c3-47ba-a5a8-49738ebad112: f6664c61-af16-420d-87a6-63f8eeb05737
+    - 5fdfbd0c-f91b-4833-8140-4564eda90757: 31762895-071f-4d71-a3e2-64f502e8cb57
     - 6116fa58-163c-4ed5-a47b-6539a008baca: e162e011-6313-4e3b-502a-252e108e7245
     - 628e913e-c6e0-43e3-88cb-7415e4cc2d80: b1fc1c9f-63fe-400f-667b-1ecd2c417691
     - 62aaa3e2-12c5-48ab-8a29-04d9a847ffb0: 4545d548-95f8-4914-65a5-c41e4c17ca7b
@@ -4328,6 +4743,7 @@
     - 747e9318-11a2-40f1-a291-4602419c9be5: 203eadb8-cd3c-4171-a481-385e5b9499a8
     - 76688695-1e28-4f4e-9afb-05d6a73b3908: c8167fbe-dbb4-4e10-7549-e72421256357
     - 79c0351d-5712-4ac0-9083-d4bedfeba2ad: 380f5e06-962d-4877-4446-806fbfb9dc5f
+    - 7a193f12-b56f-4457-b8d6-71ff689201ae: daf49e2f-6370-4f66-b261-7a8a083f8fbf
     - 7a7e49b8-eb77-4647-8092-f4acfd922fa6: 36e44a0f-e46d-40e5-74e4-0c6edb0c88ba
     - 7be31104-c60a-46c6-be36-3b3d787097eb: 00bb4a9e-dc5b-434a-57f8-9163744df812
     - 8080a91c-83b6-4cc9-9d3f-c3157f6737d9: c05d1605-176e-482a-443d-1f8dade8c005
@@ -4340,7 +4756,9 @@
     - 85e4eae4-23cd-4602-98ff-4b4b6708e0b8: dc904d28-673e-4386-4193-2a097e3fe1e9
     - 884c4879-da65-4ecf-8023-56dfe2f02090: 75d4925d-311e-41ad-63d4-dbac862936bd
     - 88e74c2b-e3ab-4342-aaf5-92b883e075f5: 81961317-3098-4e05-6593-7537eb683822
+    - 89a390f1-9086-43f3-a1cb-30ce9b2daa1a: f7fd3f82-e6a7-457d-939e-a51c5dc31c0a
     - 8b17bd53-c9b8-4b40-aadf-b34dff76fa79: 4769aac7-1817-4e0f-7880-7c3dcdade3ba
+    - 8d774bba-637d-4fe3-8691-645e66301e12: da7b4569-4f54-4602-92bc-02b6a17339c7
     - 901176c2-59f2-486d-ad16-53e44969e19e: 772e66c6-4593-4d19-7497-1218dbcafa65
     - 91339895-388e-4fd4-a731-801f626e7947: 03e89565-647f-4973-5908-da799a4aa08f
     - 92e24362-5c4d-4c6d-9b2e-aeca6048acc7: 3f2d93b0-515f-41f2-6350-2496a48c06f8
@@ -4353,12 +4771,14 @@
     - 96cd4fff-cdf5-4d14-9c4f-cce0bb01894a: a1f83209-c999-4ae5-7a95-f38b23469d54
     - 96d15391-862a-4cd1-8d12-33453ba906d1: 2945bf3c-58e3-41dc-7a4f-cb3d5632023e
     - 981ab57c-777e-4411-aaf6-64615829aa8d: c20c15e8-d7f3-47cf-44f5-c71c37009b65
+    - 98588f59-e7ba-4ed0-a05c-a5176f45fca1: 0c15c604-b88a-458f-b7c3-3f2927408628
     - 98976953-c6e7-439a-a394-6632ac9c6fcf: 8a73c491-72d0-40e0-7b3a-309c562b6428
     - 9c28e626-db8d-4119-93eb-45db0642424c: f280d91b-cb4f-4433-53c5-0fb8cf57a6f7
     - 9c3498e7-472c-4a72-82f9-f7de535dc99c: f1701557-dbea-4379-5458-8c814081b3f4
     - 9ce94349-a5c6-457a-a03e-7feb63fd9743: e691e327-c731-473e-6c76-079a965adf03
     - 9da266dc-ec03-494d-ac6e-427ebf0517f1: eaa47522-4014-40ed-6c75-5aa4f7ecafca
     - 9f01dfec-d443-4bf3-a0d3-f7514fece2ab: fe076207-99b1-465f-747a-ed2dc5c64e6d
+    - a1f80824-9958-47bb-b14f-6ffe4d54bdf6: d2484ff4-81d7-4e13-8829-539e3d916c4d
     - a2556a4f-ad92-457f-91ca-8fa00127c541: 02ee997f-b792-4116-4973-f0873bd45afa
     - a494dded-3611-48e9-847a-9ef024f577ac: 61080145-fd87-44ad-44c1-fb0886101ad2
     - a550fecc-3e3d-4490-bb1c-85c0eeb473ee: 58a87106-6017-42bf-6e01-5cf5c7534c78
@@ -4368,14 +4788,17 @@
     - ab292c3e-b3af-4e2f-90c7-0a68ac0b4167: 71144d38-b2b2-4052-5e74-e371d117cb25
     - ad8d8571-212b-4c23-b56c-7a0b727d488d: bdd67771-3743-4150-4d2e-6999b58cd82b
     - ae8cf0ca-710d-48d7-9d07-f9acd975c497: 3e6586b6-7616-4560-64ed-222b75b1b032
+    - b01ed543-cfd9-498a-8343-b436ae7f8651: 94d1c040-f0da-4cf2-ae53-14314a89ca03
     - b1b0f780-5b5a-4ed8-a7f7-0a9f7c477e04: 1b790305-b039-4635-54d3-5978a37d2205
     - b2b2683d-e496-4c1f-ab86-8d3e3b16859b: 6b23c6dc-9666-45a5-7e89-124105f01cc5
+    - b5a93181-62bb-4a0b-b4d9-5e87819cb7f1: b8fc61b5-41f9-43e8-93ac-b6a07a53e967
     - b7158ee7-6f1b-490e-a854-05ac6e92a386: 5fb365df-2020-4545-7673-82c33590c298
     - b87145d1-5ba4-43eb-bf86-da50761f742d: 840e1d3f-4680-46f1-749b-4b64418addb3
     - b8d9cdd3-8b22-4f32-a5ac-9d4ecc33bce4: bc5137cb-48b4-4312-410c-05c67f85f68f
     - b99ca5e5-689f-46ad-890d-ebf32f0bbb2e: d39b93e1-2f18-47f7-6558-1eae45c9509c
     - b9f2d675-7cbe-433d-8beb-acffc9b24111: ccb12b59-6cf2-4d11-7a97-d8cce685c1ed
     - baf3c627-5791-41d4-be5c-16b4f9e3f63d: 83529754-9ef4-47b8-629b-621b619801f8
+    - bc9116bd-67d9-4f97-bcfe-4c075d290942: 52619412-2e14-4ac8-a104-cd5596500c23
     - bf215cc4-3c25-4b5f-98b5-17006f1a508f: 6296130f-1f08-4b74-5ac4-60dcbe08d63a
     - c3e6ef7e-3de5-499f-8f9d-7606c7ec275a: f93db20a-c7ab-436d-673e-db5560ae1200
     - c57b5448-59ff-4630-ac33-67511d99f6f2: aa2e5580-eaa2-4d62-73e4-542d3fafeb19
@@ -4389,27 +4812,36 @@
     - d02dcced-aca5-4b57-a601-256945b6f74e: 5d95651d-7a24-4573-506b-84d2b0cae3c6
     - d0802e1a-0441-4cc9-b68c-2007db887cae: 81557430-89f8-4120-4f44-e8735ff1ec3e
     - d0e5a2ac-7394-4c47-9c60-485b01583b93: cbf86b47-836e-4619-7571-026dd4b38981
+    - d175a4fa-50f4-490e-932b-1604b5f515dd: 77b39155-753c-4d99-9850-5aff722cbcc6
+    - d25bfbf1-b583-4f21-a17e-2f92a907a9bd: df12cead-fd88-4873-80a2-f5a249e17d68
     - d6630a51-650d-4843-aaff-f8abc4e3eeb0: 33ae5104-db81-4a1e-570d-453ead79f666
     - da118317-8018-4f2e-b880-d71305d0ab88: d82d15d9-43b5-49d5-74ee-51b21606a0cc
     - dca0bba3-e3fc-4eba-84f0-36dfd6300e98: cb36b863-44ea-4501-560a-a38aa6360b64
     - dfa18afb-a96e-487d-8cba-e333f6468bba: d84c7235-af58-4321-4a43-632b429061d5
     - e3c30eb0-3f46-4243-a6ff-4d77ab186630: a31878cf-727a-4490-5f95-764ef788008e
     - e420fcc3-aea2-4606-970e-56bc997822ba: ab26824e-929e-4849-aadd-d1ad438a5881
+    - e5ab4fff-6b2e-490e-8257-eb84ef807a7c: 26fdad1b-ba2a-4700-b892-18e07ce16cf2
     - ecc9a817-5475-4f97-971e-6151a1fd7f5e: d79a1643-a795-4018-737c-4268cfc98445
     - ece28f55-26f3-47a2-be2c-547995d3f47d: 3df93220-b90c-4651-4ba3-fb2b39de7e88
+    - ed74f697-90d0-4716-816e-d58c731d31af: 8571d676-a4b7-4d3a-ab76-db49516b9047
+    - f0d0e8a8-76e6-47d8-b4dd-9da6ac7aa206: 5b74437d-1f21-4f91-a7ee-c87b837d5ffc
     - f22976d6-3ce3-4507-8469-110ae84da601: 4e3a461d-a021-44fc-453d-43796a63ee4c
+    - f2b2f10a-9901-4991-ae59-74165a19fecc: a04e1054-dd6b-4cf2-ae02-b63b4e475d08
     - f4fb2d23-e6a9-44de-8dda-a44bddb4cc71: b4bf3ec0-ce7e-4736-4a2e-68bff80a37ce
+    - f5497df8-c9e4-4d43-8e7b-158a579a17c6: 423eac35-eb5b-4124-9a88-7e033d063177
     - f6044b19-e4fa-4caf-8879-59bacfb5ee4d: 2dd19d93-6e3c-4fb8-4c20-aaea74490bf7
     - f622d4eb-3d9b-411a-a6d0-af85892ed01e: bc3051fd-5984-4ed8-735f-08d414db4e79
     - f67df4e9-cb53-4d79-ae11-b6a03315227a: c3010eea-dd8d-43c6-4473-e350602c66c4
+    - f6ef7fd3-2294-4514-9b37-c90dea761f1e: 0d316e00-a33b-4983-8b69-353d6aeae038
     - f896a937-5ec4-4630-a009-d21beab5ae4f: 08fe9765-a573-4a2c-59d9-1269debc5544
     - fac7e463-ffd0-409c-9d95-85c9929d653f: 85576ce6-fcb0-48ea-4ebb-25e49f3e4f04
+    - fbb03d61-2704-4ab4-9068-70bc0397d28e: 9ee3a9d2-52da-4663-9f50-0eddd67a7cc2
     - fc77f343-7254-4909-a4fb-bb87d7ec4b5a: 9ff25dde-3cfd-4825-7342-69bdf1436eb5
     - fcf1d534-f18c-402e-9a89-0904d855f82b: 3659661c-d06d-4296-6102-86484c7e8fcd
     - fd965311-6dbe-4ca9-9dd3-4282421e75ba: ac46758c-1848-4ddd-4f93-114e24b1238f
     - feae2de9-b449-4f19-9784-c5429c132bef: c64eca99-c80d-4049-418c-5702ce2a5940
   Name: Drums
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: -16.276863, z: -125.600876}
@@ -4418,7 +4850,7 @@
     HasSegmentScaleCompensation: false
   Children:
     - !<own> e420fcc3-aea2-4606-970e-56bc997822ba
-    - !<own> 505de98f-35a1-4f1c-96dd-732d6ed1008f
+    - !<own> 458d9bda-5d54-4ea4-ab5b-96125390214e
   Components:
     - !<own> 27be6c12-118a-475a-8432-9756db13b597
 - !<SceneObject/3a37a7e8-bc52-4c9d-81f3-8c1ea4414718>
@@ -4934,10 +5366,27 @@
     []
   Components:
     - !<own> c18f95df-38ed-466b-b735-cf76a5fb5136
+- !<SceneObject/41b4fbd7-c36a-40ec-961b-691b32a46614>
+  PrefabRemaps:
+    []
+  Name: high-tom
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.123411, y: 0.665020, z: 0.528608}
+    Rotation: {x: -35.082565, y: -3.739756, z: 2.020471}
+    Scale: {x: 0.487794, y: 0.487794, z: 0.487793}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1090c0a0-7e51-48bf-8e41-42e3d8b3321d
+    - !<own> d25bfbf1-b583-4f21-a17e-2f92a907a9bd
+    - !<own> 2a675a66-930b-488b-8338-e2e0380bb328
 - !<SceneObject/4207d700-3ca2-41f8-8375-736969693b2f>
   PrefabRemaps:
     []
-  Name: HERE hi-hat
+  Name: hi-hat
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -5037,6 +5486,25 @@
     - !<own> f7f95fff-c512-4bf3-b03e-47c3440bf5df
   Components:
     []
+- !<ColliderComponent/44c48970-d37e-4a53-8f93-1d50b9dbd766>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.250000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/44ddb85f-cdfa-4419-aea1-7d43cc6401c6>
   PrefabRemaps:
     []
@@ -5052,6 +5520,29 @@
     []
   Components:
     - !<own> 55be292f-0363-41f1-b55c-70fcb8e4dd25
+- !<SceneObject/458d9bda-5d54-4ea4-ab5b-96125390214e>
+  PrefabRemaps:
+    []
+  Name: hitboxes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 10e59d92-46bd-4a5c-8a1e-524229cfaef7
+    - !<own> f0d0e8a8-76e6-47d8-b4dd-9da6ac7aa206
+    - !<own> 41b4fbd7-c36a-40ec-961b-691b32a46614
+    - !<own> bc9116bd-67d9-4f97-bcfe-4c075d290942
+    - !<own> b01ed543-cfd9-498a-8343-b436ae7f8651
+    - !<own> 0dff6bb4-610e-45ad-acb1-5cbb2913764c
+    - !<own> 5f40e9e8-24c3-47ba-a5a8-49738ebad112
+    - !<own> f5497df8-c9e4-4d43-8e7b-158a579a17c6
+    - !<own> b5a93181-62bb-4a0b-b4d9-5e87819cb7f1
+  Components:
+    []
 - !<RenderMeshVisual/466e41b9-6bb8-4f27-a7dd-c5b7dd6feeba>
   PrefabRemaps:
     []
@@ -5377,6 +5868,22 @@
     - !<own> 068071c6-5e27-432c-9633-fb761275f4bf
   Components:
     []
+- !<ScriptComponent/4c1d639f-bbd2-447c-915a-a001700d72ab>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/4d3c2e52-807c-4c3e-96ce-305f2b364250>
   PrefabRemaps:
     []
@@ -5480,21 +5987,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/505de98f-35a1-4f1c-96dd-732d6ed1008f>
-  PrefabRemaps:
-    []
-  Name: hitboxes
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    - !<own> 5f40e9e8-24c3-47ba-a5a8-49738ebad112
-  Components:
-    []
 - !<SceneObject/5073a1e9-5105-46dd-8050-79de03e5fb39>
   PrefabRemaps:
     []
@@ -5565,6 +6057,90 @@
     - !<own> 974e2072-cd2a-4664-8d91-d71bbcd60d54
   Components:
     []
+- !<Text/522cb447-42a4-494c-bf47-0448f0193e0b>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    A magical spirit compels
+    you to choose another bubble...
+    (please)
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.620005}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.000000
+      bottom: 0.000000
+      right: 0.000000
+      top: 0.000000
+    CornerRadius: 0.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
 - !<ScriptComponent/524be688-456e-4284-bd29-f2e9cccdfc12>
   PrefabRemaps:
     []
@@ -5655,6 +6231,24 @@
     - !<own> 73c4fe7d-e63b-4a30-8587-f612cc549707
   Components:
     - !<own> 58896031-8dd1-419b-a02d-06df04a4076d
+- !<ColliderComponent/5402b7d7-e781-4514-b642-626e3a73dc69>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/541a1667-fb17-43bf-bd3b-7b713063d3f7>
   PrefabRemaps:
     []
@@ -5825,6 +6419,22 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/57c344cd-c374-423a-b338-b4dced03b266>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<ColliderComponent/5832f72f-5c53-4c0a-ad03-412436ef034e>
   PrefabRemaps:
     []
@@ -5833,7 +6443,7 @@
   Shape: !<Cylinder>
     Axis: Y
     Length: 0.050000
-    Radius: 0.250000
+    Radius: 0.150000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -6232,12 +6842,12 @@
 - !<SceneObject/5f40e9e8-24c3-47ba-a5a8-49738ebad112>
   PrefabRemaps:
     []
-  Name: hi-hat
+  Name: snare
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: 0.711982, y: 0.470036, z: -0.057581}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Position: {x: 0.298743, y: 0.361283, z: -0.057581}
+    Rotation: {x: 0.000000, y: 0.000000, z: -176.479294}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
@@ -6265,6 +6875,44 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/5fdfbd0c-f91b-4833-8140-4564eda90757>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/6041a973-27c0-4cc4-8f40-8e9035dc9432>
   PrefabRemaps:
     []
@@ -6516,6 +7164,25 @@
   ScriptTypes:
     "":
       {}
+- !<ColliderComponent/64320972-0104-4b72-8617-c9af46cbcce2>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.150000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/6592fd98-8ae7-43b2-9e0d-b63edeaac767>
   PrefabRemaps:
     []
@@ -7042,7 +7709,7 @@
   Shape: !<Cylinder>
     Axis: Y
     Length: 0.050000
-    Radius: 0.250000
+    Radius: 0.200000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -7215,9 +7882,9 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: -0.232863, y: 0.745080, z: 0.508694}
-    Rotation: {x: -17.916426, y: -12.614650, z: 1.690003}
-    Scale: {x: 0.508416, y: 0.297343, z: 0.437616}
+    Position: {x: -0.232863, y: 0.657476, z: 0.566383}
+    Rotation: {x: -40.140079, y: -12.614652, z: 1.690003}
+    Scale: {x: 0.687808, y: 1.047398, z: 0.592027}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -7333,6 +8000,22 @@
     bottom: -1.050000
     right: 3.750000
     top: 1.050000
+- !<ScriptComponent/7a193f12-b56f-4457-b8d6-71ff689201ae>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/7a7e49b8-eb77-4647-8092-f4acfd922fa6>
   PrefabRemaps:
     []
@@ -7567,6 +8250,44 @@
     - !<own> 04c2beda-4182-4b4f-8d7c-5caf67ef33bb
   Components:
     []
+- !<ScriptComponent/7e789c8f-b28b-46e9-abfe-58d4719ce4f9>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/7f085133-ad5c-4d92-8c05-1256cd52c5e1>
   PrefabRemaps:
     []
@@ -7621,12 +8342,12 @@
 - !<SceneObject/7fd61abe-83c7-415f-bdd3-64f6cfb7c8d3>
   PrefabRemaps:
     []
-  Name: bass
+  Name: snare
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.298743, y: 0.361283, z: -0.057581}
-    Rotation: {x: 0.000000, y: -0.000000, z: -88.168495}
+    Rotation: {x: 0.000000, y: 0.000000, z: -176.479294}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
@@ -7634,6 +8355,30 @@
   Components:
     - !<own> 9082a24e-c0dd-49dd-9fe2-55627db81727
     - !<own> 39256843-b7df-402e-9c5d-9dcf44cb0c25
+- !<ScriptComponent/7fff003a-2faf-4e39-9b1e-322dffae8666>
+  PrefabRemaps:
+    []
+  Name: Billboard
+  Enabled: true
+  ScriptAsset: !<reference> 74eafc23-e98b-4073-ab18-82ca532994e3
+  ScriptInputsDefault:
+    _yAxisEnabled: true
+    _axisBufferDegrees: true
+    _axisEasing: true
+    duration: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      _xAxisEnabled: true
+      _yAxisEnabled: true
+      _zAxisEnabled: true
+      _axisBufferDegrees: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      _axisEasing: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      duration: 0.033000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/805bb70d-0e93-48e5-a665-76bd8c8928ce>
   PrefabRemaps:
     []
@@ -7824,9 +8569,10 @@
     - !<own> 9bbd77d7-9442-48ab-8797-a2335d9779b2
 - !<SceneObject/83055b5c-e785-4d79-9fc0-5541242a1e06>
   PrefabRemaps:
-    - 2220a148-bd1b-40c7-a773-e300550dde2a: 2eea2436-3d52-4144-6fc0-5ece0d91d3ed
     - 2b298a7c-0d85-4438-87d1-c9b47642ec04: 14719bb8-37f2-44fb-7a6e-b9aa9038b433
+    - 30afdeda-21fa-4c47-b2d5-047640cf5663: 6b314c35-5fbb-42fa-8d6c-d57993bc127e
     - 3fd4279d-24e4-4aeb-a285-8ac9141f45c5: 128cbdc9-5064-418e-44db-92d3e64b8d02
+    - 5402b7d7-e781-4514-b642-626e3a73dc69: 0abe82d3-ddd2-495e-b43f-afb026c033f5
     - 5dca5ea6-756c-4f47-9640-7090689e1c05: c9f389a1-2f87-4b76-6d4e-10d4643c5f35
     - 83055b5c-e785-4d79-9fc0-5541242a1e06: 3d6a21d7-975f-498d-5513-11de0608c79a
     - 9f862203-4a5c-4613-9b51-58930b1adc17: 3bac3218-d2f8-4b57-7d3c-9a237c1eac27
@@ -7849,7 +8595,8 @@
   Components:
     - !<own> ab09249b-7563-4c31-b064-6c26cfe61a92
     - !<own> 3fd4279d-24e4-4aeb-a285-8ac9141f45c5
-    - !<own> 2220a148-bd1b-40c7-a773-e300550dde2a
+    - !<own> 30afdeda-21fa-4c47-b2d5-047640cf5663
+    - !<own> 5402b7d7-e781-4514-b642-626e3a73dc69
 - !<RenderMeshVisual/8309aa0d-fdc7-4872-9b5d-1b58acec1b07>
   PrefabRemaps:
     []
@@ -8106,6 +8853,25 @@
     []
   Components:
     - !<own> 122bbdef-9cfb-4eba-abc9-520fe1498f8d
+- !<ColliderComponent/89a390f1-9086-43f3-a1cb-30ce9b2daa1a>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.150000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/89f20436-59df-4c21-9371-f03e8b213d04>
   PrefabRemaps:
     []
@@ -8240,6 +9006,23 @@
     []
   Components:
     - !<own> a550fecc-3e3d-4490-bb1c-85c0eeb473ee
+- !<SceneObject/8bd452f3-0ff9-45c1-952f-2704215e76fc>
+  PrefabRemaps:
+    []
+  Name: bass
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.059311, y: 0.236171, z: 0.608920}
+    Rotation: {x: -89.495003, y: 15.139560, z: 6.364161}
+    Scale: {x: 1.508476, y: 4.190328, z: 1.508476}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7e789c8f-b28b-46e9-abfe-58d4719ce4f9
+    - !<own> 64320972-0104-4b72-8617-c9af46cbcce2
+    - !<own> d0861261-5319-48b2-b70f-76aac7ac199d
 - !<SceneObject/8c0dbf87-2b6a-454e-94c9-d7850e85e694>
   PrefabRemaps:
     []
@@ -8272,6 +9055,44 @@
     []
   Components:
     []
+- !<ScriptComponent/8d774bba-637d-4fe3-8691-645e66301e12>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/8f312d11-6b5b-4a16-bce9-ca07dcfa6f53>
   PrefabRemaps:
     []
@@ -8667,6 +9488,24 @@
     []
   Components:
     - !<own> f896a937-5ec4-4630-a009-d21beab5ae4f
+- !<ColliderComponent/95c608b9-1cb3-420e-a7de-93b3cf6864e2>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
 - !<ScriptComponent/95c8b163-a7af-4b10-a513-b88873476dee>
   PrefabRemaps:
     []
@@ -8845,6 +9684,25 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ColliderComponent/98588f59-e7ba-4ed0-a05c-a5176f45fca1>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.250000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/98976953-c6e7-439a-a394-6632ac9c6fcf>
   PrefabRemaps:
     []
@@ -9125,7 +9983,7 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: -0.768450, y: 0.640792, z: 0.219413}
+    Position: {x: -0.673228, y: 0.555207, z: 0.219413}
     Rotation: {x: 35.928314, y: -0.000000, z: -176.336975}
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
@@ -9215,6 +10073,44 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/a1f80824-9958-47bb-b14f-6ffe4d54bdf6>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/a2556a4f-ad92-457f-91ca-8fa00127c541>
   PrefabRemaps:
     []
@@ -9451,9 +10347,9 @@
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
-    Position: {x: -0.422160, y: 0.473686, z: 0.531127}
+    Position: {x: -0.363922, y: 0.344712, z: 0.528388}
     Rotation: {x: 0.861919, y: -6.536147, z: -0.919654}
-    Scale: {x: 0.487794, y: 0.487794, z: 0.487793}
+    Scale: {x: 0.568881, y: 3.731919, z: 0.568880}
     HasSegmentScaleCompensation: false
   Children:
     []
@@ -9482,6 +10378,12 @@
         - !<reference> e4e83bec-972b-4b10-b73b-a4eb98e5d6fa
         - !<reference> 83055b5c-e785-4d79-9fc0-5541242a1e06
         - !<reference> 08771a7d-3ee7-4033-9f76-434188ee2f5d
+      drumKit: !<reference.SceneObject> 39bc5e6b-eb72-41ca-8809-64d85f161f5c
+      goodBubble: !<MappingBased.AssignableType> ab3ee2bb-ed73-4b79-9891-468cb3e5d599
+      badBubble: !<MappingBased.AssignableType_1[]>
+        - !<reference> 30afdeda-21fa-4c47-b2d5-047640cf5663
+        - !<reference> 18fef359-faf6-4327-b86b-9be436cbe294
+      notImplementedTooltip: !<reference.SceneObject> 11d86ea5-dddc-4271-b454-b2b84e737dd4
   ScriptTypes:
     "":
       {}
@@ -9690,6 +10592,43 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/ab3ee2bb-ed73-4b79-9891-468cb3e5d599>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/ab624069-ec68-4e9a-8e2c-c717952a64d5>
   PrefabRemaps:
     []
@@ -9993,6 +10932,23 @@
     - !<own> 9c6bdaf8-6f75-4c15-8f87-51a47efb49e9
   Components:
     []
+- !<SceneObject/b01ed543-cfd9-498a-8343-b436ae7f8651>
+  PrefabRemaps:
+    []
+  Name: mid-tom2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.363922, y: 0.344712, z: 0.528388}
+    Rotation: {x: 0.861919, y: -6.536147, z: -0.919654}
+    Scale: {x: 0.568881, y: 3.731919, z: 0.568880}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 25010678-192c-43ef-ac66-5eaf438aada1
+    - !<own> ed74f697-90d0-4716-816e-d58c731d31af
+    - !<own> f6ef7fd3-2294-4514-9b37-c90dea761f1e
 - !<SceneObject/b1169d8a-9815-475d-ba9c-0fa119d1e02e>
   PrefabRemaps:
     []
@@ -10236,6 +11192,23 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/b5a93181-62bb-4a0b-b4d9-5e87819cb7f1>
+  PrefabRemaps:
+    []
+  Name: bass
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.059311, y: 0.236171, z: 0.608920}
+    Rotation: {x: -89.495003, y: 15.139560, z: 6.364161}
+    Scale: {x: 1.508476, y: 4.190328, z: 1.508476}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a1f80824-9958-47bb-b14f-6ffe4d54bdf6
+    - !<own> e5ab4fff-6b2e-490e-8257-eb84ef807a7c
+    - !<own> 4c1d639f-bbd2-447c-915a-a001700d72ab
 - !<ScriptComponent/b6119b49-7aba-4ab1-937e-24c5f2b82c02>
   PrefabRemaps:
     []
@@ -10577,6 +11550,23 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/bc9116bd-67d9-4f97-bcfe-4c075d290942>
+  PrefabRemaps:
+    []
+  Name: mid-tom
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.232863, y: 0.657476, z: 0.566383}
+    Rotation: {x: -40.140079, y: -12.614652, z: 1.690003}
+    Scale: {x: 0.687808, y: 1.047398, z: 0.592027}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 00f9205c-fa9c-4753-8bad-906c3ce97100
+    - !<own> 98588f59-e7ba-4ed0-a05c-a5176f45fca1
+    - !<own> 57c344cd-c374-423a-b338-b4dced03b266
 - !<SceneObject/bf215cc4-3c25-4b5f-98b5-17006f1a508f>
   PrefabRemaps:
     []
@@ -11184,7 +12174,7 @@
 - !<SceneObject/cc70df57-a015-409c-847e-38a927c8c567>
   PrefabRemaps:
     []
-  Name: snare
+  Name: hat2
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -11475,6 +12465,22 @@
     []
   Components:
     - !<own> 628e913e-c6e0-43e3-88cb-7415e4cc2d80
+- !<ScriptComponent/d0861261-5319-48b2-b70f-76aac7ac199d>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/d0ba8306-47de-4858-9376-799b82689461>
   PrefabRemaps:
     []
@@ -11592,6 +12598,22 @@
     CapitalizationOverride: None
   DepthTest: false
   TwoSided: false
+- !<ScriptComponent/d175a4fa-50f4-490e-932b-1604b5f515dd>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/d1ba20af-063a-49f1-bb0e-c05c7882b422>
   PrefabRemaps:
     []
@@ -11607,6 +12629,25 @@
     []
   Components:
     - !<own> ad5ef3a8-fa8f-4e37-a103-8a59aad7f7b7
+- !<ColliderComponent/d25bfbf1-b583-4f21-a17e-2f92a907a9bd>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.250000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/d3340ef4-90e8-49c1-aeb6-4194ed9937f9>
   PrefabRemaps:
     []
@@ -12211,10 +13252,12 @@
 - !<SceneObject/e4e83bec-972b-4b10-b73b-a4eb98e5d6fa>
   PrefabRemaps:
     - 0391986f-2776-40b0-bb78-d02689005b5e: de60666e-4ec3-4571-5b14-b6a224687595
+    - 18fef359-faf6-4327-b86b-9be436cbe294: a4cd9658-4c57-44e2-8aca-9588e8c51fa0
     - 1aa2e238-2a1b-4176-8efe-b229cbf9b63f: b3643609-36f3-4059-7bc9-67b3637ddd62
     - 38982b83-75c6-4c78-85b7-2d8e8c4735fb: b7113fab-12ce-4603-6e3d-afb1dae866e3
     - 503ecc90-31a1-49ed-8d11-a0b4b159a6d2: 9b4e9773-4968-48c2-50bb-a08b04f64d0d
     - 7b4d8fd8-d18d-446c-b134-9d9ca7cf5062: 10abef73-10a5-4577-4db1-012fee24015d
+    - 95c608b9-1cb3-420e-a7de-93b3cf6864e2: 1c6d6de1-f591-421b-b259-bb2afc7bc4bc
     - a3fc6544-b832-4f81-88f5-b6e329651425: 11dcf5fe-83f5-4f6e-6f50-dc7946ba500a
     - bf455e8b-e8c1-49ea-9ee7-a1880c26e274: 41890de7-5b19-4917-49b6-c33b927a34a7
     - cf778d0f-fd43-4509-86d4-a5c117bbfe35: 29e49695-b254-4aca-5b5b-fcf905f5b9fa
@@ -12234,6 +13277,8 @@
   Components:
     - !<own> 38982b83-75c6-4c78-85b7-2d8e8c4735fb
     - !<own> 1aa2e238-2a1b-4176-8efe-b229cbf9b63f
+    - !<own> 18fef359-faf6-4327-b86b-9be436cbe294
+    - !<own> 95c608b9-1cb3-420e-a7de-93b3cf6864e2
 - !<RenderMeshVisual/e53fc8b4-f19f-4fb7-82d8-28e9e7952591>
   PrefabRemaps:
     []
@@ -12284,6 +13329,25 @@
     - !<own> ac6d43cc-ec2c-468b-b016-469459be6861
   Components:
     []
+- !<ColliderComponent/e5ab4fff-6b2e-490e-8257-eb84ef807a7c>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.150000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<SceneObject/e67355a4-c26a-4bfc-b712-56f879b0f199>
   PrefabRemaps:
     []
@@ -12587,6 +13651,25 @@
     - !<own> 7b9d067f-414a-4620-a6b1-b0824953478c
   Components:
     []
+- !<ColliderComponent/ed74f697-90d0-4716-816e-d58c731d31af>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 0.050000
+    Radius: 0.250000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<RenderMeshVisual/ed98dfe9-91ca-46d8-96c2-6cb8ffec1bb0>
   PrefabRemaps:
     []
@@ -12705,6 +13788,23 @@
     - !<own> adc75353-1cbe-476e-a85f-d1f14ed9eeed
   Components:
     []
+- !<SceneObject/f0d0e8a8-76e6-47d8-b4dd-9da6ac7aa206>
+  PrefabRemaps:
+    []
+  Name: hi-hat
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.711982, y: 0.470036, z: -0.057581}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f2b2f10a-9901-4991-ae59-74165a19fecc
+    - !<own> 44c48970-d37e-4a53-8f93-1d50b9dbd766
+    - !<own> 7a193f12-b56f-4457-b8d6-71ff689201ae
 - !<SceneObject/f0e33766-c981-4f7a-b17b-a50e70c8b6bc>
   PrefabRemaps:
     []
@@ -12804,34 +13904,82 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/f2b2f10a-9901-4991-ae59-74165a19fecc>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/f4056bba-b3a7-49af-9184-ae5c8a4fafbe>
   PrefabRemaps:
     - 005ca260-3b0a-49b6-b46a-9262da8660d4: c1b3ef8f-e9e9-4164-840f-f4672d3b4bb6
     - 00ea17c6-9008-4957-90b4-73e82ef3f30b: 5e68516f-197c-43ee-b160-f889b64674dd
+    - 00f9205c-fa9c-4753-8bad-906c3ce97100: 6ce435ed-ba00-4a35-afc0-4f85d362b3b3
     - 0391986f-2776-40b0-bb78-d02689005b5e: f03d153e-d2f0-4dec-84b9-a4b51120199d
+    - 0494ed6b-9236-40dd-a09a-783653b922b9: 55997b24-a0fe-4c8b-b638-b4ba1696d4fb
+    - 06e1af84-1a00-42c4-b6e9-39c7c1de55b8: 0a910752-d8fb-4598-a2d9-b43d6e28fdb4
+    - 078e192a-30db-426c-8582-11d91ad6650a: 11e782de-b1bf-4327-8572-5a3abeefeb04
     - 086f2343-b8d0-48f6-9753-b2c8f377e07a: 032d5d94-adfc-4be1-b106-c21633b8ac75
     - 08763b88-2ce9-4a18-a836-59ff41168a99: a1214cba-5c42-4055-bc71-ff4e1ec04be0
     - 08771a7d-3ee7-4033-9f76-434188ee2f5d: bdfd51db-1daf-4c0c-91c7-3125561f6ba2
     - 0b3f4478-f275-46e6-a763-03be6e98ee70: 80be6053-1d93-48ea-be7f-ef6bfc80bf64
     - 0c174834-cbb7-4ce0-a96f-744cf1f87f8b: edcee713-bfb3-4a45-a526-26de6c5dc790
+    - 0dff6bb4-610e-45ad-acb1-5cbb2913764c: bdb0a92b-85ea-4e3d-a9f5-f426b4af1b97
     - 0f8e1824-fbc1-4ef1-a90f-5abd04eb9792: 96525702-b974-4c62-bf33-3c059dc13af3
     - 104348af-dbea-4c7d-83ac-a065f89b0125: 412b41c3-6003-46d1-af5c-8843d1c89784
+    - 1090c0a0-7e51-48bf-8e41-42e3d8b3321d: 3d4be35b-4ad1-46d9-8be6-170de199c5f2
+    - 10e59d92-46bd-4a5c-8a1e-524229cfaef7: 029de9d0-9fd8-40da-8d94-097d7cd94426
     - 136e82fe-6561-4669-82cf-c0f42218cb30: 7d4ea4d1-6dd8-4eb1-8511-b9d8e62f0c6c
     - 15db056b-3a1a-4d67-a9f3-7261a6deb657: f0b61112-6fee-4c0e-af89-73d059431d3f
     - 175e8f31-e9ff-465a-a8ba-38f46a47c533: f7ebc39c-e014-484d-9217-f93ee8e2b9e0
     - 17dd5448-eea7-4136-b51e-c52ddbeb8dfd: 7145f317-0114-441c-9aca-0b44d67a5b3d
+    - 18fef359-faf6-4327-b86b-9be436cbe294: f5f2d202-28b1-4766-9fb6-c1215333a978
     - 1aa2e238-2a1b-4176-8efe-b229cbf9b63f: 2f04e2e2-0b77-4855-aaa9-8844332e3e26
     - 1b262662-6b61-4b5e-bf1a-db85299e7842: b49f7e57-6c9a-4e02-bd68-700c34b94abe
+    - 1c35da18-9e02-4276-8ebf-7ef19cbd1129: a810900b-ef28-4f4a-a15a-b66d370b496c
     - 1d5de84e-85f5-4f53-b27c-36b51f327d19: bdcc1c7a-aeef-49d6-9c38-acea501745f1
     - 1fe5228a-88ac-445f-9755-885da57cb31a: 62eaed3b-ff03-40f8-a5ee-4048e1e7033b
     - 2173638d-e8ad-47f0-871c-489e148368ca: a6a35557-b918-4db6-b2e9-79f5e9324a12
     - 21991c53-354d-43a8-9c34-986911d34583: 014001b2-4c74-4811-88ba-4f7b9c10c79d
-    - 2220a148-bd1b-40c7-a773-e300550dde2a: 9819e13d-f00b-4a95-adc1-ca2eee48aee2
+    - 25010678-192c-43ef-ac66-5eaf438aada1: 28be4e06-8632-41d0-b9db-42da4be2fdd5
     - 25746385-7e9f-40d6-bc3f-500745a279d7: e61992e0-7f4f-42ba-a6f9-96b3384976c1
     - 25fb8775-2eb8-4132-a77f-9e351b3fa4c3: 99fedf5d-e058-497c-9e4b-0c650e61fd05
     - 27be6c12-118a-475a-8432-9756db13b597: 681f22e2-76b1-4d4f-b0ab-2f38e4fd88d0
     - 29dd18ef-ba92-417c-82d3-af52a3fcacfd: 3e9b280d-a229-49f0-bea0-4c546197ca95
     - 2a49e5a9-25de-4ea8-85c7-36274faa8628: 405b5871-c8e8-4036-bb77-ae5efbf78f41
+    - 2a675a66-930b-488b-8338-e2e0380bb328: 599fd843-38f9-44b5-b3be-5fa45fe09e1a
     - 2a7f0891-f602-4f25-bee3-994ad5dcb37b: 90e121d2-7832-488e-ba3e-328079b28668
     - 2aba9921-27de-4fdd-96ba-e6eb7b03c78f: 43ca26b5-629f-4db4-9fe4-bf90cc05d0aa
     - 2b00b21f-e7cd-44cc-a50c-598b0e2a8938: e99b4d7d-92a6-4b74-b24e-b7ed0952f1e9
@@ -12839,8 +13987,10 @@
     - 2dbd27a0-2d01-48af-8c04-d81d03af4192: 75d4214a-9813-4197-a203-c9a6f337ef4d
     - 2f5d71f8-5cab-45f0-941c-05299cc6e706: 1cba35ce-bf20-4381-8412-77437146c838
     - 2ff90750-11e1-47c5-bdae-8d1472f47223: 76f5c547-d4aa-4f5e-9636-5c6f3b74d584
+    - 30afdeda-21fa-4c47-b2d5-047640cf5663: 5e901055-d2cf-4510-94ec-4dabc0bf265f
     - 352ca747-59e1-4387-8f30-e045d501a658: 4d545cf4-b984-4300-bb38-e8cd6e2bba63
     - 35853eba-b3c1-4e00-819b-07ecb455ca4f: 2aabc42a-4f3a-4dd8-a7d5-44d0f0b5fd03
+    - 360cb25b-6f3f-4068-a98b-aeb323428df3: 2c079ccb-0628-4e0d-95b3-33c845fc93df
     - 38982b83-75c6-4c78-85b7-2d8e8c4735fb: 1544df77-de0b-4029-9c57-c50771d42dae
     - 39bc5e6b-eb72-41ca-8809-64d85f161f5c: 3f295498-aa9f-4504-b060-4e9ceced254b
     - 3a37a7e8-bc52-4c9d-81f3-8c1ea4414718: f55e43e5-53ff-476f-b954-45dddf6f29f3
@@ -12853,23 +14003,28 @@
     - 3fca1157-369a-42d0-b86f-471a08d8070a: cdc610cc-b306-4993-ab50-07c52ddaf631
     - 3fd4279d-24e4-4aeb-a285-8ac9141f45c5: 149c6c4e-1597-4e0f-8af7-a24fc27e71e7
     - 40ab962d-2aa4-4e38-8bdf-5c0dde0aba07: 6585c6e9-b403-4f99-9140-5ba90ba000ed
+    - 41b4fbd7-c36a-40ec-961b-691b32a46614: 4c5f6d3e-b845-409e-ac08-2fcff669e64d
     - 4207d700-3ca2-41f8-8375-736969693b2f: 2737c964-7b17-4f90-945e-2686cb19a8c2
     - 42ccb3a1-1059-4103-95d6-053951342df0: 23c970e3-93b5-4ba0-89c7-7b9dafda48b1
     - 42fbda12-e783-4757-bb49-793dabbcbe99: fd3918ee-89ef-4e31-9a8f-cd0aec693d1f
+    - 44c48970-d37e-4a53-8f93-1d50b9dbd766: afa4e551-90c6-40c5-a79e-16f94bd935f9
+    - 458d9bda-5d54-4ea4-ab5b-96125390214e: 70205ebd-2486-4796-8a2e-0f920fd6467b
     - 466e41b9-6bb8-4f27-a7dd-c5b7dd6feeba: 32e4017f-b40b-4335-84a7-054e4d255526
     - 47778aaa-a6e2-40bd-843f-419c00b70a7f: 780e968f-b76e-4945-a8b0-a78d0b0849ac
     - 478c34c1-d468-4d62-b753-566ee7f2055d: 2a89c945-9e19-43ff-9c9e-053f632790f8
     - 4851f0d9-4409-4716-b809-20d97613072a: f18bc854-50a0-4a82-8151-b17eed6fa9db
     - 4a279923-0978-4d7c-affa-611d25e71da2: 6f43e2f7-32d4-48c2-b99e-bed019ae6ab5
     - 4a99ed5b-2a0e-4e44-9888-44f911aa9432: 38b034f2-d12c-4ccd-8c85-480db5e8cb6d
+    - 4c1d639f-bbd2-447c-915a-a001700d72ab: a613a942-01a8-4f13-a6ba-42121cb98a77
     - 4dd243ca-1df9-4658-b275-419260fd9f11: 07f37123-d48d-402a-97ec-e4a7205e98c3
     - 4f5be274-8b07-4598-9989-29292df83ae8: 8a830351-4f89-4755-8d4e-fe727171d7ca
     - 503ecc90-31a1-49ed-8d11-a0b4b159a6d2: 9a15cf90-b017-466d-ba07-897676c2097b
-    - 505de98f-35a1-4f1c-96dd-732d6ed1008f: cf0acec6-24ae-48d6-927a-cf4ff96d7481
     - 50864bb7-85ae-444e-95d3-44118abb77c9: f6d460e7-01ce-4083-8a8f-cf34aaf7996d
     - 50f22e83-d045-4f5e-a61e-dcf3572aebcc: 659a03d9-2e50-447a-bde0-b63a88ab4e0e
     - 53850133-0310-4b29-a734-97c00584abe3: 00654768-6ceb-41bb-a79b-0eba3acdb355
+    - 5402b7d7-e781-4514-b642-626e3a73dc69: 94588c21-97d6-409f-b5c4-c27d5ff900ef
     - 5454ecad-c17b-4534-baed-0dde5cce986e: a364e39f-dad9-4800-a196-2684373b11da
+    - 57c344cd-c374-423a-b338-b4dced03b266: d0a87f70-47f5-420b-85e7-db2be9f47b4e
     - 5868bb31-a855-4639-a4fd-3e77886664da: b6f72072-5f49-44ef-9757-bf3348e99ee8
     - 58896031-8dd1-419b-a02d-06df04a4076d: 61df2fe3-33bc-482e-b315-a21e7b8ea8e7
     - 5a5faf57-15ae-4b41-be05-eda8acb3493f: a5a8b465-ce15-4465-a443-79de73afeade
@@ -12877,6 +14032,7 @@
     - 5dca5ea6-756c-4f47-9640-7090689e1c05: 029891a6-697b-4e48-98b3-bb4e311c0951
     - 5f15d311-c756-42d0-952e-f82b731baa62: 9476b7a6-2902-45ca-86a0-1bf90f3a2be2
     - 5f40e9e8-24c3-47ba-a5a8-49738ebad112: 1d6be801-c306-434f-83b2-c1758166be7f
+    - 5fdfbd0c-f91b-4833-8140-4564eda90757: ced49236-535f-421a-975a-f8b034f109e4
     - 60d18bd4-f284-45d0-b27b-a50f647b7066: b15bd7e8-3046-49ba-8197-bd2caff849f3
     - 6116fa58-163c-4ed5-a47b-6539a008baca: b03c9361-6a08-4cd8-a28b-34a9e5482dd2
     - 628e913e-c6e0-43e3-88cb-7415e4cc2d80: 5aa0fc6c-581b-4103-a1b7-33fcc921e1a5
@@ -12895,6 +14051,7 @@
     - 7621cf16-7d8e-42fa-8f3e-be4c9dbcb8f0: f05c9135-f100-4dab-925e-83999ad6a42c
     - 76688695-1e28-4f4e-9afb-05d6a73b3908: 82ae3ce3-584a-461a-8bd8-64e75d9024bf
     - 79c0351d-5712-4ac0-9083-d4bedfeba2ad: c9722e50-c07c-4de5-84f6-4b602f277f91
+    - 7a193f12-b56f-4457-b8d6-71ff689201ae: b8fea2e1-28be-40bb-ac0c-57efd57d9c63
     - 7a7e49b8-eb77-4647-8092-f4acfd922fa6: 87e0499a-38ae-4c60-932b-23e02f50b02a
     - 7b4d8fd8-d18d-446c-b134-9d9ca7cf5062: 4d461272-6c45-4c00-9933-1804612fe89a
     - 7be31104-c60a-46c6-be36-3b3d787097eb: f13adbe3-b3a4-48c3-821a-d9742b2f1d88
@@ -12911,9 +14068,11 @@
     - 884c4879-da65-4ecf-8023-56dfe2f02090: ba6720da-bdcc-4cb6-abb8-216880d94c20
     - 8883253d-6091-4b46-ade7-a993821f8387: 406bad43-54aa-41f3-8cd5-14b2c0a2c6ed
     - 88e74c2b-e3ab-4342-aaf5-92b883e075f5: 65d46456-900f-4b0d-88c0-d6a4d070d486
+    - 89a390f1-9086-43f3-a1cb-30ce9b2daa1a: 764d8f0b-b78a-4291-a8c2-b8268258760b
     - 89f20436-59df-4c21-9371-f03e8b213d04: 4002a8b3-29ec-4fc3-b152-4a5bbe0b553e
     - 8b17bd53-c9b8-4b40-aadf-b34dff76fa79: 97d19dc6-a799-414a-9237-65628ad96459
     - 8c0dbf87-2b6a-454e-94c9-d7850e85e694: d0057765-c667-44ed-8a05-7380b9ec961b
+    - 8d774bba-637d-4fe3-8691-645e66301e12: 950396a7-b165-464c-85f4-446d97c1c7cb
     - 901176c2-59f2-486d-ad16-53e44969e19e: 8ab68387-4eab-4f33-891f-65e1e4381c07
     - 910abdf3-8235-4b1b-8f31-ee2e6cf3fb33: ad0b3a0f-41cb-4bb5-a11e-88fceb428645
     - 911395e8-777b-4438-94c4-5fb93031200b: c62cf079-7d1c-49e8-b99b-7b2a13924f95
@@ -12924,11 +14083,13 @@
     - 9503fcf8-7a01-4fb1-8d5f-9369c7b621b2: ac0ba692-3ff3-43f5-8ab3-e66012e45711
     - 95797fc8-bb58-4ce6-856f-fd24a8a37220: b7266975-f4e3-4712-9e78-080b95824972
     - 958d04f1-d7a7-4a0f-91f7-a128cbe87417: 2d3a7036-ba91-424b-88d5-9b4a5b1032e9
+    - 95c608b9-1cb3-420e-a7de-93b3cf6864e2: 0f952014-525f-461e-8a4c-1abf3664a4a2
     - 962ae72f-41b8-47f3-9a12-0cc5b0071049: fd9bec47-0092-4b71-824a-897df03e35c4
     - 96cd4fff-cdf5-4d14-9c4f-cce0bb01894a: 787c2d15-0799-4426-b343-130b33ba140b
     - 96d15391-862a-4cd1-8d12-33453ba906d1: 2a699488-799d-4537-a592-de4258da4a99
     - 977b7b8f-5bc7-4bf2-9798-578f391f0f8e: 3f5e8b87-c928-40b0-a5f9-2ced8c6ac62f
     - 981ab57c-777e-4411-aaf6-64615829aa8d: 6914dae1-73cc-4983-8b2d-ff460579d7ff
+    - 98588f59-e7ba-4ed0-a05c-a5176f45fca1: 0783572e-6dab-4e51-a970-103cd1d60617
     - 98976953-c6e7-439a-a394-6632ac9c6fcf: 7b283bdd-e66f-4b32-8416-e43f6bda05e1
     - 9c28e626-db8d-4119-93eb-45db0642424c: 8403eef9-1ec1-4f79-b1e4-31ed620d55e0
     - 9c3498e7-472c-4a72-82f9-f7de535dc99c: fdc79bf2-8a20-4e4f-baf3-2d4b4b081635
@@ -12936,6 +14097,7 @@
     - 9da266dc-ec03-494d-ac6e-427ebf0517f1: 4a732931-41a8-46cc-8367-edb3a64f181e
     - 9f01dfec-d443-4bf3-a0d3-f7514fece2ab: e8bbaf7c-abc3-4f81-ad69-fc7d06825e47
     - 9f862203-4a5c-4613-9b51-58930b1adc17: 9a7ef3e1-8631-4d01-b975-efbdc9ef8c91
+    - a1f80824-9958-47bb-b14f-6ffe4d54bdf6: 2e76e5a6-2041-4a3f-8462-782b3805c543
     - a2556a4f-ad92-457f-91ca-8fa00127c541: cd1413f2-aabc-4686-af74-1e27be0fac6f
     - a3fc6544-b832-4f81-88f5-b6e329651425: e6a853d8-1b8c-45ab-b6b7-5658c773d4d3
     - a494dded-3611-48e9-847a-9ef024f577ac: dc736dba-0043-41fe-9577-0f2c09e02e41
@@ -12948,12 +14110,15 @@
     - a9b12d52-b9f8-4e6b-aaa5-30b35d58e42e: b255a33d-d845-40d6-b249-c99cf22fc3d1
     - ab09249b-7563-4c31-b064-6c26cfe61a92: 72599bd6-d7bd-4f0f-98ee-c16de810185e
     - ab292c3e-b3af-4e2f-90c7-0a68ac0b4167: d19b46e7-0977-43b9-a3aa-d220f5a395e3
+    - ab3ee2bb-ed73-4b79-9891-468cb3e5d599: a35fe926-8b97-4235-a30f-dc84aa635b8f
     - ad8d8571-212b-4c23-b56c-7a0b727d488d: 6f975416-ce55-40a3-bb76-a4cbd84dcedc
     - ae3cf5d4-a61c-4d4f-bd93-d3c300b34d09: 08691132-65ff-493b-a1bc-cd1721cf7c65
     - ae4c4268-7083-41e7-a55a-3dd370c5808f: d07109fe-9f08-4707-9d25-ade5d5b20d6b
     - ae8cf0ca-710d-48d7-9d07-f9acd975c497: a028a2c5-a258-47c9-bc96-f25cc687c261
+    - b01ed543-cfd9-498a-8343-b436ae7f8651: c10fc1b6-e92c-41fe-bb59-2b704fe63bdf
     - b1b0f780-5b5a-4ed8-a7f7-0a9f7c477e04: 992d7ed6-5037-4b19-9afe-7cca0a953ca5
     - b2b2683d-e496-4c1f-ab86-8d3e3b16859b: 6de18d71-847c-4e94-880e-cc241f0e9b2d
+    - b5a93181-62bb-4a0b-b4d9-5e87819cb7f1: f725503b-1a5a-4724-aeba-b7ac2cd1a885
     - b7158ee7-6f1b-490e-a854-05ac6e92a386: 004a65cd-f30f-49a3-bdcf-f1c3eb3dfd33
     - b87145d1-5ba4-43eb-bf86-da50761f742d: 1d64d078-cb9e-4ef1-a0d8-31045372fd7a
     - b8d9cdd3-8b22-4f32-a5ac-9d4ecc33bce4: 112d7171-5895-43f7-8f21-ff752c0933b3
@@ -12961,6 +14126,7 @@
     - b9f2d675-7cbe-433d-8beb-acffc9b24111: 176304f7-45c0-49b6-9fa2-a1b0845a9c8a
     - baf3c627-5791-41d4-be5c-16b4f9e3f63d: ff646492-c7ea-4436-ab8a-79ae27945d99
     - bbba4bf0-30c2-4d4f-9bb3-15ab4345db9c: a98bbafd-e98d-4f0d-b909-17f383264e95
+    - bc9116bd-67d9-4f97-bcfe-4c075d290942: c01263af-7a29-4af0-b448-e78c052d3a50
     - bf215cc4-3c25-4b5f-98b5-17006f1a508f: 113d49d7-b970-41c1-a296-15a17d2ab620
     - bf455e8b-e8c1-49ea-9ee7-a1880c26e274: 03f3a61f-2b62-4cfc-a046-c9e80277d148
     - c3e6ef7e-3de5-499f-8f9d-7606c7ec275a: 702129e2-569a-413c-8f49-412f77c786dc
@@ -12978,6 +14144,8 @@
     - d02dcced-aca5-4b57-a601-256945b6f74e: 531d1d6a-4a53-4e9b-a550-9683e59ef2a4
     - d0802e1a-0441-4cc9-b68c-2007db887cae: 6b6cfcb4-ba8e-4796-a3be-9e127f7b0792
     - d0e5a2ac-7394-4c47-9c60-485b01583b93: 6c8d69c3-b7bc-455c-b135-225370a365d8
+    - d175a4fa-50f4-490e-932b-1604b5f515dd: 44817aed-bcdf-4bfc-939b-1bd7e259923b
+    - d25bfbf1-b583-4f21-a17e-2f92a907a9bd: 0cac9524-e3d2-4ae1-ac15-10af8ab5126f
     - d55db6e8-05e8-44d9-beca-3e3f474bc932: 39371072-33a4-40d4-a0ed-440d68fed80f
     - d6630a51-650d-4843-aaff-f8abc4e3eeb0: 78221f03-e156-4833-abbd-12c30033cbf6
     - da118317-8018-4f2e-b880-d71305d0ab88: b58d62f9-d447-4c7b-9eb9-f38b8f9e8449
@@ -12988,22 +14156,29 @@
     - e420fcc3-aea2-4606-970e-56bc997822ba: c76e6ecb-5fe7-49b7-81d7-f11f114ca727
     - e4e83bec-972b-4b10-b73b-a4eb98e5d6fa: 8e68ed46-9831-47a9-9b8e-fd8aebc02213
     - e53fc8b4-f19f-4fb7-82d8-28e9e7952591: 9a24d06d-5a80-48ce-84f1-cc56cd13f33b
+    - e5ab4fff-6b2e-490e-8257-eb84ef807a7c: 768eda30-9bde-49d1-8404-35efff40e6ea
     - e895c9a0-fd60-4444-8759-f9cdd102aadd: 9be6e439-6b3e-4466-99dd-ca40b86ce609
     - ea9b27f1-5ff5-4b23-b24b-813828f4112e: 610c3cde-cc17-4c27-ba82-faa1cf0fd60a
     - eba6b803-8f58-4d2c-ae80-b17cef9b2e11: 1b97d542-c03f-42f6-b441-c07dba519d89
     - ecbc0625-4c41-4c45-8878-d791905c56b4: 88675f92-1789-4750-a153-0ed4b0c8c4ad
     - ecc9a817-5475-4f97-971e-6151a1fd7f5e: 3b5252e7-500c-4809-8786-b64e047d5914
     - ece28f55-26f3-47a2-be2c-547995d3f47d: 6ed08850-1ce5-46dc-9c87-760040d5f4f1
+    - ed74f697-90d0-4716-816e-d58c731d31af: 0eb01f78-c7d0-4c64-89a2-684f1767ba3c
+    - f0d0e8a8-76e6-47d8-b4dd-9da6ac7aa206: 3db9273d-2ebe-4943-bf3a-f96379acd3c2
     - f22976d6-3ce3-4507-8469-110ae84da601: eecc38f1-5d9a-4b78-9bff-2b28d36c1dd4
+    - f2b2f10a-9901-4991-ae59-74165a19fecc: ca83d7f3-7d2c-46e1-99e3-789f1f9f07d0
     - f4056bba-b3a7-49af-9184-ae5c8a4fafbe: c4534f43-5d39-48e7-6445-376751dd272c
     - f4dc962a-c0d8-47c2-b35b-e71bdda1bb94: c69565a2-6bec-42e5-99ad-251049894799
     - f4fb2d23-e6a9-44de-8dda-a44bddb4cc71: 5034f5b8-911e-4cfa-a58b-6ec2bf638fc4
+    - f5497df8-c9e4-4d43-8e7b-158a579a17c6: 39ba7b57-5009-4d4a-991d-f9da561e8bc6
     - f6044b19-e4fa-4caf-8879-59bacfb5ee4d: 0a330270-24bd-4539-9023-25a9dae31ad0
     - f622d4eb-3d9b-411a-a6d0-af85892ed01e: 451ac4b1-364b-45b7-a52c-3499235439d1
     - f67df4e9-cb53-4d79-ae11-b6a03315227a: 8df6b3be-9e37-4b39-bc28-5f995cbdc4af
+    - f6ef7fd3-2294-4514-9b37-c90dea761f1e: e7d11009-186b-46b2-bb24-b3c3f17832f1
     - f896a937-5ec4-4630-a009-d21beab5ae4f: ee519aad-868b-4b4c-bace-f751c9e68bd7
     - f90d5fe6-66e9-4e7a-a9ae-ed46e6f74607: 3187cc2f-89b1-4d5e-831d-af8a6873e6dd
     - fac7e463-ffd0-409c-9d95-85c9929d653f: 9ff208c8-5391-4404-9cd2-122f125cf495
+    - fbb03d61-2704-4ab4-9068-70bc0397d28e: 3a86f409-1fbe-4990-9b45-05490afa778b
     - fc77f343-7254-4909-a4fb-bb87d7ec4b5a: 38ce6c75-3aa7-4d23-a4d9-2ba21817a4bd
     - fcf1d534-f18c-402e-9a89-0904d855f82b: 3c0ae1cd-0c64-42a5-82e8-d4c2f468087d
     - fcf65b30-7d25-4610-898d-1da7276f8823: ffacc782-dc95-4fae-b9de-7659939b762d
@@ -13089,6 +14264,23 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/f5497df8-c9e4-4d43-8e7b-158a579a17c6>
+  PrefabRemaps:
+    []
+  Name: hat2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.519418, y: 0.561084, z: 0.339775}
+    Rotation: {x: -18.876726, y: 2.148403, z: 6.630559}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8d774bba-637d-4fe3-8691-645e66301e12
+    - !<own> 89a390f1-9086-43f3-a1cb-30ce9b2daa1a
+    - !<own> fbb03d61-2704-4ab4-9068-70bc0397d28e
 - !<ScriptComponent/f5b10cd0-ebf3-4d82-a59b-601828308887>
   PrefabRemaps:
     []
@@ -13170,6 +14362,22 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/f6ef7fd3-2294-4514-9b37-c90dea761f1e>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/f7527343-2958-4d49-af1c-aae0e5e32168>
   PrefabRemaps:
     []
@@ -13220,9 +14428,25 @@
   ScriptInputs:
     "":
       colliders: !<MappingBased.AssignableType[]>
+        - !<reference> 053736c0-c973-4990-9da2-32198c4378ca
+        - !<reference> 3c535022-2996-490e-9cf4-f1a216a6f8f3
+        - !<reference> cc3a318d-0e50-4b48-a8db-92c27cd8f26c
+        - !<reference> cc72833d-b8d0-4600-8dfc-028d43423475
+        - !<reference> ed333f7b-18e6-4f01-996d-715d50eb1071
+        - !<reference> 8a84bfbf-99f3-4fa7-abae-13e20b32a22b
         - !<reference> 9082a24e-c0dd-49dd-9fe2-55627db81727
+        - !<reference> 5cd6b443-f9d6-46ac-8b70-0a238750b0c1
+        - !<reference> 7e789c8f-b28b-46e9-abfe-58d4719ce4f9
       sounds: !<reference.AudioTrackAsset[]>
         - !<reference> 4008ed8a-1098-4caa-bec8-a45ad3efcc3a
+        - !<reference> efb58836-f51b-4b63-8c30-c6bd938bec50
+        - !<reference> 50bfe644-5861-4aa2-bbdc-2faf6ff3bad4
+        - !<reference> 36f19df1-028f-4baf-ab59-17d3f21e0c41
+        - !<reference> 36f19df1-028f-4baf-ab59-17d3f21e0c41
+        - !<reference> 0fa22ab7-cd70-4253-8715-41c0c6a2797c
+        - !<reference> 72e6799f-bdda-4c5c-a989-cc21b9a83f12
+        - !<reference> 4008ed8a-1098-4caa-bec8-a45ad3efcc3a
+        - !<reference> 61f4e923-541a-4e87-8e1d-8a594b1bb7ed
   ScriptTypes:
     "":
       {}
@@ -13327,6 +14551,22 @@
     []
   Components:
     - !<own> ca0f6499-b510-4414-a2e7-215883b4616c
+- !<ScriptComponent/fbb03d61-2704-4ab4-9068-70bc0397d28e>
+  PrefabRemaps:
+    []
+  Name: InstrumentTarget
+  Enabled: false
+  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/fc530e67-51dc-4b55-8306-a92acdd025f6>
   PrefabRemaps:
     []

@@ -14,6 +14,24 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ColliderComponent/0abe82d3-ddd2-495e-b43f-afb026c033f5>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: false
+    Radius: 100.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
 - !<ScriptComponent/128cbdc9-5064-418e-44db-92d3e64b8d02>
   PrefabRemaps:
     []
@@ -52,24 +70,6 @@
     PackagePath: ""
     objects:
       - !<own> 3d6a21d7-975f-498d-5513-11de0608c79a
-- !<ScriptComponent/2eea2436-3d52-4144-6fc0-5ece0d91d3ed>
-  PrefabRemaps:
-    []
-  Name: Bobbing
-  Enabled: true
-  ScriptAsset: !<reference> 56669e33-9d11-4514-8811-3155ffcf0515
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      child: !<reference.SceneObject> 14719bb8-37f2-44fb-7a6e-b9aa9038b433
-      amp: !<float> 6.000000
-      freq: 0.500000
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/3636ed43-bf00-42b6-751c-60ba14d3d277>
   PrefabRemaps:
     []
@@ -123,7 +123,8 @@
   Components:
     - !<own> a2eb396c-8baf-4d12-514e-a61b652be3c4
     - !<own> 128cbdc9-5064-418e-44db-92d3e64b8d02
-    - !<own> 2eea2436-3d52-4144-6fc0-5ece0d91d3ed
+    - !<own> 6b314c35-5fbb-42fa-8d6c-d57993bc127e
+    - !<own> 0abe82d3-ddd2-495e-b43f-afb026c033f5
 - !<RenderMeshVisual/6765d31f-cd20-4b30-6cdf-944bc3c08af3>
   PrefabRemaps:
     []
@@ -144,6 +145,43 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<ScriptComponent/6b314c35-5fbb-42fa-8d6c-d57993bc127e>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 4.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
 - !<RenderMeshVisual/908dbf9b-b1f9-4716-5b23-8f7fc3ee7864>
   PrefabRemaps:
     []

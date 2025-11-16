@@ -21,7 +21,7 @@ export class JukeboxPlacementController extends BaseScriptComponent {
     private async onStart() {
         const anchorSessionOptions = new AnchorSessionOptions();
         
-        anchorSessionOptions.area = "devland2";
+        anchorSessionOptions.area = "devland3";
         anchorSessionOptions.scanForWorldAnchors = true;
 
         this.anchorSession = await this.anchorModule.openSession(anchorSessionOptions);

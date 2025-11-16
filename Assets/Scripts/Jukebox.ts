@@ -1,6 +1,13 @@
 import { AnchorComponent } from "Spatial Anchors.lspkg/AnchorComponent";
-import { AudioRecording } from "./Audio";
-import { Instrument } from "./Instrument";
+import { AudioRecording, expandAudioRecording, flattenAudioRecording } from "./Audio";
+import { Instrument, shuffledInstruments } from "./Instrument";
+
+// Keys are appended the anchor ID
+const SERIALIZATION_KEYS = {
+    RECORDING_PCM: "JUKEBOX_RECORDING_PCM",     // Float32Array
+    INSTRUMENT_ORDER: "JUKEBOX_INSTRUMENTS",    // Uint8Array
+    INSTRUMENT_INDEX: "JUKEBOX_INSTRUMENT_IDX", // int
+};
 
 /**
  * State machine for a user interaction with the jukebox.
@@ -35,12 +42,16 @@ enum State {
 
 @component
 export class Jukebox extends BaseScriptComponent {    
+    @input clickerSound: AudioTrackAsset;
+    
     private _anchorComponent?: AnchorComponent;
     private _audioRecording: AudioRecording;
     private _instrumentOrder: Instrument[];
     private _instrumentIndex: number;
+    private _persistentStorage: GeneralDataStore;
     
     onAwake() {
+        this._persistentStorage = global.persistentStorageSystem.store;
         this._anchorComponent = this.sceneObject.getComponent(AnchorComponent.getTypeName());
     }
 
@@ -87,7 +98,15 @@ export class Jukebox extends BaseScriptComponent {
      * Save this jukebox's data to persistent storage
      */
     save() {
-        // TODO
+        const id = this.id;
+        const s = this._persistentStorage;
+        try {
+            s.putFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id, flattenAudioRecording(this.audioRecording));
+            s.putUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id, new Uint8Array(this._instrumentOrder));
+            s.putInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id, this._instrumentIndex);
+        } catch (e) {
+            console.error(`Error saving jukebox: ${e}`);
+        }
     }
 
     /**
@@ -96,6 +115,22 @@ export class Jukebox extends BaseScriptComponent {
      * initialize this jukebox anew
      */
     load() {
-        // TODO
+        const id = this.id;
+        const s = this._persistentStorage;
+
+        // New jukebox!
+        if (!s.has(SERIALIZATION_KEYS.RECORDING_PCM + id)) {
+            this._instrumentOrder = shuffledInstruments();
+            this._instrumentIndex = 0;
+            this._audioRecording = expandAudioRecording(new Float32Array());
+            
+            // save to persistent storage with initalized values
+            this.save();
+            return;
+        }
+
+        this._audioRecording = expandAudioRecording(s.getFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id));
+        this._instrumentOrder = [...s.getUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id)];
+        this._instrumentIndex = s.getInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id);
     }
 }

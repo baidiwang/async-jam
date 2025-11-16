@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/ba5eaba9-8dd7-d5d5-2a6b-e7fcabbb17c6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 56669e33-9d11-4514-8811-3155ffcf0515
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 56669e33-9d11-4514-8811-3155ffcf0515
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 91a41ad4-a4f1-4a1e-b9e9-dfcfd7ead4d7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/91a41ad4-a4f1-4a1e-b9e9-dfcfd7ead4d7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 47b7ebfb-db1e-462c-bdb8-e8b47ece726a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    amp: false
+    child: false
+    freq: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - child: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      amp: !<float> 0.000000
+      freq: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject child
+    - // @input float amp
+    - // @input float freq

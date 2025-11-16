@@ -28,6 +28,7 @@
   ScriptInputsHidden:
     audio: false
     audioOutput: false
+    bubbles: false
     camera: false
     firstTrackTooltip: false
     internetModule: false
@@ -45,6 +46,8 @@
       audioOutput: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
       internetModule: !<reference.InternetModule> 00000000-0000-0000-0000-000000000000
       camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bubbles: !<reference.SceneObject[]>
+        []
   ScriptTypes:
     -
       {}
@@ -54,3 +57,4 @@
     - // @input Asset.AudioTrackAsset audioOutput
     - // @input Asset.InternetModule internetModule
     - // @input SceneObject camera
+    - "// @input SceneObject[] bubbles"

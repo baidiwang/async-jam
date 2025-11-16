@@ -1,0 +1,1103 @@
+- !<AssetImportMetadata/507b4cec-49e8-afea-1ba8-8537d322e3d3>
+  ImportedAssetIds:
+    42f1f02ecc578ba6: !<reference> 83cf4f7b-aa4d-43bb-9cfb-18d639a5cbba
+    66780cf3a4dcb2b8: !<reference> 681dff24-e55d-446c-963f-3f81e0e5cb3c
+    66e8edaf18532be4: !<reference> dcee9fca-a45d-40d5-b606-61ae1deb20b0
+    76a07637944ffdf0: !<reference> 344afb97-852c-463f-b999-9778d29fc287
+    Animations/Cube_BubbleAction: !<reference> 7833c546-b6c4-4bbc-b5c9-79cc8db9040b
+    Animations/Cube_Circle.010Action: !<reference> aff2174b-e7c5-4037-91f8-d612f7f13b08
+    Animations/Cube_Circle.011Action: !<reference> a6ff52e0-ce24-44cd-b2dc-37482b726f85
+    Animations/Cube_Circle.012Action: !<reference> 60e6f5f3-10c7-47bd-a5b6-de6b242a8129
+    Animations/Cube_Circle.013Action: !<reference> 820da162-0752-4797-8c57-7e8ddaa73249
+    Animations/Cube_Circle.014Action: !<reference> f37ab8e0-dc74-4c63-b6ec-e1de9d4a2814
+    Animations/Cube_Circle.015Action: !<reference> fd2b402a-0a99-4008-a85e-7d00fe80d455
+    Animations/Cube_Circle.016Action: !<reference> 8ef88efd-9310-4b97-8cf4-4caf19c969f6
+    Animations/Cube_Circle.017Action: !<reference> 3cd5e1ab-0a53-493b-a383-b435d818a77e
+    Animations/Cube_Circle.018Action: !<reference> d3761210-d2f1-4e8d-99dd-805ff15a79f5
+    Animations/Cube_CubeAction: !<reference> cf6b92b3-696d-4fae-9f07-fe06a4d31d26
+    Animations/Cube_Cymbal01.001Action: !<reference> 39d7f82f-207e-42fd-b7a4-3bc03e7c89da
+    Animations/Cube_Cymbal02.001Action: !<reference> 33d1d0f7-970d-4ebf-9b60-f06ee6098dce
+    Animations/Cube_Cymbalstand01.001Action: !<reference> 08be95c5-3bdd-4a0c-9446-1dafe63f7919
+    Animations/Cube_Cymbalstand02.001Action: !<reference> e4ed043c-052b-4192-bb4b-8f7ce65ad08a
+    Animations/Cube_Drums01.001Action: !<reference> f2766d73-4e8f-4ddd-b825-052b8e0b4eb0
+    Animations/Cube_Drums02.001Action: !<reference> 01e6652f-7ace-4686-8ceb-aa992f336d8b
+    Animations/Cube_Drums02.002Action: !<reference> 52063987-d0ac-430b-9868-aab2c18b830f
+    Animations/Cube_Drums02.003Action: !<reference> 0720e3ba-8ab1-40c5-b893-c3317675dee6
+    Animations/Cube_Drums02.004Action: !<reference> 913a619c-649b-42c9-a145-e9e33f6da21e
+    Animations/Cube_Drums03.001Action: !<reference> 0fd46389-2900-49d0-bd64-92f9ec16233d
+    Animations/Cube_Drums03.002Action: !<reference> 786d0535-f341-47bb-8d4e-b7d3251a7836
+    Animations/Cube_Drums03.003Action: !<reference> 5acec122-a689-4c9b-be9c-185ccc04a38b
+    Animations/Cube_Drums03.004Action: !<reference> ff766c12-01ab-462a-9ff0-9b41e80e4e3b
+    Animations/Cube_Drums04.001Action: !<reference> 8e2fa5c7-b3f9-4bda-9e76-e969c5adc851
+    Animations/Cube_Drums04.002Action: !<reference> 3f5394d0-0710-4204-b494-165ded926cc8
+    Animations/Cube_Drums04.003Action: !<reference> 06258d43-1a49-4099-88de-0ab383936d87
+    Animations/Cube_Drums04.004Action: !<reference> 74f24069-2bdf-451d-b606-0626b82897c5
+    Animations/Cube_Drums05.001Action: !<reference> f4d52ffb-9743-4251-8911-9d57f42fc27f
+    Animations/Cube_Drums05.002Action: !<reference> 26ede705-09e6-4dda-8140-96397cfde923
+    Animations/Cube_Drums05.003Action: !<reference> 44bf2ef2-35ce-471c-996c-42c2897da051
+    Animations/Cube_Drums05.004Action: !<reference> a793f8a9-dc01-4455-bb39-5b03ad2028a0
+    Animations/Cube_Drums06.001Action: !<reference> 96a0d45d-a445-4d15-8550-f849b7c79424
+    Animations/Cube_Drums06.002Action: !<reference> 4e4df116-37fb-42f9-a604-c4afe4a61004
+    Animations/Cube_Drums06.003Action: !<reference> 77fbcd01-2190-4121-881e-670968f57f54
+    Animations/Cube_Drums06.004Action: !<reference> ebcf7cb3-bfde-464c-80d3-2c6f2842c8b1
+    Animations/Cube_HiHat.001Action: !<reference> fa84979d-7935-4be2-abc2-d2c9c8fa5d79
+    Animations/Cube_HiHat.002Action: !<reference> d690a7e9-7d90-4656-b084-75e47bdc6ed1
+    Animations/Cube_HiHatstandAction: !<reference> 8b3b4784-95fc-40c9-8b6b-90a0ee780d21
+    Animations/Cube_Kolintang01Action: !<reference> a06735a6-a789-48bf-89d0-5c126db3d6ec
+    Animations/Cube_Kolintang02Action: !<reference> 00b448f4-c416-4569-af94-00cec54c6657
+    Animations/Cube_Kolintang03Action: !<reference> e542bcea-2f23-4380-951d-116acad7d50e
+    Animations/Cube_Kolintang04Action: !<reference> 90bc5d8a-8101-464a-98a2-0d5c4f23a4a9
+    Animations/Cube_Kolintang05Action: !<reference> 5bb6eddf-bd79-4e1f-b974-800eba3db3ce
+    Animations/Cube_Kolintang06Action: !<reference> d348180e-3cb0-4729-b66b-0892decd3c84
+    Animations/Cube_Kolintang07Action: !<reference> 62834cd1-847b-4438-ac4c-474d5fb97564
+    Animations/Cube_Kolintang08Action: !<reference> 363b58dc-1e70-44a6-b801-601b7c1851a0
+    Animations/Cube_Kolintang09Action: !<reference> f1790f97-bebe-474e-8bc2-6a4cdb9e07cf
+    Animations/Cube_Kolintang10Action: !<reference> 189127f2-d620-45f2-9e9e-461de9fd0787
+    Animations/Cube_Kolintang11Action: !<reference> b17f6425-239a-4b27-a501-04af55a43195
+    Animations/Cube_Kolintang12Action: !<reference> a3b92294-27e5-4088-ac78-b3aea01c93fc
+    Animations/Cube_Kolintangdeco01Action: !<reference> 413ed378-e696-43f8-97aa-8dafd182fae2
+    Animations/Cube_Kolintangdeco02Action: !<reference> 89c41fc8-6987-4dde-812a-74930cb7ae5a
+    Animations/Cube_Kolintangdeco03Action: !<reference> f0ede0d7-f81d-4db9-addf-55af8ccf369e
+    Animations/Cube_Kolintangdeco04Action: !<reference> 9e97f47a-9690-4d87-88c3-bbf3703847f3
+    Animations/Cube_Kolintangdeco05Action: !<reference> cf8b5ff5-df69-43eb-8898-c9c6953135f9
+    Animations/Cube_Kolintangdeco06Action: !<reference> 21375a1c-bebc-46bb-8d49-0eaa4c25da39
+    Animations/Cube_Kolintangdeco07Action: !<reference> 6d1b9011-2d32-45ca-bd3e-7bcc3f66ebbb
+    Animations/Cube_Kolintangdeco08Action: !<reference> 08b679cf-e187-4a5d-84d2-6e6e0f7c4336
+    Animations/Cube_Kolintangdeco09Action: !<reference> 9e26f553-0d13-451f-980c-9c83339d2de9
+    Animations/Cube_Kolintangdeco10Action: !<reference> d7604685-4b22-402b-a1d8-3e8715efd301
+    Animations/Cube_Kolintangdeco11Action: !<reference> 7b86e376-e380-41c4-ace8-ba244d3084e6
+    Animations/Cube_Kolintangdeco12Action: !<reference> 854302ee-f257-436d-bf36-4458d447280c
+    Animations/Kolintang04_BubbleAction: !<reference> be324f97-419b-4498-a48c-b0a6e404d168
+    Animations/Kolintang04_Circle.010Action: !<reference> fc33f94b-b406-402c-bbe8-7c5e03beb7a9
+    Animations/Kolintang04_Circle.011Action: !<reference> b2c6c142-89e9-41b1-bfd5-39b315e0f7d7
+    Animations/Kolintang04_Circle.012Action: !<reference> 2ab330a8-0b8f-4fff-b7f3-c9833fbdd263
+    Animations/Kolintang04_Circle.013Action: !<reference> 09c5c5bc-7c35-4c52-a723-21ffe507ffc3
+    Animations/Kolintang04_Circle.014Action: !<reference> accc7b65-0d06-48c6-94bf-c6cfdd399798
+    Animations/Kolintang04_Circle.015Action: !<reference> 5d879fcf-75b9-42d1-9bc6-57fec2b395a9
+    Animations/Kolintang04_Circle.016Action: !<reference> bc53a1c2-0ce7-4f9a-977f-dc6383773804
+    Animations/Kolintang04_Circle.017Action: !<reference> 944cc335-f971-4eb4-975d-cda90eaec80d
+    Animations/Kolintang04_Circle.018Action: !<reference> 72e3d714-4370-4b6e-b70e-93bd00f06da8
+    Animations/Kolintang04_CubeAction: !<reference> e7ef43a3-7ec0-483b-992a-2b738cc82539
+    Animations/Kolintang04_Cymbal01.001Action: !<reference> a8bf5766-1575-4219-9aab-34247a000635
+    Animations/Kolintang04_Cymbal02.001Action: !<reference> d9353854-6ecd-4109-bcef-b49362856a89
+    Animations/Kolintang04_Cymbalstand01.001Action: !<reference> 43354ae4-8d3e-49cc-8a6c-d93559bdfb75
+    Animations/Kolintang04_Cymbalstand02.001Action: !<reference> 36323cc3-28cc-49b9-89a7-2861109930f8
+    Animations/Kolintang04_Drums01.001Action: !<reference> 1df8e409-d481-48a7-aaad-e7960b719c7d
+    Animations/Kolintang04_Drums02.001Action: !<reference> e0e3de07-9d10-46ac-8141-c7ea88716b36
+    Animations/Kolintang04_Drums02.002Action: !<reference> 90a21bcd-a533-4ae0-ae72-3a9da17b1bc8
+    Animations/Kolintang04_Drums02.003Action: !<reference> c0bef785-0f2f-4929-b3e6-56f5ec3d8231
+    Animations/Kolintang04_Drums02.004Action: !<reference> c1da2c79-2303-4a5d-a44d-95afce163edf
+    Animations/Kolintang04_Drums03.001Action: !<reference> 34a26330-f48c-4a6a-b23a-b1c3bee09acd
+    Animations/Kolintang04_Drums03.002Action: !<reference> 7df589e9-3f6c-4189-8f30-0caecd31e81f
+    Animations/Kolintang04_Drums03.003Action: !<reference> bcde0952-4658-4a6d-b095-dba910bfd7e8
+    Animations/Kolintang04_Drums03.004Action: !<reference> 3748d5a4-1870-4635-8225-92063553e21e
+    Animations/Kolintang04_Drums04.001Action: !<reference> ff56497f-e832-4691-b9c7-36fa98857e5f
+    Animations/Kolintang04_Drums04.002Action: !<reference> 9831605c-e416-4007-a346-8b9938cadf3b
+    Animations/Kolintang04_Drums04.003Action: !<reference> be5945c9-3cc2-4d6b-9559-da10d838a35a
+    Animations/Kolintang04_Drums04.004Action: !<reference> 987d3f67-5faa-4d1e-9cd1-42020baf795b
+    Animations/Kolintang04_Drums05.001Action: !<reference> acd4ab95-f2a9-47fb-8135-da3fdba676d9
+    Animations/Kolintang04_Drums05.002Action: !<reference> 3c572e39-22ce-4ffd-8d97-6d26cd517261
+    Animations/Kolintang04_Drums05.003Action: !<reference> 3f8d3eb7-48c3-47e8-a3b4-19c6ded2b8ec
+    Animations/Kolintang04_Drums05.004Action: !<reference> 9a55e651-71ae-4467-a633-39b9914b17f3
+    Animations/Kolintang04_Drums06.001Action: !<reference> ba5a2a46-0a8f-4891-9750-ed16a096fc38
+    Animations/Kolintang04_Drums06.002Action: !<reference> a68b004e-31d7-403a-8f84-289aab262706
+    Animations/Kolintang04_Drums06.003Action: !<reference> 6e7b6d8d-e514-4c3e-80ea-cd7c8238b065
+    Animations/Kolintang04_Drums06.004Action: !<reference> 826f371d-650c-49fb-ab5d-ef4aee1ec789
+    Animations/Kolintang04_HiHat.001Action: !<reference> f1c58161-4fcc-4875-b459-3026ae9d82b2
+    Animations/Kolintang04_HiHat.002Action: !<reference> f8d9d141-3e08-4289-8650-3896c485f724
+    Animations/Kolintang04_HiHatstandAction: !<reference> 99f73985-9c6c-499a-93db-49d3a501629b
+    Animations/Kolintang04_Kolintang01Action: !<reference> 0eee7fbe-6755-4bc2-8ece-486bfcd1f51f
+    Animations/Kolintang04_Kolintang02Action: !<reference> 3bcb8dd7-a257-41d4-85c9-ba289a2ef1a4
+    Animations/Kolintang04_Kolintang03Action: !<reference> cce1dac5-745f-4b67-a9d3-fea7a2bc9602
+    Animations/Kolintang04_Kolintang04Action: !<reference> 79ad22da-06e1-4f93-8fc2-de1840ad9038
+    Animations/Kolintang04_Kolintang05Action: !<reference> bb29a27b-c5d9-4773-934f-8087ec2117bc
+    Animations/Kolintang04_Kolintang06Action: !<reference> 9f4e3b5c-f351-4b13-87af-6ce978769bd3
+    Animations/Kolintang04_Kolintang07Action: !<reference> 8d0ac17e-473d-4989-9796-cd894ff8e6e5
+    Animations/Kolintang04_Kolintang08Action: !<reference> 032fd4cb-e347-496c-881c-78ef8f6c0e1b
+    Animations/Kolintang04_Kolintang09Action: !<reference> 2d3ff8e1-af77-40cc-b4ad-4c52ba8c6329
+    Animations/Kolintang04_Kolintang10Action: !<reference> 9c977b03-1e3e-4ea3-b7dd-505295b4f2d3
+    Animations/Kolintang04_Kolintang11Action: !<reference> fdc56193-7e73-4a13-8664-4dc58aa48281
+    Animations/Kolintang04_Kolintang12Action: !<reference> 87036be6-4965-423f-9e9c-42ed9a432aa4
+    Animations/Kolintang04_Kolintangdeco01Action: !<reference> 22675635-6eb5-4f54-be0b-ae3eaac0e1e3
+    Animations/Kolintang04_Kolintangdeco02Action: !<reference> 739d2cf4-71d9-4a5b-b1fa-d5b02d361262
+    Animations/Kolintang04_Kolintangdeco03Action: !<reference> af56cbf1-280f-430f-b449-b3779b897543
+    Animations/Kolintang04_Kolintangdeco04Action: !<reference> ce1b8fa8-2e91-4c1d-9c2c-c6631a1b850e
+    Animations/Kolintang04_Kolintangdeco05Action: !<reference> 89516cd5-6a1b-4332-a683-620d955306c3
+    Animations/Kolintang04_Kolintangdeco06Action: !<reference> 9f067904-5cd9-4caa-af38-b95b682c5d41
+    Animations/Kolintang04_Kolintangdeco07Action: !<reference> 40a31bfb-7a30-4b63-a77f-b257589d3cc3
+    Animations/Kolintang04_Kolintangdeco08Action: !<reference> ffff0522-6d7c-4f9a-8413-69765a8ea297
+    Animations/Kolintang04_Kolintangdeco09Action: !<reference> 1128548c-4052-4471-b7a9-000d2eedb38f
+    Animations/Kolintang04_Kolintangdeco10Action: !<reference> 7ee97553-e618-4302-9af7-06465611bf20
+    Animations/Kolintang04_Kolintangdeco11Action: !<reference> 60e89324-648c-4cd5-aa51-c3a42920b3ab
+    Animations/Kolintang04_Kolintangdeco12Action: !<reference> 2c7e0d23-ee30-496f-b6f6-c52a4f4a0701
+    Meshes/Cube: !<reference> f82d2dfc-c3c5-447a-a5fa-f8152dc2e564
+    Meshes/Kolintang04: !<reference> f714f857-02d6-4e69-8ab1-6dd3d40147e8
+    Scene: !<reference> f7ba8410-2126-48ee-b0d8-a4bf736d515f
+    d56449042852f529: !<reference> 2bb6b605-e47e-4ce1-bbd7-1e06712ebf22
+    f31de0bd1e38bc9e: !<reference> f869afcb-117f-481f-a4e4-6fe25e2c96f3
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> f7ba8410-2126-48ee-b0d8-a4bf736d515f
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 76363934-b2c9-4c1b-a485-55f9b8d7cc87
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<AnimationPlayer/2bb6b605-e47e-4ce1-4428-e1f98ed140dd>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7833c546-b6c4-4bbc-b5c9-79cc8db9040b
+      Name: Cube|BubbleAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> aff2174b-e7c5-4037-91f8-d612f7f13b08
+      Name: Cube|Circle.010Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a6ff52e0-ce24-44cd-b2dc-37482b726f85
+      Name: Cube|Circle.011Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 60e6f5f3-10c7-47bd-a5b6-de6b242a8129
+      Name: Cube|Circle.012Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 820da162-0752-4797-8c57-7e8ddaa73249
+      Name: Cube|Circle.013Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f37ab8e0-dc74-4c63-b6ec-e1de9d4a2814
+      Name: Cube|Circle.014Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> fd2b402a-0a99-4008-a85e-7d00fe80d455
+      Name: Cube|Circle.015Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8ef88efd-9310-4b97-8cf4-4caf19c969f6
+      Name: Cube|Circle.016Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 3cd5e1ab-0a53-493b-a383-b435d818a77e
+      Name: Cube|Circle.017Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d3761210-d2f1-4e8d-99dd-805ff15a79f5
+      Name: Cube|Circle.018Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> cf6b92b3-696d-4fae-9f07-fe06a4d31d26
+      Name: Cube|CubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 39d7f82f-207e-42fd-b7a4-3bc03e7c89da
+      Name: Cube|Cymbal01.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 33d1d0f7-970d-4ebf-9b60-f06ee6098dce
+      Name: Cube|Cymbal02.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 08be95c5-3bdd-4a0c-9446-1dafe63f7919
+      Name: Cube|Cymbalstand01.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> e4ed043c-052b-4192-bb4b-8f7ce65ad08a
+      Name: Cube|Cymbalstand02.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f2766d73-4e8f-4ddd-b825-052b8e0b4eb0
+      Name: Cube|Drums01.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 01e6652f-7ace-4686-8ceb-aa992f336d8b
+      Name: Cube|Drums02.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 52063987-d0ac-430b-9868-aab2c18b830f
+      Name: Cube|Drums02.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0720e3ba-8ab1-40c5-b893-c3317675dee6
+      Name: Cube|Drums02.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 913a619c-649b-42c9-a145-e9e33f6da21e
+      Name: Cube|Drums02.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0fd46389-2900-49d0-bd64-92f9ec16233d
+      Name: Cube|Drums03.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 786d0535-f341-47bb-8d4e-b7d3251a7836
+      Name: Cube|Drums03.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 5acec122-a689-4c9b-be9c-185ccc04a38b
+      Name: Cube|Drums03.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> ff766c12-01ab-462a-9ff0-9b41e80e4e3b
+      Name: Cube|Drums03.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8e2fa5c7-b3f9-4bda-9e76-e969c5adc851
+      Name: Cube|Drums04.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 3f5394d0-0710-4204-b494-165ded926cc8
+      Name: Cube|Drums04.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 06258d43-1a49-4099-88de-0ab383936d87
+      Name: Cube|Drums04.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 74f24069-2bdf-451d-b606-0626b82897c5
+      Name: Cube|Drums04.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f4d52ffb-9743-4251-8911-9d57f42fc27f
+      Name: Cube|Drums05.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 26ede705-09e6-4dda-8140-96397cfde923
+      Name: Cube|Drums05.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 44bf2ef2-35ce-471c-996c-42c2897da051
+      Name: Cube|Drums05.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a793f8a9-dc01-4455-bb39-5b03ad2028a0
+      Name: Cube|Drums05.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 96a0d45d-a445-4d15-8550-f849b7c79424
+      Name: Cube|Drums06.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4e4df116-37fb-42f9-a604-c4afe4a61004
+      Name: Cube|Drums06.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 77fbcd01-2190-4121-881e-670968f57f54
+      Name: Cube|Drums06.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> ebcf7cb3-bfde-464c-80d3-2c6f2842c8b1
+      Name: Cube|Drums06.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> fa84979d-7935-4be2-abc2-d2c9c8fa5d79
+      Name: Cube|HiHat.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d690a7e9-7d90-4656-b084-75e47bdc6ed1
+      Name: Cube|HiHat.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8b3b4784-95fc-40c9-8b6b-90a0ee780d21
+      Name: Cube|HiHatstandAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a06735a6-a789-48bf-89d0-5c126db3d6ec
+      Name: Cube|Kolintang01Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 00b448f4-c416-4569-af94-00cec54c6657
+      Name: Cube|Kolintang02Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> e542bcea-2f23-4380-951d-116acad7d50e
+      Name: Cube|Kolintang03Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 90bc5d8a-8101-464a-98a2-0d5c4f23a4a9
+      Name: Cube|Kolintang04Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 5bb6eddf-bd79-4e1f-b974-800eba3db3ce
+      Name: Cube|Kolintang05Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d348180e-3cb0-4729-b66b-0892decd3c84
+      Name: Cube|Kolintang06Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 62834cd1-847b-4438-ac4c-474d5fb97564
+      Name: Cube|Kolintang07Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 363b58dc-1e70-44a6-b801-601b7c1851a0
+      Name: Cube|Kolintang08Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f1790f97-bebe-474e-8bc2-6a4cdb9e07cf
+      Name: Cube|Kolintang09Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 189127f2-d620-45f2-9e9e-461de9fd0787
+      Name: Cube|Kolintang10Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> b17f6425-239a-4b27-a501-04af55a43195
+      Name: Cube|Kolintang11Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a3b92294-27e5-4088-ac78-b3aea01c93fc
+      Name: Cube|Kolintang12Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 413ed378-e696-43f8-97aa-8dafd182fae2
+      Name: Cube|Kolintangdeco01Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 89c41fc8-6987-4dde-812a-74930cb7ae5a
+      Name: Cube|Kolintangdeco02Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f0ede0d7-f81d-4db9-addf-55af8ccf369e
+      Name: Cube|Kolintangdeco03Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 9e97f47a-9690-4d87-88c3-bbf3703847f3
+      Name: Cube|Kolintangdeco04Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> cf8b5ff5-df69-43eb-8898-c9c6953135f9
+      Name: Cube|Kolintangdeco05Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 21375a1c-bebc-46bb-8d49-0eaa4c25da39
+      Name: Cube|Kolintangdeco06Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 6d1b9011-2d32-45ca-bd3e-7bcc3f66ebbb
+      Name: Cube|Kolintangdeco07Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 08b679cf-e187-4a5d-84d2-6e6e0f7c4336
+      Name: Cube|Kolintangdeco08Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 9e26f553-0d13-451f-980c-9c83339d2de9
+      Name: Cube|Kolintangdeco09Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d7604685-4b22-402b-a1d8-3e8715efd301
+      Name: Cube|Kolintangdeco10Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7b86e376-e380-41c4-ace8-ba244d3084e6
+      Name: Cube|Kolintangdeco11Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 854302ee-f257-436d-bf36-4458d447280c
+      Name: Cube|Kolintangdeco12Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> be324f97-419b-4498-a48c-b0a6e404d168
+      Name: Kolintang04|BubbleAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 2.666667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/344afb97-852c-463f-4666-68872d603d78>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f82d2dfc-c3c5-447a-a5fa-f8152dc2e564
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/681dff24-e55d-446c-69c0-c07e1f1a34c3>
+  PrefabRemaps:
+    []
+  Name: KolintangBubble
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 83cf4f7b-aa4d-43bb-6304-e729c65a3445
+    - !<own> f869afcb-117f-481f-5b1b-901da1d3690c
+  Components:
+    - !<own> 2bb6b605-e47e-4ce1-4428-e1f98ed140dd
+- !<ObjectPrefabAssetData/76363934-b2c9-4c1b-a485-55f9b8d7cc87>
+  Prototype: !<ObjectOwner/a10687b9-6487-4441-b629-2c3c92bfa8ab>
+    PackagePath: ""
+    objects:
+      - !<own> 681dff24-e55d-446c-69c0-c07e1f1a34c3
+- !<SceneObject/83cf4f7b-aa4d-43bb-6304-e729c65a3445>
+  PrefabRemaps:
+    []
+  Name: Cube
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 62.709202, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 344afb97-852c-463f-4666-68872d603d78
+- !<RenderMeshVisual/dcee9fca-a45d-40d5-49f9-9e51e214df4f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f714f857-02d6-4e69-8ab1-6dd3d40147e8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f869afcb-117f-481f-5b1b-901da1d3690c>
+  PrefabRemaps:
+    []
+  Name: Kolintang04
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 24.704193, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dcee9fca-a45d-40d5-49f9-9e51e214df4f

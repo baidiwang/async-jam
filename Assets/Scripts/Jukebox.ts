@@ -44,6 +44,7 @@ export class Jukebox extends BaseScriptComponent {
     @input audioOutput: AudioTrackAsset;
     @input internetModule: InternetModule;
     @input camera: SceneObject;
+    @input bubbles: SceneObject[];
     
     private _anchorComponent?: AnchorComponent;
     private _audioRecording: AudioRecording;
@@ -67,6 +68,14 @@ export class Jukebox extends BaseScriptComponent {
         const dist = camPos.distance(mePos);
 
         this.audio.volume = dist <= 120 ? 100 : 35;
+
+        let i = 0;
+        let t = getTime();
+        for (const bubble of this.bubbles) {
+            const period = t * 0.2 + 2 * 3.14 / 3 * i;
+            bubble.getTransform().setLocalPosition(new vec3(30 * Math.cos(period), Math.sin(t * 2), 30 * Math.sin(period)));
+            i++;
+        }
     }
  
     get id(): string {

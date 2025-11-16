@@ -30,6 +30,8 @@ export class JukeboxPlacementController extends BaseScriptComponent {
         this.anchorSession.onAreaCapacityReached.add((e) => console.error(`DAMNITTTT ${e}`));
 
         this.localizationTooltip.enabled = false;
+
+        this.anchorSession.reset();
     }
 
     private onAnchorNearby(anchor: Anchor) {

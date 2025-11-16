@@ -1,0 +1,1463 @@
+- !<AssetImportMetadata/4b5bb3aa-b4a6-eb95-3809-9090a92e866c>
+  ImportedAssetIds:
+    .hidden/BadgeA: !<reference> 6f73d361-e626-4db5-9751-95f5b57c7771
+    .hidden/white: !<reference> b9098dac-3569-499a-b4d7-04a958504528
+    19b761965bb09330: !<reference> 2fb137bd-3380-4357-9aea-6b85861d8984
+    2028ca51e4a54211: !<reference> daffa426-7b9d-4d5c-90c2-9d6e887de4d8
+    31de62e873d957cf: !<reference> 78337b10-7cdf-4b78-a910-454b2fa59dcb
+    4920b0c89786f0e5: !<reference> 78bc8c97-58f8-474e-8822-09766cdb0826
+    65938cdcc6bb1d83: !<reference> 70232ab4-949c-4fa2-9291-381de47d11ef
+    6839a46aebbbfddc: !<reference> 942bd8ea-8076-44f6-9c83-ce1bca2e0cec
+    686530078e695493: !<reference> 7be52d49-1424-4016-ac20-c6a9d6404da1
+    68c3b75a958a1341: !<reference> bc1aa8fa-9a82-4c5a-88b5-c49c8c12dde8
+    6d433f45f75824c0: !<reference> c6826a70-4052-4a7f-b4ba-3df703182152
+    7a0dd5cd69df73fa: !<reference> 8eef8da2-eafc-4a04-bdf4-efbc45b9e46d
+    7fe2678e7f623c4f: !<reference> c859b516-2b3f-494b-ac9c-48574003a04e
+    9b28147544d0ecc9: !<reference> 09264342-a4e1-4871-a859-cc63d3e95427
+    Animations/Bubble_BubbleAction: !<reference> 1d2efc5c-2cf8-45cf-a307-1d97dac7fa9c
+    Animations/Bubble_Circle.010Action: !<reference> 240b4f8f-8f68-4ff6-b4d8-a50229dddf06
+    Animations/Bubble_Circle.011Action: !<reference> 4b34a393-3815-44eb-8db2-19afe4afcc69
+    Animations/Bubble_Circle.012Action: !<reference> dc6bd105-60c2-4732-9b0b-c9e62245eeba
+    Animations/Bubble_Circle.013Action: !<reference> 307db04c-f6ed-4da2-9c88-caa235f99653
+    Animations/Bubble_Circle.014Action: !<reference> a8071459-68cf-4b2e-aee1-581340a4d11c
+    Animations/Bubble_Circle.015Action: !<reference> 1cf68651-2ef7-4991-92e7-07c5e9a199ab
+    Animations/Bubble_Circle.016Action: !<reference> 4a99b30b-5268-47f9-88b1-c679e0257c0f
+    Animations/Bubble_Circle.017Action: !<reference> 8b275e1e-471c-4cbc-a0de-180d37f7f825
+    Animations/Bubble_Circle.018Action: !<reference> ace61881-eef5-405b-9866-63b7b48d4adc
+    Animations/Bubble_CubeAction: !<reference> 0f7bab42-aa44-41ba-8835-baf1b32e0435
+    Animations/Bubble_Cymbal01.001Action: !<reference> d351534e-0c8b-41f6-b680-6139d1a85d05
+    Animations/Bubble_Cymbal02.001Action: !<reference> 45d0e9b6-6fb1-486c-92df-91a55fe7f3c0
+    Animations/Bubble_Cymbalstand01.001Action: !<reference> 13576e89-b9c7-45f9-8995-9987a6ddd361
+    Animations/Bubble_Cymbalstand02.001Action: !<reference> 96f74848-ad38-45c1-aa05-96d689ed3fd9
+    Animations/Bubble_Drums01.001Action: !<reference> d21cbca9-0d41-4e3b-b52e-6f9a65086ddd
+    Animations/Bubble_Drums02.001Action: !<reference> fead6944-27ba-4d73-820a-2ae91185b45b
+    Animations/Bubble_Drums02.002Action: !<reference> 7270b344-f86c-4673-95de-eb202569752c
+    Animations/Bubble_Drums02.003Action: !<reference> 68c7073d-d020-4f07-a7bb-41a9d8084a5c
+    Animations/Bubble_Drums02.004Action: !<reference> 8feec517-7e56-4ecb-adcd-88055cdbc5b0
+    Animations/Bubble_Drums03.001Action: !<reference> 115c3ed2-4c6a-4d8a-b916-9671cd20ec1e
+    Animations/Bubble_Drums03.002Action: !<reference> f994435c-7e1e-4365-966b-14bd67784125
+    Animations/Bubble_Drums03.003Action: !<reference> 0fb14c8f-ef78-4ce6-91ba-b08fcff82fa0
+    Animations/Bubble_Drums03.004Action: !<reference> 256fed37-682e-43e7-9c03-f0f6870dc38b
+    Animations/Bubble_Drums04.001Action: !<reference> 6f62264c-5722-4d3b-b83a-8225a9925c0e
+    Animations/Bubble_Drums04.002Action: !<reference> 99b57cc9-3eab-4485-81aa-11c3b8208ede
+    Animations/Bubble_Drums04.003Action: !<reference> 6cc1ed6a-11a9-4f71-9c65-d33fe6247335
+    Animations/Bubble_Drums04.004Action: !<reference> cb5fa5a5-fe59-46a4-9247-305f1a87fb07
+    Animations/Bubble_Drums05.001Action: !<reference> 9d9e3c4f-0b77-44c1-954e-26c2257bb062
+    Animations/Bubble_Drums05.002Action: !<reference> 483669cf-ac4b-4dcd-8147-df59add7df00
+    Animations/Bubble_Drums05.003Action: !<reference> c0ee213b-798b-483d-88fe-9dccc652a1d4
+    Animations/Bubble_Drums05.004Action: !<reference> 1ad1a665-386f-4de8-88ff-938643b17d27
+    Animations/Bubble_Drums06.001Action: !<reference> 6642ecc2-e448-466d-9746-6c12808ffec3
+    Animations/Bubble_Drums06.002Action: !<reference> 2089f1a1-c978-4aef-b399-c51fbe873ef9
+    Animations/Bubble_Drums06.003Action: !<reference> 7745612b-37c2-4eff-8c36-d6e25f81f421
+    Animations/Bubble_Drums06.004Action: !<reference> dff51526-e6fb-4cd7-8bb1-2983d4de87a5
+    Animations/Bubble_HiHat.001Action: !<reference> 1671056f-af3f-4e1a-9d22-ab5e02cc5ae5
+    Animations/Bubble_HiHat.002Action: !<reference> 6fd977e4-54c9-478d-b46b-ab338d35474a
+    Animations/Bubble_HiHatstandAction: !<reference> b83f5e30-e34f-42dd-8849-10d2a7463092
+    Animations/Bubble_Kolintang01Action: !<reference> b851d6cc-eb24-4b7a-bc7c-c5d4642aff6b
+    Animations/Bubble_Kolintang02Action: !<reference> 62c1e60c-d9f1-4fb3-9453-27a30a97f119
+    Animations/Bubble_Kolintang03Action: !<reference> 02c4e97c-a4ec-45bc-9888-0085aa73e0ea
+    Animations/Bubble_Kolintang04Action: !<reference> abdd03ba-96c1-48c0-8838-003d7a335abf
+    Animations/Bubble_Kolintang05Action: !<reference> 7e1c9c75-04a3-47ab-97a7-fea3f9fb7cae
+    Animations/Bubble_Kolintang06Action: !<reference> f756d41d-869f-4be9-aaad-b6a118827d43
+    Animations/Bubble_Kolintang07Action: !<reference> 3aada78c-b3b4-4ac8-8502-0522cf0ae86e
+    Animations/Bubble_Kolintang08Action: !<reference> daccf1d8-8b19-477c-b2dc-6cf63520281f
+    Animations/Bubble_Kolintang09Action: !<reference> a3e29268-3918-4ef9-b4fe-787675f463a8
+    Animations/Bubble_Kolintang10Action: !<reference> 1f1ab7e7-1b5c-4a9e-9549-b112e42329fc
+    Animations/Bubble_Kolintang11Action: !<reference> 24d8ec68-4bb7-4c3f-93c9-eee60f4c2064
+    Animations/Bubble_Kolintang12Action: !<reference> efc0ff59-9c98-42cf-816e-66e5f46110a0
+    Animations/Bubble_Kolintangdeco01Action: !<reference> c44df6c0-8007-46eb-9123-74532a900722
+    Animations/Bubble_Kolintangdeco02Action: !<reference> 4ecad029-bc23-4c64-96c3-6e73fc3135bb
+    Animations/Bubble_Kolintangdeco03Action: !<reference> 6b51e5cf-ac07-4f3f-868c-3e599ac28f92
+    Animations/Bubble_Kolintangdeco04Action: !<reference> 664620ac-3ffa-4c40-840f-848a425d26b6
+    Animations/Bubble_Kolintangdeco05Action: !<reference> 6d8d82b2-246d-4a91-98f3-ab283d7d9889
+    Animations/Bubble_Kolintangdeco06Action: !<reference> 05bd62ab-11e4-4ad4-b80f-55df6d49070b
+    Animations/Bubble_Kolintangdeco07Action: !<reference> 5493b360-29ec-4d46-8735-0481965ffdea
+    Animations/Bubble_Kolintangdeco08Action: !<reference> 68cb9bb2-4a7a-4f56-a1f1-24e170dfb62c
+    Animations/Bubble_Kolintangdeco09Action: !<reference> a647ea13-c160-4f8c-99e5-22ad938a5423
+    Animations/Bubble_Kolintangdeco10Action: !<reference> 2f03b87a-a51b-46d4-8754-c51745dd1b7b
+    Animations/Bubble_Kolintangdeco11Action: !<reference> 76281dad-d998-413b-b8dd-48e1e3349387
+    Animations/Bubble_Kolintangdeco12Action: !<reference> 4fba0b6e-bfb3-4b52-90ee-75a66d8db347
+    Animations/Circle.010_BubbleAction: !<reference> 338ec727-c68a-4868-909a-897ef816e44b
+    Animations/Circle.010_Circle.010Action: !<reference> ed7295dc-cd29-446f-9864-9e081715d556
+    Animations/Circle.010_Circle.011Action: !<reference> abbafe32-0f91-42e9-b2b3-5e9d8f730272
+    Animations/Circle.010_Circle.012Action: !<reference> 62870aad-6e79-479e-b6a3-b2aec58fe7b8
+    Animations/Circle.010_Circle.013Action: !<reference> 88199349-61d6-447b-8846-319a6d495ae1
+    Animations/Circle.010_Circle.014Action: !<reference> 5be0034a-0c1b-474a-8b27-202ab187f80b
+    Animations/Circle.010_Circle.015Action: !<reference> 20b7e18f-d67a-4fd3-bc20-e721d7e42452
+    Animations/Circle.010_Circle.016Action: !<reference> 121aab2d-8324-4c57-a813-4ca174c11963
+    Animations/Circle.010_Circle.017Action: !<reference> 71a9cfc8-87e5-4c70-9223-c48dd3563181
+    Animations/Circle.010_Circle.018Action: !<reference> 1d9650a1-a7c9-42f3-86f4-d5904359085d
+    Animations/Circle.010_CubeAction: !<reference> 5b1d1d03-4a99-46ae-8eae-1a007c79c9fa
+    Animations/Circle.010_Cymbal01.001Action: !<reference> 244d5b8d-aad6-4b5b-8361-a3d9f3c0f074
+    Animations/Circle.010_Cymbal02.001Action: !<reference> 2b792ea9-a9c6-45d3-a2e1-9efe53e5ea99
+    Animations/Circle.010_Cymbalstand01.001Action: !<reference> 35c43b00-3616-4fc2-a612-a91c74d1549a
+    Animations/Circle.010_Cymbalstand02.001Action: !<reference> 8900c549-86b9-41b9-879c-c11bf6cdb533
+    Animations/Circle.010_Drums01.001Action: !<reference> f70096f6-f89f-4b0f-bf7f-c155f053e69d
+    Animations/Circle.010_Drums02.001Action: !<reference> 3e1fa262-b3dd-4cd2-a1db-a6aba655083e
+    Animations/Circle.010_Drums02.002Action: !<reference> 36f98292-4bb1-4e73-a0ba-dc9f164ed458
+    Animations/Circle.010_Drums02.003Action: !<reference> b5c45531-a9da-4130-b678-afa47d4b6985
+    Animations/Circle.010_Drums02.004Action: !<reference> 383e6d0e-0aa0-4dc8-b607-f033dced28be
+    Animations/Circle.010_Drums03.001Action: !<reference> ca97caca-27c5-47b8-9aad-7349e95c88f4
+    Animations/Circle.010_Drums03.002Action: !<reference> 267162a6-84db-44d1-b093-55cacae70da1
+    Animations/Circle.010_Drums03.003Action: !<reference> b10945a7-845e-4de6-b97f-dbfdb3226900
+    Animations/Circle.010_Drums03.004Action: !<reference> ed1b8ad1-05af-48e9-8737-bae792102d72
+    Animations/Circle.010_Drums04.001Action: !<reference> 5943af29-5f2e-4abd-bee1-c65af3704c1b
+    Animations/Circle.010_Drums04.002Action: !<reference> e0e72c93-f409-4088-b7fa-38035c34a6c6
+    Animations/Circle.010_Drums04.003Action: !<reference> 4b6eeba9-fb9b-4e72-b68a-645f88539bbe
+    Animations/Circle.010_Drums04.004Action: !<reference> ff062e0c-29bd-400e-a3fa-0e2556f29446
+    Animations/Circle.010_Drums05.001Action: !<reference> d9c82fc0-cf15-4be3-b1a0-8980157b2ae9
+    Animations/Circle.010_Drums05.002Action: !<reference> 25490544-b73b-4edb-94de-b8b45f2057de
+    Animations/Circle.010_Drums05.003Action: !<reference> baed5858-24a1-4f6f-b8fc-c2067de521aa
+    Animations/Circle.010_Drums05.004Action: !<reference> 32de6db9-8190-491f-96ed-e982bacd187b
+    Animations/Circle.010_Drums06.001Action: !<reference> 88d46a63-fa93-48da-8751-c7bb7960ec9d
+    Animations/Circle.010_Drums06.002Action: !<reference> 05c15921-c147-4e1c-a42e-cb81cab00727
+    Animations/Circle.010_Drums06.003Action: !<reference> e6dc908c-6132-485a-bb1d-a105d157d782
+    Animations/Circle.010_Drums06.004Action: !<reference> b38c647b-8e6d-41a5-9467-02daf2586b36
+    Animations/Circle.010_HiHat.001Action: !<reference> 288bdec8-975c-4a9d-a039-0b4ee78d07b5
+    Animations/Circle.010_HiHat.002Action: !<reference> 0b868018-47fa-4f77-8cdf-d69ea4887b6c
+    Animations/Circle.010_HiHatstandAction: !<reference> abae8565-5d55-4891-ada2-df95c5bbc833
+    Animations/Circle.010_Kolintang01Action: !<reference> 1a72b757-e060-41b2-a7d5-169c262276a0
+    Animations/Circle.010_Kolintang02Action: !<reference> ec62e448-b1cb-43bf-981c-a6951b48a82d
+    Animations/Circle.010_Kolintang03Action: !<reference> 8e2a59bd-7735-4be2-a1da-4ef021ba9ff3
+    Animations/Circle.010_Kolintang04Action: !<reference> 8fefc09b-d06e-47dd-9eb2-dcd86f88cfa6
+    Animations/Circle.010_Kolintang05Action: !<reference> 03969259-a814-4aa8-b523-ab3ba79e8855
+    Animations/Circle.010_Kolintang06Action: !<reference> 57c42893-a78b-4c00-bec1-153d7d6781e1
+    Animations/Circle.010_Kolintang07Action: !<reference> 6af2ad47-8d78-4c2d-bceb-6eda1ccb09c5
+    Animations/Circle.010_Kolintang08Action: !<reference> de833bca-a39b-40b0-9446-08be421f70ea
+    Animations/Circle.010_Kolintang09Action: !<reference> 22ca02e4-7cce-4f9c-b198-5cef37b28c6b
+    Animations/Circle.010_Kolintang10Action: !<reference> f7c8dd05-e54e-43db-8442-76aad150a62a
+    Animations/Circle.010_Kolintang11Action: !<reference> 9e959910-3ea5-411a-8ddc-f2da22c01f53
+    Animations/Circle.010_Kolintang12Action: !<reference> 60ddc7df-7a50-461b-a8c5-e13461e5fc4e
+    Animations/Circle.010_Kolintangdeco01Action: !<reference> bdecad15-3cea-4bb2-a028-1d5699759acd
+    Animations/Circle.010_Kolintangdeco02Action: !<reference> 85fc2705-aa8f-4648-b5ce-49d729ece46c
+    Animations/Circle.010_Kolintangdeco03Action: !<reference> d47089ef-463f-4862-ac17-2efc43655b75
+    Animations/Circle.010_Kolintangdeco04Action: !<reference> 76bbe4b3-dd10-49f4-91af-74e82b582b46
+    Animations/Circle.010_Kolintangdeco05Action: !<reference> 7b67b769-1ccb-4397-b3ed-ccf4c3647742
+    Animations/Circle.010_Kolintangdeco06Action: !<reference> 75fe2823-ac76-43f2-94c5-2781ea5ee633
+    Animations/Circle.010_Kolintangdeco07Action: !<reference> 2a836b16-6023-470f-82f6-42db2739ed69
+    Animations/Circle.010_Kolintangdeco08Action: !<reference> 8391c1ab-b21f-4de1-8f52-d5e61b838e33
+    Animations/Circle.010_Kolintangdeco09Action: !<reference> 770c7551-ef47-45e4-9f4f-3aab60722662
+    Animations/Circle.010_Kolintangdeco10Action: !<reference> 61993861-cd14-4976-aac6-29e49e102216
+    Animations/Circle.010_Kolintangdeco11Action: !<reference> 78a9d79f-55bc-4254-b18f-0c32319ff298
+    Animations/Circle.010_Kolintangdeco12Action: !<reference> 03098105-ab44-4617-9b33-0e40dcaade3a
+    Materials/BadgeA: !<reference> 38811786-c79a-437a-a360-58ce954e8a6d
+    Materials/BadgeA|BadgeA|GraphPassInfo: !<reference> 8eaed3fe-5a2f-4bdb-a312-a2ac727890ee
+    Materials/BottomHead: !<reference> 09a93f23-55f4-4fd7-a7ef-223a7cf7f1bd
+    Materials/BottomHead|BottomHead|GraphPassInfo: !<reference> 300dd3b9-07c3-48db-9e6b-291e213ee11d
+    Materials/ChromeParts: !<reference> 1f916332-646a-4562-a713-fcbb0f3d97ad
+    Materials/ChromeParts_Drums: !<reference> b11ecdae-fe73-48a7-928e-2a5eb062b7bb
+    Materials/ChromeParts_Drums|ChromeParts_Drums|GraphPassInfo: !<reference> f374e3e5-ac62-464d-896e-f5dac9e41da1
+    Materials/ChromeParts_HiHat: !<reference> aceee8b1-63d0-4901-a836-2c04c8a0ede0
+    Materials/ChromeParts_HiHat|ChromeParts_HiHat|GraphPassInfo: !<reference> b1fffeba-19b3-4ffd-bc55-e5a6a7e88fe9
+    Materials/ChromeParts|ChromeParts|GraphPassInfo: !<reference> e9e1e7c7-cdd8-4731-b8c3-d7963c993c40
+    Materials/CymbalB: !<reference> 526d5bb3-0fca-4cd7-8404-3e7f23a30d7d
+    Materials/CymbalB|CymbalB|GraphPassInfo: !<reference> 3e0cc716-703a-40af-897f-f7311c44db83
+    Materials/CymbalCushion: !<reference> a6f863cf-7e88-4825-8b56-5d619498831f
+    Materials/CymbalCushion|CymbalCushion|GraphPassInfo: !<reference> 7b9d7c30-c33b-488f-a16e-4535353dced0
+    Materials/CymbalD: !<reference> e1e32eed-059f-4af5-b8d6-4f6bbe7eee73
+    Materials/CymbalD|CymbalD|GraphPassInfo: !<reference> 177ade82-cf10-4f3b-b94b-c23ab5746e9b
+    Materials/DrumExterior: !<reference> 23cee6a3-a347-4de2-abca-362578a4bedc
+    Materials/DrumExterior|DrumExterior|GraphPassInfo: !<reference> 68bdde08-4c6e-4e84-bdd7-8f8173b79fc0
+    Materials/DrumHeadFront: !<reference> 9e2b30d7-5cec-4c6a-b4b5-635cae036549
+    Materials/DrumHeadFront|DrumHeadFront|GraphPassInfo: !<reference> 3f692fd9-6071-4d8e-af6d-7b9e4a13c307
+    Materials/DrumHeadRear: !<reference> 1442da49-ae27-4856-a92c-197b78ac92a3
+    Materials/DrumHeadRear|DrumHeadRear|GraphPassInfo: !<reference> 85c1c0c8-c0fa-449d-857d-fe845f5f17e3
+    Materials/DrumInterior: !<reference> caff4886-f3b3-4ea6-b51f-e702c0e9c14e
+    Materials/DrumInterior|DrumInterior|GraphPassInfo: !<reference> 3d3fa6df-d425-4729-bc49-4fef941e1e86
+    Materials/HiHats: !<reference> 6c0d1389-0754-4fd5-9a92-f4a05b0044e0
+    Materials/HiHats|HiHats|GraphPassInfo: !<reference> c2967626-d4c5-44da-b388-71e2c7e0afa5
+    Materials/RubberParts_HiHat: !<reference> 70f6bb90-989f-4d22-bcc2-197be31e408e
+    Materials/RubberParts_HiHat|RubberParts_HiHat|GraphPassInfo: !<reference> f163b6c9-f224-432a-b2f8-1fb6766422fb
+    Materials/TopHead: !<reference> ba8385d4-f494-418d-8bcd-0a2257c63000
+    Materials/TopHead|TopHead|GraphPassInfo: !<reference> a120d424-76fa-4899-b1e1-42bf67c8f5f3
+    Meshes/Bubble: !<reference> 69a54de6-d088-4669-b426-25610a6d6171
+    Meshes/Circle.010: !<reference> 25e93075-339f-4afd-8fac-fb29ab9d6c84
+    Meshes/Circle1.010: !<reference> 8fcfafa7-c0e2-4a00-9be7-b5bdf4ad96f1
+    Meshes/Circle10.010: !<reference> d8dc8003-f47a-4ebc-8b2b-72256107aaf2
+    Meshes/Circle11.010: !<reference> a86a111c-05ce-46bc-a4e9-1308e0b0b115
+    Meshes/Circle12.010: !<reference> ae9f5557-6139-4ec9-8693-555e942cd013
+    Meshes/Circle13.010: !<reference> 3ca3cbcc-8362-4608-92b4-54b8e63ba061
+    Meshes/Circle14.010: !<reference> f00ff44e-224f-42e9-bd39-2a017ab86a2c
+    Meshes/Circle2.010: !<reference> 0689ed54-b7b4-4235-9c6c-c7c56826f7e6
+    Meshes/Circle3.010: !<reference> 59e01cfa-a319-4304-b904-c946d48aa5a2
+    Meshes/Circle4.010: !<reference> 1bcf6ca1-58c1-46d5-84d4-5f45edd1dc03
+    Meshes/Circle5.010: !<reference> 05428d67-024f-408d-962d-284cf7e04359
+    Meshes/Circle6.010: !<reference> 71d17c36-a69f-4422-aa61-3909b5423a7d
+    Meshes/Circle7.010: !<reference> a5f5d7e9-ccfc-4cdc-98ff-62bd324ccf4b
+    Meshes/Circle8.010: !<reference> 6a2d6467-5f37-44b6-b260-0a94fd0f16f5
+    Meshes/Circle9.010: !<reference> 40ad985a-16a4-453e-a4f4-d1f082899987
+    Scene: !<reference> e12cc154-04dc-4d59-b823-b15fe63f548b
+    b24abff30aa8b5c3: !<reference> df71b969-8458-414f-9862-c370cbc8f222
+    b639a35105c45fbd: !<reference> c7518d0f-1a38-4087-b87a-a128998cbc7b
+    ba575452ffb7afa8: !<reference> f8cc7f2b-246c-47bc-b652-2a0a0c1503f0
+    c931cf88c280c3ee: !<reference> f73d2e29-04fc-4f4d-b28e-8a31f7c74566
+    cd1e50c5db6deb58: !<reference> 9aa67c79-14a1-4021-9784-af18ba17e292
+    d6f9d11f8ef4c5fe: !<reference> 9810aba2-e7ec-4bbb-a363-5f5f7fa885e1
+    efc1a6e66916b97d: !<reference> a4f596ac-438b-412a-b414-14d007b18a63
+    f4869f768054c27f: !<reference> 63a3136f-f28c-43be-8aec-9349209cf9d7
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> e12cc154-04dc-4d59-b823-b15fe63f548b
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 18cedc63-ce9a-4290-82c8-d3a898568f7a
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/09264342-a4e1-4871-57a6-339c2c16abd8>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b11ecdae-fe73-48a7-928e-2a5eb062b7bb
+  Mesh: !<reference> 25e93075-339f-4afd-8fac-fb29ab9d6c84
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/18cedc63-ce9a-4290-82c8-d3a898568f7a>
+  Prototype: !<ObjectOwner/a4ac4373-5b5a-4af1-a68c-d179b9d2805e>
+    PackagePath: ""
+    objects:
+      - !<own> 8eef8da2-eafc-4a04-420b-1043ba461b92
+- !<RenderMeshVisual/2fb137bd-3380-4357-6515-947a79e2767b>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1f916332-646a-4562-a713-fcbb0f3d97ad
+  Mesh: !<reference> a86a111c-05ce-46bc-a4e9-1308e0b0b115
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/63a3136f-f28c-43be-7513-6cb6df630628>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ba8385d4-f494-418d-8bcd-0a2257c63000
+  Mesh: !<reference> a5f5d7e9-ccfc-4cdc-98ff-62bd324ccf4b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/70232ab4-949c-4fa2-6d6e-c7e21b82ee10>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e1e32eed-059f-4af5-b8d6-4f6bbe7eee73
+  Mesh: !<reference> f00ff44e-224f-42e9-bd39-2a017ab86a2c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/78337b10-7cdf-4b78-56ef-bab4d05a6234>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> caff4886-f3b3-4ea6-b51f-e702c0e9c14e
+  Mesh: !<reference> 0689ed54-b7b4-4235-9c6c-c7c56826f7e6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/78bc8c97-58f8-474e-77dd-f6899324f7d9>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a6f863cf-7e88-4825-8b56-5d619498831f
+  Mesh: !<reference> ae9f5557-6139-4ec9-8693-555e942cd013
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/7be52d49-1424-4016-53df-395629bfb25e>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> aceee8b1-63d0-4901-a836-2c04c8a0ede0
+  Mesh: !<reference> 6a2d6467-5f37-44b6-b260-0a94fd0f16f5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8eef8da2-eafc-4a04-420b-1043ba461b92>
+  PrefabRemaps:
+    []
+  Name: DrumBubble
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c859b516-2b3f-494b-5363-b7a8bffc5fb1
+    - !<own> df71b969-8458-414f-679d-3c8f34370ddd
+  Components:
+    - !<own> daffa426-7b9d-4d5c-6f3d-629177821b27
+- !<RenderMeshVisual/942bd8ea-8076-44f6-637c-31e435d1f313>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6c0d1389-0754-4fd5-9a92-f4a05b0044e0
+  Mesh: !<reference> 40ad985a-16a4-453e-a4f4-d1f082899987
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9810aba2-e7ec-4bbb-5c9c-a0a080577a1e>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 09a93f23-55f4-4fd7-a7ef-223a7cf7f1bd
+  Mesh: !<reference> 71d17c36-a69f-4422-aa61-3909b5423a7d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9aa67c79-14a1-4021-687b-50e745e81d6d>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9e2b30d7-5cec-4c6a-b4b5-635cae036549
+  Mesh: !<reference> 1bcf6ca1-58c1-46d5-84d4-5f45edd1dc03
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/a4f596ac-438b-412a-4beb-eb2ff84e759c>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 70f6bb90-989f-4d22-bcc2-197be31e408e
+  Mesh: !<reference> d8dc8003-f47a-4ebc-8b2b-72256107aaf2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/bc1aa8fa-9a82-4c5a-774a-3b6373ed2217>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 23cee6a3-a347-4de2-abca-362578a4bedc
+  Mesh: !<reference> 8fcfafa7-c0e2-4a00-9be7-b5bdf4ad96f1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c6826a70-4052-4a7f-4b45-c208fce7dead>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 526d5bb3-0fca-4cd7-8404-3e7f23a30d7d
+  Mesh: !<reference> 3ca3cbcc-8362-4608-92b4-54b8e63ba061
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/c7518d0f-1a38-4087-4785-5ed766734384>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 38811786-c79a-437a-a360-58ce954e8a6d
+  Mesh: !<reference> 05428d67-024f-408d-962d-284cf7e04359
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c859b516-2b3f-494b-5363-b7a8bffc5fb1>
+  PrefabRemaps:
+    []
+  Name: Bubble
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f8cc7f2b-246c-47bc-49ad-d5f5f3eafc0f
+- !<AnimationPlayer/daffa426-7b9d-4d5c-6f3d-629177821b27>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1d2efc5c-2cf8-45cf-a307-1d97dac7fa9c
+      Name: Bubble|BubbleAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 240b4f8f-8f68-4ff6-b4d8-a50229dddf06
+      Name: Bubble|Circle.010Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4b34a393-3815-44eb-8db2-19afe4afcc69
+      Name: Bubble|Circle.011Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> dc6bd105-60c2-4732-9b0b-c9e62245eeba
+      Name: Bubble|Circle.012Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 307db04c-f6ed-4da2-9c88-caa235f99653
+      Name: Bubble|Circle.013Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a8071459-68cf-4b2e-aee1-581340a4d11c
+      Name: Bubble|Circle.014Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1cf68651-2ef7-4991-92e7-07c5e9a199ab
+      Name: Bubble|Circle.015Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4a99b30b-5268-47f9-88b1-c679e0257c0f
+      Name: Bubble|Circle.016Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8b275e1e-471c-4cbc-a0de-180d37f7f825
+      Name: Bubble|Circle.017Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> ace61881-eef5-405b-9866-63b7b48d4adc
+      Name: Bubble|Circle.018Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0f7bab42-aa44-41ba-8835-baf1b32e0435
+      Name: Bubble|CubeAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d351534e-0c8b-41f6-b680-6139d1a85d05
+      Name: Bubble|Cymbal01.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 45d0e9b6-6fb1-486c-92df-91a55fe7f3c0
+      Name: Bubble|Cymbal02.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 13576e89-b9c7-45f9-8995-9987a6ddd361
+      Name: Bubble|Cymbalstand01.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 96f74848-ad38-45c1-aa05-96d689ed3fd9
+      Name: Bubble|Cymbalstand02.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> d21cbca9-0d41-4e3b-b52e-6f9a65086ddd
+      Name: Bubble|Drums01.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> fead6944-27ba-4d73-820a-2ae91185b45b
+      Name: Bubble|Drums02.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7270b344-f86c-4673-95de-eb202569752c
+      Name: Bubble|Drums02.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 68c7073d-d020-4f07-a7bb-41a9d8084a5c
+      Name: Bubble|Drums02.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 8feec517-7e56-4ecb-adcd-88055cdbc5b0
+      Name: Bubble|Drums02.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 115c3ed2-4c6a-4d8a-b916-9671cd20ec1e
+      Name: Bubble|Drums03.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f994435c-7e1e-4365-966b-14bd67784125
+      Name: Bubble|Drums03.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 0fb14c8f-ef78-4ce6-91ba-b08fcff82fa0
+      Name: Bubble|Drums03.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 256fed37-682e-43e7-9c03-f0f6870dc38b
+      Name: Bubble|Drums03.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 6f62264c-5722-4d3b-b83a-8225a9925c0e
+      Name: Bubble|Drums04.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 99b57cc9-3eab-4485-81aa-11c3b8208ede
+      Name: Bubble|Drums04.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 6cc1ed6a-11a9-4f71-9c65-d33fe6247335
+      Name: Bubble|Drums04.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> cb5fa5a5-fe59-46a4-9247-305f1a87fb07
+      Name: Bubble|Drums04.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 9d9e3c4f-0b77-44c1-954e-26c2257bb062
+      Name: Bubble|Drums05.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 483669cf-ac4b-4dcd-8147-df59add7df00
+      Name: Bubble|Drums05.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> c0ee213b-798b-483d-88fe-9dccc652a1d4
+      Name: Bubble|Drums05.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1ad1a665-386f-4de8-88ff-938643b17d27
+      Name: Bubble|Drums05.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 6642ecc2-e448-466d-9746-6c12808ffec3
+      Name: Bubble|Drums06.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 2089f1a1-c978-4aef-b399-c51fbe873ef9
+      Name: Bubble|Drums06.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7745612b-37c2-4eff-8c36-d6e25f81f421
+      Name: Bubble|Drums06.003Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> dff51526-e6fb-4cd7-8bb1-2983d4de87a5
+      Name: Bubble|Drums06.004Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1671056f-af3f-4e1a-9d22-ab5e02cc5ae5
+      Name: Bubble|HiHat.001Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 6fd977e4-54c9-478d-b46b-ab338d35474a
+      Name: Bubble|HiHat.002Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> b83f5e30-e34f-42dd-8849-10d2a7463092
+      Name: Bubble|HiHatstandAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> b851d6cc-eb24-4b7a-bc7c-c5d4642aff6b
+      Name: Bubble|Kolintang01Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 62c1e60c-d9f1-4fb3-9453-27a30a97f119
+      Name: Bubble|Kolintang02Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 02c4e97c-a4ec-45bc-9888-0085aa73e0ea
+      Name: Bubble|Kolintang03Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> abdd03ba-96c1-48c0-8838-003d7a335abf
+      Name: Bubble|Kolintang04Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7e1c9c75-04a3-47ab-97a7-fea3f9fb7cae
+      Name: Bubble|Kolintang05Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> f756d41d-869f-4be9-aaad-b6a118827d43
+      Name: Bubble|Kolintang06Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 3aada78c-b3b4-4ac8-8502-0522cf0ae86e
+      Name: Bubble|Kolintang07Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> daccf1d8-8b19-477c-b2dc-6cf63520281f
+      Name: Bubble|Kolintang08Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a3e29268-3918-4ef9-b4fe-787675f463a8
+      Name: Bubble|Kolintang09Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 1f1ab7e7-1b5c-4a9e-9549-b112e42329fc
+      Name: Bubble|Kolintang10Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 24d8ec68-4bb7-4c3f-93c9-eee60f4c2064
+      Name: Bubble|Kolintang11Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> efc0ff59-9c98-42cf-816e-66e5f46110a0
+      Name: Bubble|Kolintang12Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> c44df6c0-8007-46eb-9123-74532a900722
+      Name: Bubble|Kolintangdeco01Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4ecad029-bc23-4c64-96c3-6e73fc3135bb
+      Name: Bubble|Kolintangdeco02Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 6b51e5cf-ac07-4f3f-868c-3e599ac28f92
+      Name: Bubble|Kolintangdeco03Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 664620ac-3ffa-4c40-840f-848a425d26b6
+      Name: Bubble|Kolintangdeco04Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 6d8d82b2-246d-4a91-98f3-ab283d7d9889
+      Name: Bubble|Kolintangdeco05Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 05bd62ab-11e4-4ad4-b80f-55df6d49070b
+      Name: Bubble|Kolintangdeco06Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 5493b360-29ec-4d46-8735-0481965ffdea
+      Name: Bubble|Kolintangdeco07Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 68cb9bb2-4a7a-4f56-a1f1-24e170dfb62c
+      Name: Bubble|Kolintangdeco08Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> a647ea13-c160-4f8c-99e5-22ad938a5423
+      Name: Bubble|Kolintangdeco09Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 2f03b87a-a51b-46d4-8754-c51745dd1b7b
+      Name: Bubble|Kolintangdeco10Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 76281dad-d998-413b-b8dd-48e1e3349387
+      Name: Bubble|Kolintangdeco11Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 4fba0b6e-bfb3-4b52-90ee-75a66d8db347
+      Name: Bubble|Kolintangdeco12Action
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 338ec727-c68a-4868-909a-897ef816e44b
+      Name: Circle.010|BubbleAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 80.000008
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/df71b969-8458-414f-679d-3c8f34370ddd>
+  PrefabRemaps:
+    []
+  Name: Circle.010
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -37.556908, z: 0.000000}
+    Rotation: {x: -90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 09264342-a4e1-4871-57a6-339c2c16abd8
+    - !<own> bc1aa8fa-9a82-4c5a-774a-3b6373ed2217
+    - !<own> 78337b10-7cdf-4b78-56ef-bab4d05a6234
+    - !<own> f73d2e29-04fc-4f4d-4d71-75ce0838ba99
+    - !<own> 9aa67c79-14a1-4021-687b-50e745e81d6d
+    - !<own> c7518d0f-1a38-4087-4785-5ed766734384
+    - !<own> 9810aba2-e7ec-4bbb-5c9c-a0a080577a1e
+    - !<own> 63a3136f-f28c-43be-7513-6cb6df630628
+    - !<own> 7be52d49-1424-4016-53df-395629bfb25e
+    - !<own> 942bd8ea-8076-44f6-637c-31e435d1f313
+    - !<own> a4f596ac-438b-412a-4beb-eb2ff84e759c
+    - !<own> 2fb137bd-3380-4357-6515-947a79e2767b
+    - !<own> 78bc8c97-58f8-474e-77dd-f6899324f7d9
+    - !<own> c6826a70-4052-4a7f-4b45-c208fce7dead
+    - !<own> 70232ab4-949c-4fa2-6d6e-c7e21b82ee10
+- !<RenderMeshVisual/f73d2e29-04fc-4f4d-4d71-75ce0838ba99>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1442da49-ae27-4856-a92c-197b78ac92a3
+  Mesh: !<reference> 59e01cfa-a319-4304-b904-c946d48aa5a2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f8cc7f2b-246c-47bc-49ad-d5f5f3eafc0f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 69a54de6-d088-4669-b426-25610a6d6171
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

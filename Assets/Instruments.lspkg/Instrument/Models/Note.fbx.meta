@@ -1,0 +1,130 @@
+- !<AssetImportMetadata/6428eb92-961e-91d7-01f2-ddc610c666ee>
+  ImportedAssetIds:
+    .hidden/Material.001: !<reference> 1575fca6-1346-42ff-8eb1-db37aa3d209c
+    .hidden/white: !<reference> aacbb74a-f85b-4554-970a-048445c52d8c
+    2028ca51e4a54211: !<reference> 278043ff-9e95-4406-a935-7a004c91717c
+    40259c094371e2c9: !<reference> 8953c190-631a-47d5-bf4e-e97989ba1fa5
+    7572fb6805a9ee2b: !<reference> 44fb9fc7-f5be-4ba5-a5ac-f15d1bf3ef63
+    7a0dd5cd69df73fa: !<reference> b6b323af-081f-4c42-b4a5-15ddd07de01d
+    Animations/Note_NoteAction: !<reference> 7a1f9ff3-108c-424f-abe3-0a06e15b8c34
+    Materials/Material.001: !<reference> 7664fc2f-0205-406a-882a-cad03ec88dbb
+    Materials/Material.001|Material.001|GraphPassInfo: !<reference> dbc98456-7c40-4c4a-8356-07d8ebb34ef7
+    Meshes/Note: !<reference> bee66c15-36be-438d-ab18-1172ee2178a4
+    Scene: !<reference> 00c4d5e7-7ee9-479d-9a6e-b0d4ab65c335
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 00c4d5e7-7ee9-479d-9a6e-b0d4ab65c335
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> cf306c50-7c09-49b2-8ef4-ad38acacadf1
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionMipmapSettings>
+          Level: Medium
+          Mipmap: false
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<AnimationPlayer/278043ff-9e95-4406-56ca-85ffb36e8e83>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7a1f9ff3-108c-424f-abe3-0a06e15b8c34
+      Name: Note|NoteAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 119.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/44fb9fc7-f5be-4ba5-5a53-0ea2e40c109c>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7664fc2f-0205-406a-882a-cad03ec88dbb
+  Mesh: !<reference> bee66c15-36be-438d-ab18-1172ee2178a4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8953c190-631a-47d5-40b1-16867645e05a>
+  PrefabRemaps:
+    []
+  Name: Note
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: -8.304610}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 44fb9fc7-f5be-4ba5-5a53-0ea2e40c109c
+- !<SceneObject/b6b323af-081f-4c42-4b5a-ea222f821fe2>
+  PrefabRemaps:
+    []
+  Name: Note
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8953c190-631a-47d5-40b1-16867645e05a
+  Components:
+    - !<own> 278043ff-9e95-4406-56ca-85ffb36e8e83
+- !<ObjectPrefabAssetData/cf306c50-7c09-49b2-8ef4-ad38acacadf1>
+  Prototype: !<ObjectOwner/41f2d26e-d49e-4c24-824c-37e022de365c>
+    PackagePath: ""
+    objects:
+      - !<own> b6b323af-081f-4c42-4b5a-ea222f821fe2

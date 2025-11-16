@@ -4,7 +4,18 @@
     - !<own> 888ec9ba-e961-417c-ad93-29e86522cdbd
 - !<PassInfo/888ec9ba-e961-417c-ad93-29e86522cdbd>
   CachedProperties:
-    []
+    - Port_Default_N204:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Default_N369:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - PreviewEnabled:
+        typeIdx: 0
+        value: 0
+    - baseColor:
+        typeIdx: 5
+        value: {x: 0.469322, y: 1.000000, z: 0.605463, w: 1.000000}
   DepthWrite: true
   DepthTest: true
   DepthFunction: LessEqual
@@ -22,16 +33,5 @@
     - NODE_69_DROPLIST_ITEM 0
   BlendMode: Disabled
   Properties:
-    Port_Default_N204:
-      typeIdx: 1
-      value: 0.000000
-    Port_Default_N369:
-      typeIdx: 5
-      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-    PreviewEnabled:
-      typeIdx: 0
-      value: 0
-    baseColor:
-      typeIdx: 5
-      value: {x: 0.469322, y: 1.000000, z: 0.605463, w: 1.000000}
+    {}
   Pass: !<reference> a1d40199-86f6-403a-be84-b408272c5c9a

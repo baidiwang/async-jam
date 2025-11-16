@@ -1,0 +1,1926 @@
+- !<ObjectPrefab/cfe473b3-0692-471c-9eeb-b5a75e0e3534>
+  PackagePath: ""
+  objects:
+    - !<own> eaff207d-2609-489e-b1bc-6502f53b34f5
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/032f690e-e2b3-4ffe-8fd1-0e7ec2f6342a>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/0357379c-6f12-4eb4-998c-9476f910fa2e>
+  PrefabRemaps:
+    []
+  Name: Kolintang07_立方体.075
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1fbb4e89-a992-4f81-a4b7-b8ee3adf5fee
+    - !<own> ffa86761-0578-4b1c-b132-6133f182c2eb
+    - !<own> 761bb835-29b9-41c4-b782-375dc076fd22
+    - !<own> 2cd6747a-4969-40c7-8fa8-8490d9671c17
+- !<RenderMeshVisual/04ad6193-5479-47c2-8cec-1fbd1d6e11ce>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 973bb378-deb1-4fc6-8565-21ee3264a5c9
+  Mesh: !<reference> 4bbf7b64-63a8-449e-8de7-31b691c6ac04
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/07c1176b-6716-4af6-97a2-806f2fc68c94>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco05_立方体.050
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2f53f517-93e0-458d-8680-870edf90ab90
+- !<RenderMeshVisual/10ea81a0-5c4a-4882-808e-f4ea98efe409>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4b62c1b-b673-4f15-bece-174ebb23d1d0
+  Mesh: !<reference> f8d31912-7320-4e44-b3af-5327b763526f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/110d4ee2-6014-4dab-aa2a-6557d2ab2243>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/131b3ab7-c2b3-48bd-93f5-4996ad82edd2>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/13721aef-36dc-4d8f-8ae6-c879ff6a1416>
+  PrefabRemaps:
+    []
+  Name: component_22
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c7b3a626-cf11-4081-9374-4b16a42228b2
+  Mesh: !<reference> 2f6e99de-2e88-42a5-9317-f390c921670e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1ac72323-d754-4bb0-a74e-69b79230d753>
+  PrefabRemaps:
+    []
+  Name: Kolintang05_立方体.077
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 717553f5-e984-42d3-9c9f-ae81567eed7c
+    - !<own> 6f076a48-4e93-4d57-bbcc-0b10d49c13f8
+    - !<own> d6c819b3-2c62-403e-b54a-32be7765733e
+    - !<own> 49904571-3674-4138-aa53-20ce5143ac9b
+- !<ScriptComponent/1eb1fd62-b375-4191-8a0c-c878f2ba2a24>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> dc372914-fc90-4929-93c5-24fda2f4c096
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/1ee3b80d-5d76-4764-891b-9acb64cca39d>
+  PrefabRemaps:
+    []
+  Name: Kolintang01_立方体.081
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 993fc219-f6ff-4358-a78f-2cfbb23011b9
+    - !<own> 1eb1fd62-b375-4191-8a0c-c878f2ba2a24
+    - !<own> f91589e7-1241-438d-a2d9-9027c92aa21f
+    - !<own> 981cd1fc-4b3b-4c47-a32e-069c576ab156
+- !<RenderMeshVisual/1fbb4e89-a992-4f81-a4b7-b8ee3adf5fee>
+  PrefabRemaps:
+    []
+  Name: component_17
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4b62c1b-b673-4f15-bece-174ebb23d1d0
+  Mesh: !<reference> a5a98854-1731-4c9b-949b-ed5460578f1b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/203e00f6-1b84-4c28-b5e4-8e9b87d13a6f>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 575c9de4-e11b-425d-b432-b5f94b29addf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/27325b01-77ca-4ce7-8fc3-37c280199c8a>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/2a2531c7-007d-4860-9d9e-005aef859cc9>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 213fd7be-cd49-44f5-8795-115dd7aa070c
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/2cd6747a-4969-40c7-8fa8-8490d9671c17>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/2dc0632b-8ece-4f4e-b454-aa9cee130038>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: true
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/2f53f517-93e0-458d-8680-870edf90ab90>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 4c2b2fae-a35a-4a32-bf8f-74b6944d7cef
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/30170f01-6444-4b82-a08d-6d7f01d1b848>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/38c76916-63f1-4c67-82fd-be5950b70c5e>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 26e7a368-8a11-4b7b-b8e5-6e520248943d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/3c9b0143-24ca-4fa6-bcd1-dfd6413aa09b>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 13fbd94e-0857-4099-80a3-b39eea88e58e
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/3ca81f8b-ac8c-478d-ba40-51f330d4300a>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c7b3a626-cf11-4081-9374-4b16a42228b2
+  Mesh: !<reference> ee334751-1a88-4218-8985-78e194451c89
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3e5b1b31-4c7f-4e26-bc84-a3d7df9c7227>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 973bb378-deb1-4fc6-8565-21ee3264a5c9
+  Mesh: !<reference> 5b05f06c-f08c-4a37-be0a-192097892b35
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/3e60d335-0dcb-43e8-83a3-471aed15f030>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/3fb548b5-a57c-4c80-93f4-f0220c2f6c37>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 2dc14bcf-4073-4fef-9330-fc5dc0ac4c95
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4044b11a-b402-4d75-8006-971d51343b55>
+  PrefabRemaps:
+    []
+  Name: Kolintang02_立方体.080
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 13721aef-36dc-4d8f-8ae6-c879ff6a1416
+    - !<own> b213fd6b-f876-45e9-9ebc-303805d7cc3b
+    - !<own> 6cb0ba2b-3184-4ca8-b2e0-dff10f07e439
+    - !<own> 032f690e-e2b3-4ffe-8fd1-0e7ec2f6342a
+- !<ColliderComponent/4315a474-f554-401e-8198-d55a5fc7a63b>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/48cc8b55-05cc-41d6-952b-9ff35ad17738>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco11_立方体.026
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 38c76916-63f1-4c67-82fd-be5950b70c5e
+- !<ColliderComponent/49904571-3674-4138-aa53-20ce5143ac9b>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/4fed51f9-ef24-4986-8847-418da60dd433>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 944d57d8-5fdf-4ad7-9e5f-4b56de929b6f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/510a5da1-b740-4ea1-b4b9-1b4cdb8d72d3>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco07_立方体.043
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff08db75-76d6-47cf-b4a3-010a819ecaec
+- !<ScriptComponent/5217fd41-4598-45cc-8d6d-ed15045eada7>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: false
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 7a864239-ae84-424d-b8bc-3e032b1c12c4
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/52fb10cc-3356-408c-a138-4a60af942405>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/54026abe-e95c-463c-870a-7822ebee46ed>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c7b3a626-cf11-4081-9374-4b16a42228b2
+  Mesh: !<reference> 7537fad6-77b0-497e-a9dd-8202ef58f443
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/5a7f3c97-348e-4b06-88b3-cff4f35e6475>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 296e05a1-57f1-436f-b449-cb4f571cd00e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5c53c794-6407-4680-848c-78961e322d69>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco03_立方体.060
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9a1c35bb-2d04-4dd1-ba45-af05e0f4727b
+- !<SceneObject/61e394fd-ef89-496f-871d-6798b866f85d>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco02_立方体.064
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b7afd120-664f-432b-b997-5878823c30ac
+- !<SceneObject/62d2ac73-19ad-4db0-9d2f-6d1671d25d99>
+  PrefabRemaps:
+    []
+  Name: Kolintang11_立方体.071
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3ca81f8b-ac8c-478d-ba40-51f330d4300a
+    - !<own> 5217fd41-4598-45cc-8d6d-ed15045eada7
+    - !<own> e37f9432-7460-4e8b-962b-a09c13300c97
+    - !<own> 806e6641-ca41-4b22-a415-00728fea7af0
+- !<RenderMeshVisual/6c2f30f7-8275-4318-a2aa-6713d29fa644>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> af62e448-2c16-489e-9c91-2962d24a5c0d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/6cb0ba2b-3184-4ca8-b2e0-dff10f07e439>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/6ceeb622-f8e6-4c18-b43a-bd703a3288ab>
+  PrefabRemaps:
+    []
+  Name: Kolintang09_立方体.073
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3e5b1b31-4c7f-4e26-bc84-a3d7df9c7227
+    - !<own> fa364250-32ff-4a0b-a9c7-d4eb17ca9506
+    - !<own> 131b3ab7-c2b3-48bd-93f5-4996ad82edd2
+    - !<own> 110d4ee2-6014-4dab-aa2a-6557d2ab2243
+- !<ScriptComponent/6f076a48-4e93-4d57-bbcc-0b10d49c13f8>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> f6916c41-dbb1-42fa-a8e5-30e746f5d359
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/717553f5-e984-42d3-9c9f-ae81567eed7c>
+  PrefabRemaps:
+    []
+  Name: component_19
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c7b3a626-cf11-4081-9374-4b16a42228b2
+  Mesh: !<reference> 05eeca89-7890-4306-94b8-c42f2f0ffc39
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/761bb835-29b9-41c4-b782-375dc076fd22>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/784bb70e-9322-46fe-8a84-50f2cd0b7f80>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> fd71b61b-a654-46f0-8cf4-03cd437e184b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7afb6d7b-9cb9-49d1-ba69-c4e80b515e95>
+  PrefabRemaps:
+    []
+  Name: Kolintang08_立方体.074
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> db41665b-01e1-4299-b075-958435df8c2e
+    - !<own> 99194396-a06b-4df7-8bd2-d6c5562476b0
+    - !<own> b327b594-b776-435a-81fa-9543922f20d3
+    - !<own> dffc6b73-0ed1-41bb-8382-502f57db0900
+- !<RenderMeshVisual/7f929fa6-8653-44b6-9cfe-d5163cbcf7ab>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 702b4b6a-4033-44ac-8476-98776064f28e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/806e6641-ca41-4b22-a415-00728fea7af0>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/834c858d-5a3b-4962-acd1-c59c969f3592>
+  PrefabRemaps:
+    []
+  Name: component_21
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 973bb378-deb1-4fc6-8565-21ee3264a5c9
+  Mesh: !<reference> 879aa3f5-70c1-4b99-a291-785361d6456f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/88c48ca1-182c-4196-a5ec-89e4ea23c028>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco10_立方体.030
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6c2f30f7-8275-4318-a2aa-6713d29fa644
+- !<SceneObject/8b1d4e04-67dd-4281-a142-65c1c83943cc>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco04_立方体.056
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 784bb70e-9322-46fe-8a84-50f2cd0b7f80
+- !<SceneObject/8e5b7432-7073-4526-84d3-9131dc3696d9>
+  PrefabRemaps:
+    []
+  Name: Kolintang04_立方体.078
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 54026abe-e95c-463c-870a-7822ebee46ed
+    - !<own> e14381b1-0941-46b9-a55c-253fd3d5111a
+    - !<own> 3e60d335-0dcb-43e8-83a3-471aed15f030
+    - !<own> d65c8c8e-b5a2-4aee-afb0-2586fe8d16ea
+- !<ScriptComponent/8f03f066-5948-4592-a5b7-5510154784d7>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/907e02e1-5ab9-4f4f-9d92-54f385fa7e9e>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> a10eece3-d345-4ed8-8447-105e74f8f817
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/981cd1fc-4b3b-4c47-a32e-069c576ab156>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/99194396-a06b-4df7-8bd2-d6c5562476b0>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> a059e4da-84f0-4666-874b-d58a768d4c0b
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/993fc219-f6ff-4358-a78f-2cfbb23011b9>
+  PrefabRemaps:
+    []
+  Name: component_23
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4b62c1b-b673-4f15-bece-174ebb23d1d0
+  Mesh: !<reference> 1869501f-18d7-43bb-96ad-9bf89c67d09b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/9a1c35bb-2d04-4dd1-ba45-af05e0f4727b>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 135c4ea8-6ed2-4375-9ab8-a1ed2b65cce6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a044a0fa-64f0-43ed-96db-517829ea65d3>
+  PrefabRemaps:
+    []
+  Name: Kolintang03_立方体.079
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 834c858d-5a3b-4962-acd1-c59c969f3592
+    - !<own> 3c9b0143-24ca-4fa6-bcd1-dfd6413aa09b
+    - !<own> d58d2931-3035-441e-8ddc-b087991d546e
+    - !<own> 52fb10cc-3356-408c-a138-4a60af942405
+- !<SceneObject/a0d98366-8a45-4a23-b028-f3fb4c630e5c>
+  PrefabRemaps:
+    []
+  Name: Kolintang10_立方体.072
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 10ea81a0-5c4a-4882-808e-f4ea98efe409
+    - !<own> 907e02e1-5ab9-4f4f-9d92-54f385fa7e9e
+    - !<own> d6220c75-c98e-438b-9498-8405f04f6b3e
+    - !<own> a68231f7-7567-411f-a892-6b8560191216
+- !<ColliderComponent/a68231f7-7567-411f-a892-6b8560191216>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/ac0a8bb2-0541-4d5d-8ce3-54c0bb0442c7>
+  PrefabRemaps:
+    []
+  Name: component_18
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e4b62c1b-b673-4f15-bece-174ebb23d1d0
+  Mesh: !<reference> 4cb4f048-06e9-4725-98ba-fb822ac7e066
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/b213fd6b-f876-45e9-9ebc-303805d7cc3b>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 981aa6d8-72a9-477d-9d55-4ac975e71db4
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/b327b594-b776-435a-81fa-9543922f20d3>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/b7afd120-664f-432b-b997-5878823c30ac>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 737d0ea8-f579-467e-b9c0-9e1ea0e0e292
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b7d9734a-e505-426c-b954-dc8bbf517a17>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco06_立方体.046
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5a7f3c97-348e-4b06-88b3-cff4f35e6475
+- !<SceneObject/c5a695b8-762f-4233-bcaa-b71d0987cc57>
+  PrefabRemaps:
+    []
+  Name: Kolintang12_立方体.070
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 04ad6193-5479-47c2-8cec-1fbd1d6e11ce
+    - !<own> e2d8b81b-68c1-4d5c-b33a-a05021a8d379
+    - !<own> 4315a474-f554-401e-8198-d55a5fc7a63b
+    - !<own> 8f03f066-5948-4592-a5b7-5510154784d7
+- !<ScriptComponent/d58d2931-3035-441e-8ddc-b087991d546e>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/d6220c75-c98e-438b-9498-8405f04f6b3e>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/d65c8c8e-b5a2-4aee-afb0-2586fe8d16ea>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/d6c819b3-2c62-403e-b54a-32be7765733e>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/d9a3c648-4855-47a3-a026-dc9e431b6578>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco12_立方体.021
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 203e00f6-1b84-4c28-b5e4-8e9b87d13a6f
+- !<SceneObject/da2891b9-484f-4aa8-96ad-90cb207bb369>
+  PrefabRemaps:
+    []
+  Name: Kolintang06_立方体.076
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac0a8bb2-0541-4d5d-8ce3-54c0bb0442c7
+    - !<own> 2a2531c7-007d-4860-9d9e-005aef859cc9
+    - !<own> 27325b01-77ca-4ce7-8fc3-37c280199c8a
+    - !<own> e0e36cbe-ac85-40a1-9ef9-f5c3670ce1d5
+- !<RenderMeshVisual/db41665b-01e1-4299-b075-958435df8c2e>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c7b3a626-cf11-4081-9374-4b16a42228b2
+  Mesh: !<reference> 4dc780fa-bad0-4e41-8110-5380a2dea8d0
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/dffc6b73-0ed1-41bb-8382-502f57db0900>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ColliderComponent/e0e36cbe-ac85-40a1-9ef9-f5c3670ce1d5>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/e14381b1-0941-46b9-a55c-253fd3d5111a>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 3bcff962-b728-4d30-8cb2-7173a4fb6263
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e25d00eb-e732-4c91-8865-972031197ab0>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco08_立方体.040
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7f929fa6-8653-44b6-9cfe-d5163cbcf7ab
+- !<ScriptComponent/e2d8b81b-68c1-4d5c-b33a-a05021a8d379>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: false
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> b062dca4-0a1f-4359-bff0-8cf029aa39b9
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/e37f9432-7460-4e8b-962b-a09c13300c97>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/eaff207d-2609-489e-b1bc-6502f53b34f5>
+  PrefabRemaps:
+    - 032f690e-e2b3-4ffe-8fd1-0e7ec2f6342a: 98200b8c-405d-4515-a00d-a669bfdb5325
+    - 0357379c-6f12-4eb4-998c-9476f910fa2e: 0357379c-6f12-4eb4-6673-6b8906ef05d1
+    - 04ad6193-5479-47c2-8cec-1fbd1d6e11ce: 04ad6193-5479-47c2-7313-e042e291ee31
+    - 07c1176b-6716-4af6-97a2-806f2fc68c94: 07c1176b-6716-4af6-685d-7f90d039736b
+    - 10ea81a0-5c4a-4882-808e-f4ea98efe409: 10ea81a0-5c4a-4882-7f71-0b1567101bf6
+    - 110d4ee2-6014-4dab-aa2a-6557d2ab2243: 8da07e83-4652-4d4d-abe3-f73326a4e0f1
+    - 131b3ab7-c2b3-48bd-93f5-4996ad82edd2: 93a2501e-9ebe-4e76-bc24-7481d41801a6
+    - 13721aef-36dc-4d8f-8ae6-c879ff6a1416: 13721aef-36dc-4d8f-7519-37860095ebe9
+    - 1ac72323-d754-4bb0-a74e-69b79230d753: 1ac72323-d754-4bb0-58b1-96486dcf28ac
+    - 1eb1fd62-b375-4191-8a0c-c878f2ba2a24: 4afefb2d-c208-417e-a5fb-b274b7967e6d
+    - 1ee3b80d-5d76-4764-891b-9acb64cca39d: 1ee3b80d-5d76-4764-76e4-65349b335c62
+    - 1fbb4e89-a992-4f81-a4b7-b8ee3adf5fee: 1fbb4e89-a992-4f81-5b48-4711c520a011
+    - 203e00f6-1b84-4c28-b5e4-8e9b87d13a6f: 203e00f6-1b84-4c28-4a1b-7164782ec590
+    - 27325b01-77ca-4ce7-8fc3-37c280199c8a: 34a9e1f1-2294-4c53-83da-56a91024dce9
+    - 2a2531c7-007d-4860-9d9e-005aef859cc9: 69e9f830-23e7-481c-ba47-cdaa8f235ee4
+    - 2cd6747a-4969-40c7-8fa8-8490d9671c17: 9e8a6718-c44b-4a0d-ba52-0b9fbffb8676
+    - 2dc0632b-8ece-4f4e-b454-aa9cee130038: 0ad10810-07c6-4f88-9334-a9b2184299dd
+    - 2f53f517-93e0-458d-8680-870edf90ab90: 2f53f517-93e0-458d-797f-78f1206f546f
+    - 30170f01-6444-4b82-a08d-6d7f01d1b848: cff356fc-0fdd-44bd-b87c-ed6daa1d7f1b
+    - 38c76916-63f1-4c67-82fd-be5950b70c5e: 38c76916-63f1-4c67-7d02-41a6af48f3a1
+    - 3c9b0143-24ca-4fa6-bcd1-dfd6413aa09b: adfec79e-94fb-4f43-8195-308703ec7a7e
+    - 3ca81f8b-ac8c-478d-ba40-51f330d4300a: 3ca81f8b-ac8c-478d-45bf-ae0ccf2bcff5
+    - 3e5b1b31-4c7f-4e26-bc84-a3d7df9c7227: 3e5b1b31-4c7f-4e26-437b-5c2820638dd8
+    - 3e60d335-0dcb-43e8-83a3-471aed15f030: b574a417-7bfa-406d-a922-91fac916874f
+    - 3fb548b5-a57c-4c80-93f4-f0220c2f6c37: 3fb548b5-a57c-4c80-6c0b-0fddf3d093c8
+    - 4044b11a-b402-4d75-8006-971d51343b55: 4044b11a-b402-4d75-7ff9-68e2aecbc4aa
+    - 4315a474-f554-401e-8198-d55a5fc7a63b: 2bac4180-b083-4515-982b-68c19cb4d64a
+    - 48cc8b55-05cc-41d6-952b-9ff35ad17738: 48cc8b55-05cc-41d6-6ad4-600ca52e88c7
+    - 49904571-3674-4138-aa53-20ce5143ac9b: aaf0f773-74d5-4a77-b14c-f528ce9ba4ca
+    - 4fed51f9-ef24-4986-8847-418da60dd433: 4fed51f9-ef24-4986-77b8-be7259f22bcc
+    - 510a5da1-b740-4ea1-b4b9-1b4cdb8d72d3: 510a5da1-b740-4ea1-4b46-e4b324728d2c
+    - 5217fd41-4598-45cc-8d6d-ed15045eada7: 7a21271c-4da2-4437-a5e3-381638bdfe8e
+    - 52fb10cc-3356-408c-a138-4a60af942405: c1201882-d431-459d-811b-d1e9baa9d6e9
+    - 54026abe-e95c-463c-870a-7822ebee46ed: 54026abe-e95c-463c-78f5-87dd1411b912
+    - 5a7f3c97-348e-4b06-88b3-cff4f35e6475: 5a7f3c97-348e-4b06-774c-300b0ca19b8a
+    - 5c53c794-6407-4680-848c-78961e322d69: 5c53c794-6407-4680-7b73-8769e1cdd296
+    - 61e394fd-ef89-496f-871d-6798b866f85d: 61e394fd-ef89-496f-78e2-9867479907a2
+    - 62d2ac73-19ad-4db0-9d2f-6d1671d25d99: 62d2ac73-19ad-4db0-62d0-92e98e2da266
+    - 6c2f30f7-8275-4318-a2aa-6713d29fa644: 6c2f30f7-8275-4318-5d55-98ec2d6059bb
+    - 6cb0ba2b-3184-4ca8-b2e0-dff10f07e439: c3720ce5-a4f9-48ae-9b23-03f18fe578ab
+    - 6ceeb622-f8e6-4c18-b43a-bd703a3288ab: 6ceeb622-f8e6-4c18-4bc5-428fc5cd7754
+    - 6f076a48-4e93-4d57-bbcc-0b10d49c13f8: b8df63f3-9e7d-401a-84f1-fed5751b0eff
+    - 717553f5-e984-42d3-9c9f-ae81567eed7c: 717553f5-e984-42d3-6360-517ea9811283
+    - 761bb835-29b9-41c4-b782-375dc076fd22: e06ce1a0-e81e-4fa0-8318-a054318e54e7
+    - 784bb70e-9322-46fe-8a84-50f2cd0b7f80: 784bb70e-9322-46fe-757b-af0d32f4807f
+    - 7afb6d7b-9cb9-49d1-ba69-c4e80b515e95: 7afb6d7b-9cb9-49d1-4596-3b17f4aea16a
+    - 7f929fa6-8653-44b6-9cfe-d5163cbcf7ab: 7f929fa6-8653-44b6-6301-2ae9c3430854
+    - 806e6641-ca41-4b22-a415-00728fea7af0: f50ce0d0-484a-4799-8b74-110e222b8cd1
+    - 834c858d-5a3b-4962-acd1-c59c969f3592: 834c858d-5a3b-4962-532e-3a636960ca6d
+    - 88c48ca1-182c-4196-a5ec-89e4ea23c028: 88c48ca1-182c-4196-5a13-761b15dc3fd7
+    - 8b1d4e04-67dd-4281-a142-65c1c83943cc: 8b1d4e04-67dd-4281-5ebd-9a3e37c6bc33
+    - 8e5b7432-7073-4526-84d3-9131dc3696d9: 8e5b7432-7073-4526-7b2c-6ece23c96926
+    - 8f03f066-5948-4592-a5b7-5510154784d7: d7ed13a7-d13e-4788-b6f5-97a2f35505f1
+    - 907e02e1-5ab9-4f4f-9d92-54f385fa7e9e: c14229c0-9f89-4573-8861-2877cad631a5
+    - 981cd1fc-4b3b-4c47-a32e-069c576ab156: e2afa998-696f-44a1-b57b-24064422d7c4
+    - 99194396-a06b-4df7-8bd2-d6c5562476b0: 4ddece15-70b7-4712-a8b1-5ca024330482
+    - 993fc219-f6ff-4358-a78f-2cfbb23011b9: 993fc219-f6ff-4358-5870-d3044dcfee46
+    - 9a1c35bb-2d04-4dd1-ba45-af05e0f4727b: 9a1c35bb-2d04-4dd1-45ba-50fa1f0b8d84
+    - a044a0fa-64f0-43ed-96db-517829ea65d3: a044a0fa-64f0-43ed-6924-ae87d6159a2c
+    - a0d98366-8a45-4a23-b028-f3fb4c630e5c: a0d98366-8a45-4a23-4fd7-0c04b39cf1a3
+    - a68231f7-7567-411f-a892-6b8560191216: ad117781-a835-4a52-a7cc-7889115ee237
+    - ac0a8bb2-0541-4d5d-8ce3-54c0bb0442c7: ac0a8bb2-0541-4d5d-731c-ab3f44fbbd38
+    - b213fd6b-f876-45e9-9ebc-303805d7cc3b: 38a0541c-afe2-484d-b478-1677b228ee8f
+    - b327b594-b776-435a-81fa-9543922f20d3: fb3887f4-b5f0-43d7-aaff-e9e2058132a8
+    - b7afd120-664f-432b-b997-5878823c30ac: b7afd120-664f-432b-4668-a7877dc3cf53
+    - b7d9734a-e505-426c-b954-dc8bbf517a17: b7d9734a-e505-426c-46ab-237440ae85e8
+    - c5a695b8-762f-4233-bcaa-b71d0987cc57: c5a695b8-762f-4233-4355-48e2f67833a8
+    - d58d2931-3035-441e-8ddc-b087991d546e: 3322eabe-708c-462b-8444-486eb445f6a4
+    - d6220c75-c98e-438b-9498-8405f04f6b3e: 1bba01cc-36aa-447d-8863-35480c8dcd68
+    - d65c8c8e-b5a2-4aee-afb0-2586fe8d16ea: a3868ed8-0619-4854-bc1c-187f6edb4bd1
+    - d6c819b3-2c62-403e-b54a-32be7765733e: 7d77dd69-8831-469d-b179-06a5674b0136
+    - d9a3c648-4855-47a3-a026-dc9e431b6578: d9a3c648-4855-47a3-5fd9-2361bce49a87
+    - da2891b9-484f-4aa8-96ad-90cb207bb369: da2891b9-484f-4aa8-6952-6f34df844c96
+    - db41665b-01e1-4299-b075-958435df8c2e: db41665b-01e1-4299-4f8a-6a7bca2073d1
+    - dffc6b73-0ed1-41bb-8382-502f57db0900: e9ecc516-5a6d-4b2a-b11b-ee9b25d803fa
+    - e0e36cbe-ac85-40a1-9ef9-f5c3670ce1d5: c5a2142c-5f7c-4465-a60a-66ce98b2f4d0
+    - e14381b1-0941-46b9-a55c-253fd3d5111a: 460ba09d-0537-4266-8208-e0d1e1f5c203
+    - e25d00eb-e732-4c91-8865-972031197ab0: e25d00eb-e732-4c91-779a-68dfcee6854f
+    - e2d8b81b-68c1-4d5c-b33a-a05021a8d379: fb3a6613-dbcb-4aa9-a072-87b998fc105a
+    - e37f9432-7460-4e8b-962b-a09c13300c97: aba79c4e-1483-4fb9-b67e-2c532491ee07
+    - eaff207d-2609-489e-b1bc-6502f53b34f5: eaff207d-2609-489e-4e43-9afd0ac4cb0a
+    - f160dd41-20f0-4681-86b5-0731923256e9: f160dd41-20f0-4681-794a-f8ce6dcda916
+    - f819464f-74ac-458a-a58c-029794e3e5b6: f819464f-74ac-458a-5a73-fd686b1c1a49
+    - f91589e7-1241-438d-a2d9-9027c92aa21f: 4fd9040a-73e5-4e87-b353-284a8540daf4
+    - fa364250-32ff-4a0b-a9c7-d4eb17ca9506: ac58d5ae-7d87-4906-a02d-38bae37ea962
+    - ff08db75-76d6-47cf-b4a3-010a819ecaec: ff08db75-76d6-47cf-4b5c-fef57e613513
+    - ffa86761-0578-4b1c-b132-6133f182c2eb: 1a94113d-1a15-4325-b544-b6e4abfa2c5b
+  Name: Kolintang
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 90.000000, z: 0.000000}
+    Scale: {x: 50.000000, y: 50.000000, z: 50.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d9a3c648-4855-47a3-a026-dc9e431b6578
+    - !<own> 48cc8b55-05cc-41d6-952b-9ff35ad17738
+    - !<own> 88c48ca1-182c-4196-a5ec-89e4ea23c028
+    - !<own> f819464f-74ac-458a-a58c-029794e3e5b6
+    - !<own> e25d00eb-e732-4c91-8865-972031197ab0
+    - !<own> 510a5da1-b740-4ea1-b4b9-1b4cdb8d72d3
+    - !<own> b7d9734a-e505-426c-b954-dc8bbf517a17
+    - !<own> 07c1176b-6716-4af6-97a2-806f2fc68c94
+    - !<own> 8b1d4e04-67dd-4281-a142-65c1c83943cc
+    - !<own> 5c53c794-6407-4680-848c-78961e322d69
+    - !<own> 61e394fd-ef89-496f-871d-6798b866f85d
+    - !<own> f160dd41-20f0-4681-86b5-0731923256e9
+    - !<own> c5a695b8-762f-4233-bcaa-b71d0987cc57
+    - !<own> 62d2ac73-19ad-4db0-9d2f-6d1671d25d99
+    - !<own> a0d98366-8a45-4a23-b028-f3fb4c630e5c
+    - !<own> 6ceeb622-f8e6-4c18-b43a-bd703a3288ab
+    - !<own> 7afb6d7b-9cb9-49d1-ba69-c4e80b515e95
+    - !<own> 0357379c-6f12-4eb4-998c-9476f910fa2e
+    - !<own> da2891b9-484f-4aa8-96ad-90cb207bb369
+    - !<own> 1ac72323-d754-4bb0-a74e-69b79230d753
+    - !<own> 8e5b7432-7073-4526-84d3-9131dc3696d9
+    - !<own> a044a0fa-64f0-43ed-96db-517829ea65d3
+    - !<own> 4044b11a-b402-4d75-8006-971d51343b55
+    - !<own> 1ee3b80d-5d76-4764-891b-9acb64cca39d
+  Components:
+    - !<own> 2dc0632b-8ece-4f4e-b454-aa9cee130038
+    - !<own> 30170f01-6444-4b82-a08d-6d7f01d1b848
+- !<SceneObject/f160dd41-20f0-4681-86b5-0731923256e9>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco01_立方体.068
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3fb548b5-a57c-4c80-93f4-f0220c2f6c37
+- !<SceneObject/f819464f-74ac-458a-a58c-029794e3e5b6>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco09_立方体.034
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4fed51f9-ef24-4986-8847-418da60dd433
+- !<ScriptComponent/f91589e7-1241-438d-a2d9-9027c92aa21f>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/fa364250-32ff-4a0b-a9c7-d4eb17ca9506>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 610da767-8c85-4f79-8f9e-19b697fb9130
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/ff08db75-76d6-47cf-b4a3-010a819ecaec>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1caf6da5-c4d9-45f0-8905-c319fe901e31
+  Mesh: !<reference> 3c49e27e-07b6-41da-a052-e750f05122d7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/ffa86761-0578-4b1c-b132-6133f182c2eb>
+  PrefabRemaps:
+    []
+  Name: KeyTapSound
+  Enabled: true
+  ScriptAsset: !<reference> f3d9fca5-27d9-401e-8096-5cb0b1f54b98
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      audioTrack: !<reference.AudioTrackAsset> 47d4d7f7-9327-4589-8782-49e41cdecb06
+  ScriptTypes:
+    "":
+      {}

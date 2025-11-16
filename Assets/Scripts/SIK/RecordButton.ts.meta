@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/f2e38504-19d3-424b-a0d9-f1f882169487>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d5acfaec-4ad5-471a-9d19-a8c16074e8ce
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d5acfaec-4ad5-471a-9d19-a8c16074e8ce
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> da98a96e-73c6-4b1c-a749-c0bb71473e88
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/da98a96e-73c6-4b1c-a749-c0bb71473e88>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 127f362e-e74a-4e9c-bf93-447c594be6c8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    recorder: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - recorder: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Component.ScriptComponent recorder

@@ -1,0 +1,112 @@
+- !<Material/5386ae89-6574-4d93-ad69-6a9182b5f7fe>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> e26de56e-2d0a-40eb-9efc-a004d9797230
+- !<PassInfo/e26de56e-2d0a-40eb-9efc-a004d9797230>
+  CachedProperties:
+    - Port_Depth_N004:
+        typeIdx: 1
+        value: 1.000000
+    - Port_FinalColor1_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor2_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_FinalColor3_N004:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    - Port_GSplatPointSize_N004:
+        typeIdx: 1
+        value: 0.000000
+    - Port_GSplatRotation_N004:
+        typeIdx: 5
+        value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    - Port_GSplatScale_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_Normal_N018:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_PrevWorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_RayDirection_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_RayOrigin_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldNormal_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 1.000000, z: 0.000000}
+    - Port_WorldPosition_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    - Port_WorldTangent_N004:
+        typeIdx: 4
+        value: {x: 0.000000, y: 0.000000, z: 1.000000}
+    - overrideTimeElapsed:
+        typeIdx: 1
+        value: 0.000000
+    - overrideTimeEnabled:
+        typeIdx: 0
+        value: 0
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_35_DROPLIST_ITEM 0
+    - animated
+  BlendMode: Disabled
+  Properties:
+    Port_AO_N018:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Emissive_N018:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Input0_N024:
+      typeIdx: 1
+      value: 11.000000
+    Port_Input1_N023:
+      typeIdx: 1
+      value: 0.500000
+    Port_Metallic_N018:
+      typeIdx: 1
+      value: 0.000000
+    Port_Opacity_N018:
+      typeIdx: 1
+      value: 1.000000
+    Port_SpecularAO_N018:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    animatedSpeed:
+      typeIdx: 1
+      value: 3.260000
+    animationOffset:
+      typeIdx: 1
+      value: 3.120000
+    backColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.286275, z: 0.635294, w: 1.000000}
+    frontColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 0.360784, z: 0.164706, w: 1.000000}
+    slicedHeight:
+      typeIdx: 1
+      value: 5.000000
+    wobbleStrength:
+      typeIdx: 1
+      value: 2.540000
+  Pass: !<reference> af4791b2-cf20-4ff9-bd2a-b4a0158dc4e5

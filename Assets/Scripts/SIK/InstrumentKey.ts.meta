@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/03fb81fd-1222-4f4e-83b2-ccabb7fb0f29>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3e7a0fa0-f98e-4d8f-a7df-0094bc9dbbaf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3e7a0fa0-f98e-4d8f-a7df-0094bc9dbbaf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 6a7369bf-8a54-4fb1-b9a2-c4320e4a67a5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/6a7369bf-8a54-4fb1-b9a2-c4320e4a67a5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 09c155fc-427e-4528-9be6-1bf10afd8a8d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    audioTrack: false
+    instrumentId: false
+    keyId: false
+    recorder: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - instrumentId: triangle
+      keyId: single
+      audioTrack: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      recorder: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input string instrumentId = "triangle"'
+    - '// @input string keyId = "single"'
+    - // @input Asset.AudioTrackAsset audioTrack
+    - // @input Component.ScriptComponent recorder

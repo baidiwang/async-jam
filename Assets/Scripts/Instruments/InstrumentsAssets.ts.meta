@@ -22,11 +22,18 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ComponentUid: b34e94b9-5a25-414e-992b-561b1f93dd36
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
-    {}
+    drumsPrefab: false
+    drumsSound: false
+    kolintangPrefab: false
+    kolintangSound: false
+    pianoPrefab: false
+    pianoSound: false
+    trianglePrefab: false
+    triangleSound: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -36,10 +43,23 @@
   Attachments:
     []
   DefaultScriptInputs:
-    -
-      {}
+    - pianoPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      pianoSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      trianglePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      triangleSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      drumsPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      drumsSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      kolintangPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      kolintangSound: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    []
+    - '// @input Asset.ObjectPrefab pianoPrefab {"hint":"Piano instrument prefab"}'
+    - '// @input Asset.AudioTrackAsset pianoSound {"hint":"Piano sound asset"}'
+    - '// @input Asset.ObjectPrefab trianglePrefab {"hint":"Triangle instrument prefab"}'
+    - '// @input Asset.AudioTrackAsset triangleSound {"hint":"Triangle sound asset"}'
+    - '// @input Asset.ObjectPrefab drumsPrefab {"hint":"Drums instrument prefab"}'
+    - '// @input Asset.AudioTrackAsset drumsSound {"hint":"Drums sound asset"}'
+    - '// @input Asset.ObjectPrefab kolintangPrefab {"hint":"Kolintang instrument prefab"}'
+    - '// @input Asset.AudioTrackAsset kolintangSound {"hint":"Kolintang sound asset"}'

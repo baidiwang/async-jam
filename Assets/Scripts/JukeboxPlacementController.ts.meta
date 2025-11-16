@@ -1,20 +1,20 @@
-- !<AssetImportMetadata/730e2612-25e1-4c05-a4bc-5ccb70b7010b>
+- !<AssetImportMetadata/cf22ddd0-0cde-4af7-a70b-c624c4278d79>
   ImportedAssetIds:
-    TypeScriptAsset: !<reference> 1a029be0-15e9-481c-b7cb-cc80746c63ed
+    TypeScriptAsset: !<reference> a141549b-7cf5-42d8-a209-32b2846bfa9e
   ImporterName: TypeScriptAssetImporter
-  PrimaryAsset: !<reference> 1a029be0-15e9-481c-b7cb-cc80746c63ed
+  PrimaryAsset: !<reference> a141549b-7cf5-42d8-a209-32b2846bfa9e
   PackageType: NotAPackage
   LegacyPackagePolicy: ~
   ExtraData:
     {}
   AssetDataMap:
-    TypeScriptAsset: !<own> 0dcfcc86-d179-49f0-8a45-9520c7b36870
+    TypeScriptAsset: !<own> b430488d-2d60-4e8a-90e7-296c25a7565f
   DependentFiles:
     []
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<TypeScriptAssetData/0dcfcc86-d179-49f0-8a45-9520c7b36870>
+- !<TypeScriptAssetData/b430488d-2d60-4e8a-90e7-296c25a7565f>
   SvgIcon: ""
   SetupScript:
     code: ""
@@ -22,14 +22,12 @@
   VersionMajor: 0
   VersionMinor: 0
   VersionPatch: 0
-  ComponentUid: 00def3e3-fb37-4674-a303-af47c609ba63
+  ComponentUid: b635fb00-eac9-4337-9146-fcea798754ac
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     anchorModule: false
-    camera: false
-    pinchButton: false
-    prefab: false
+    jukeboxPrefab: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -40,14 +38,10 @@
     []
   DefaultScriptInputs:
     - anchorModule: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
-      pinchButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
-      camera: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
-      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      jukeboxPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input AssignableType anchorModule
-    - // @input AssignableType_1 pinchButton
-    - // @input SceneObject camera
-    - // @input Asset.ObjectPrefab prefab
+    - // @input Asset.ObjectPrefab jukeboxPrefab

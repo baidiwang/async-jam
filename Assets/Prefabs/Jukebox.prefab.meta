@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/9d60e9e9-5c67-48f8-9140-30c534a189e8>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2e423c4c-7ac9-4f8b-b80b-9a36491c5623
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2e423c4c-7ac9-4f8b-b80b-9a36491c5623
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> a2d9289d-e592-45a9-a652-52072ff7b4e5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/634c7067-8331-4e39-6a41-a8c8bef81d2d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b4c4fa2e-70b0-4f13-8fd2-7e605c1415c3
+  Mesh: !<reference> 1c2e06d8-d29c-440f-880e-3cedb1b1ee29
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/a2d9289d-e592-45a9-a652-52072ff7b4e5>
+  Prototype: !<ObjectOwner/01f826a1-7a32-4f69-b0b9-f2f555b5b2cf>
+    PackagePath: ""
+    objects:
+      - !<own> c4534f43-5d39-48e7-6445-376751dd272c
+- !<SceneObject/c4534f43-5d39-48e7-6445-376751dd272c>
+  PrefabRemaps:
+    []
+  Name: Cylinder
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 200.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 634c7067-8331-4e39-6a41-a8c8bef81d2d

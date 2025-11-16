@@ -1,0 +1,106 @@
+import { PinchButton } from "SpectaclesInteractionKit.lspkg/Components/UI/PinchButton/PinchButton";
+import { Interactor, InteractorInputType } from "SpectaclesInteractionKit.lspkg/Core/Interactor/Interactor";
+import SIK from "SpectaclesInteractionKit.lspkg/SIK";
+import { JukeboxPlacementController } from "./JukeboxPlacementController";
+
+@component
+export class DebugMenuController extends BaseScriptComponent {
+    @input menuUi: SceneObject;
+    @input closeButton: PinchButton;
+    @input addJukeboxButton: PinchButton;
+    @input jukeboxGhostPrefab: ObjectPrefab;
+    @input jukeboxPlacementController: JukeboxPlacementController;
+    
+    private _openDebugMenuTime: number = 0;
+    private _openDebugMenuHand?: 'lt' | 'rt';
+    
+    private _leftHand?: Interactor;
+    private _rightHand?: Interactor;
+
+    private _jukeboxGhost?: SceneObject;
+    
+    onAwake() {
+        this.createEvent("OnStartEvent").bind(() => this.onStart());
+        this.createEvent("UpdateEvent").bind((e) => this.onUpdate(e));
+    }
+
+    private onStart() {
+        this._leftHand = SIK.InteractionManager.getInteractorsByType(InteractorInputType.LeftHand)[0];
+        this._rightHand = SIK.InteractionManager.getInteractorsByType(InteractorInputType.RightHand)[0];
+
+        this.menuUi.enabled = false;
+
+        this.closeButton.onButtonPinched(() => this.closeMenu());
+        this.addJukeboxButton.onButtonPinched(() => this.addJukeboxGhost());
+    }
+
+    get isMenuOpen(): boolean {
+        return this.menuUi.enabled; // TODO
+    }
+
+    private onUpdate(e: UpdateEvent) {
+        this.openMenuItalianMode(e.getDeltaTime());
+
+        if (this._jukeboxGhost) {
+            const hand = SIK.HandInputData.getHand(this._openDebugMenuHand == "lt" ? "left" : 'right')
+            const pos = hand.indexTip.position;
+
+            const transform = mat4.fromTranslation(pos);
+            this._jukeboxGhost
+                .getTransform()
+                .setWorldTransform(transform);
+
+            // Spawn actual jukebox
+            if (hand.isPinching()) {
+                this.destroyJukeboxGhost();
+                this.jukeboxPlacementController.createAnchor(transform);
+            }
+        }
+    }
+
+    private openMenuItalianMode(dt: number) {
+        // This opens the secret debug menu if the user pinches either hand for over 5 seconds (italian mode)
+        const lt = this._leftHand?.isTriggering;
+        const rt = this._rightHand?.isTriggering;
+
+        if (this.isMenuOpen) {
+            return;
+        }
+
+        if ((lt && this._openDebugMenuHand == "lt") ||
+            (rt && this._openDebugMenuHand == "rt")) {
+            // Same hand is continuously pressed, increase trigger timer
+            this._openDebugMenuTime += dt;
+        } else {
+            this._openDebugMenuTime = 0;
+            if (lt) {
+                this._openDebugMenuHand = "lt";
+            } else if (rt) {
+                this._openDebugMenuHand = "rt";
+            }
+        }
+
+        if (this._openDebugMenuTime >= 5) {
+            if (this._jukeboxGhost) {
+                this.destroyJukeboxGhost();
+            }
+
+            this._openDebugMenuTime = 0;
+            this.menuUi.enabled = true;
+        }
+    }
+
+    private closeMenu() {
+        this.menuUi.enabled = false;
+    }
+
+    private addJukeboxGhost() {
+        this.closeMenu();
+        this._jukeboxGhost = this.jukeboxGhostPrefab.instantiate(this.getSceneObject());
+    }
+
+    private destroyJukeboxGhost() {
+        this._jukeboxGhost.destroy();
+        this._jukeboxGhost = null;
+    }
+}

@@ -29,7 +29,7 @@ export class JukeboxPlacementController extends BaseScriptComponent {
 
     }
 
-    private async createAnchor(worldTransform: mat4) {
+    public async createAnchor(worldTransform: mat4) {
         const anchor = await this.anchorSession.createWorldAnchor(worldTransform);
 
         this.attachNewObjectToAnchor(anchor);

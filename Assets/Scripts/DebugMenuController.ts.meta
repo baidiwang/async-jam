@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/55b58d6b-095b-4da8-b88d-571eeb931af8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 3cba5577-8945-47f9-a121-eeae1ee10643
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 3cba5577-8945-47f9-a121-eeae1ee10643
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> c1f35965-af81-43c0-84fe-031764ee5115
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c1f35965-af81-43c0-84fe-031764ee5115>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 43167546-10b3-46ba-93e7-e6cb4c14125e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    addJukeboxButton: false
+    closeButton: false
+    jukeboxGhostPrefab: false
+    jukeboxPlacementController: false
+    menuUi: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - menuUi: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      closeButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      addJukeboxButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      jukeboxGhostPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      jukeboxPlacementController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject menuUi
+    - // @input AssignableType closeButton
+    - // @input AssignableType_1 addJukeboxButton
+    - // @input Asset.ObjectPrefab jukeboxGhostPrefab
+    - // @input AssignableType_2 jukeboxPlacementController

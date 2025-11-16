@@ -14,7 +14,23 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<RenderMeshVisual/634c7067-8331-4e39-6a41-a8c8bef81d2d>
+- !<ScriptComponent/04081d88-a90e-45c4-9599-19b4970f2751>
+  PrefabRemaps:
+    []
+  Name: Jukebox
+  Enabled: true
+  ScriptAsset: !<reference> 43daf11b-53d9-4d30-b190-28a589bc7010
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/0afcd85f-47ea-4d66-8580-55e86b7fd77e>
   PrefabRemaps:
     []
   Name: Render Mesh Visual
@@ -34,6 +50,21 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/2a89c945-9e19-43ff-9c9e-053f632790f8>
+  PrefabRemaps:
+    []
+  Name: Object 0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 20.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0afcd85f-47ea-4d66-8580-55e86b7fd77e
 - !<ObjectPrefabAssetData/a2d9289d-e592-45a9-a652-52072ff7b4e5>
   Prototype: !<ObjectOwner/01f826a1-7a32-4f69-b0b9-f2f555b5b2cf>
     PackagePath: ""
@@ -51,6 +82,23 @@
     Scale: {x: 100.000000, y: 200.000000, z: 100.000000}
     HasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> 2a89c945-9e19-43ff-9c9e-053f632790f8
   Components:
-    - !<own> 634c7067-8331-4e39-6a41-a8c8bef81d2d
+    - !<own> f05c9135-f100-4dab-925e-83999ad6a42c
+    - !<own> 04081d88-a90e-45c4-9599-19b4970f2751
+- !<ScriptComponent/f05c9135-f100-4dab-925e-83999ad6a42c>
+  PrefabRemaps:
+    []
+  Name: AnchorComponent
+  Enabled: true
+  ScriptAsset: !<reference> e8616b31-9403-4427-891d-c4e2af5523a2
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}

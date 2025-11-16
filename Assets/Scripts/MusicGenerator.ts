@@ -82,7 +82,7 @@ export class MusicGenerator {
     static async generateRandomTrack(): Promise<Float32Array> {
         const instrument = this.INSTRUMENTS[Math.floor(Math.random() * this.INSTRUMENTS.length)];
         const genre = this.GENRES[Math.floor(Math.random() * this.GENRES.length)];
-        const prompt = `Generate a ${instrument} solo in the style of ${genre} (no other instruments)`;
+        const prompt = `Generate a simple ${instrument} solo in the style of ${genre} (no other instruments). Don't add fancy motifs. Make it repetitive.`;
 
         console.log(`Generating music with prompt: "${prompt}"`);
 
@@ -117,9 +117,9 @@ export class MusicGenerator {
                 pcmMonoFloat[i] = (a + b) / 2;
             }
 
-            console.log(`shape: ${pcmMonoFloat.length}`);
-            console.log(`contetns: ${pcmMonoFloat.slice(0, 128)}`);
-            
+            if (pcmMonoFloat.length > SAMPLE_RATE * 15) {
+                return pcmMonoFloat.slice(0, SAMPLE_RATE * 15);
+            }
             return pcmMonoFloat;
         } catch (e) {
             console.error(`Lyria error: ${e}`);

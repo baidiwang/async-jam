@@ -2,13 +2,9 @@ import { AnchorComponent } from "Spatial Anchors.lspkg/AnchorComponent";
 import { AudioRecording, expandAudioRecording, flattenAudioRecording, SAMPLE_RATE } from "./Audio";
 import { Instrument, shuffledInstruments } from "./Instrument";
 import { MusicGenerator } from "./MusicGenerator";
+import { setTimeout } from "SpectaclesInteractionKit.lspkg/Utils/FunctionTimingUtils";
 
-// Keys are appended the anchor ID
-const SERIALIZATION_KEYS = {
-    RECORDING_PCM: "JUKEBOX_RECORDING_PCM",     // Float32Array
-    INSTRUMENT_ORDER: "JUKEBOX_INSTRUMENTS",    // Uint8Array
-    INSTRUMENT_INDEX: "JUKEBOX_INSTRUMENT_IDX", // int
-};
+const SERVER_URL = "https://unattempted-darline-pertinently.ngrok-free.dev";
 
 /**
  * State machine for a user interaction with the jukebox.
@@ -45,6 +41,7 @@ enum State {
 export class Jukebox extends BaseScriptComponent {    
     @input firstTrackTooltip: SceneObject;
     @input audioOutput: AudioTrackAsset;
+    @input internetModule: InternetModule;
     
     private _anchorComponent?: AnchorComponent;
     private _audioRecording: AudioRecording;
@@ -54,16 +51,10 @@ export class Jukebox extends BaseScriptComponent {
     private _audioOutputProvider: AudioOutputProvider;
     
     onAwake() {
-        this._persistentStorage = global.persistentStorageSystem.store;
         this._anchorComponent = this.sceneObject.getComponent(AnchorComponent.getTypeName());
         
         this._audioOutputProvider = this.audioOutput.control as AudioOutputProvider;
         this._audioOutputProvider.sampleRate = SAMPLE_RATE;
-
-        this._persistentStorage.onStoreFull = () => {
-            console.error(`Storage is full! Was ${this._persistentStorage.getSizeInBytes()} but max is ${this._persistentStorage.getMaxSizeInBytes()}`);
-        }
-        console.log(`Storage max: ${this._persistentStorage.getMaxSizeInBytes()} bytes`);
     }
 
     get id(): string {
@@ -108,19 +99,31 @@ export class Jukebox extends BaseScriptComponent {
     /**
      * Save this jukebox's data to persistent storage
      */
-    save() {
-        const id = this.id;
-        const s = this._persistentStorage;
+    async save() {
+        const pcm = flattenAudioRecording(this._audioRecording);
+        console.log("here C");
+        
+        const serialized = {
+            pcm: Base64.encode(new Uint8Array(pcm.buffer, pcm.byteOffset, pcm.byteLength)),
+            instrumentOrder: this._instrumentOrder,
+            instrumentIndex: this._instrumentIndex,
+        };
 
-        try {
-            s.putFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id, flattenAudioRecording(this._audioRecording));
-            s.putUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id, new Uint8Array(this._instrumentOrder));
-            s.putInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id, this._instrumentIndex);
-        } catch (e) {
-            console.error(`Error saving jukebox: ${e}`);
+        console.log("here D");
+
+        const req = new Request(`${SERVER_URL}/${this.id}`, {
+            method: "POST",
+            body: JSON.stringify(serialized),
+        });
+        const res = await this.internetModule.fetch(req);
+
+        console.log("here E");
+        
+        if (res.status != 200 && res.status != 201) {
+            console.error(`Error saving ${JSON.stringify(await res.json())} (error code ${res.status})`);
+        } else {
+            console.log(`Succesfully saved jukebox#${this.id}`);
         }
-
-        console.log(`Storage is ${this._persistentStorage.getSizeInBytes()} / ${this._persistentStorage.getMaxSizeInBytes()} bytes`);
     }
 
     /**
@@ -128,48 +131,63 @@ export class Jukebox extends BaseScriptComponent {
      * an anchor by the time this is called. If the anchor isn't found in storage, it will
      * initialize this jukebox anew
      */
-    load() {
-        const id = this.id;
-        const s = this._persistentStorage;
+    async load() {
+        console.log(`Loading jukebox#${this.id}...`);
 
-        // New jukebox!
-        if (!s.has(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id)) {
+        const req = new Request(`${SERVER_URL}/${this.id}`, {
+            method: "GET"
+        });
+        const res = await this.internetModule.fetch(req);
+
+        // Generate the jukebox from scratch since it wasn't found
+        if (res.status != 200) {
+            console.log(`Jukebox#${this.id} is new, initializing...`);
             this._instrumentOrder = shuffledInstruments();
             this._instrumentIndex = 0;
             this._audioRecording = expandAudioRecording(new Float32Array([0]));
             
             // generate first track
             this.firstTrackTooltip.enabled = true;
-            MusicGenerator.generateRandomTrack().then((track) => {
+            await this.save();
+            await MusicGenerator.generateRandomTrack().then(async (track) => {
                 this.firstTrackTooltip.enabled = false;
 
-                if (track.length > SAMPLE_RATE * 10) {
-                    track = track.slice(0, SAMPLE_RATE * 10);
-                }
-
                 this._audioRecording = expandAudioRecording(track);
+
+                console.log(`HERE A: ${this._audioRecording[0].audioFrameShape.x}`);
+
+                await this.save();
+
+                console.log("HERE B");
+
                 this._audioOutputProvider.enqueueAudioFrame(
                     this._audioRecording[0].audioFrame,
                     this._audioRecording[0].audioFrameShape
                 );
-                this.save();
-
-                console.log(s.getAllKeys());
             });
-
-            // save to persistent storage with initalized values
-            this.save();
             return;
-        }
+        };
 
-        try {
-            this._audioRecording = expandAudioRecording(s.getFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id));
-            this._instrumentOrder = [...s.getUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id)];
-            this._instrumentIndex = s.getInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id);
-        } catch (e) {
-            console.error(`error loading jukebox: ${e}`);
-        }
+        console.log(`Restored state for jukebox#${this.id}!`);
 
-        console.log(`Loaded anchor#${id} with audio (${this._audioRecording.length} samples) and index = ${this._instrumentIndex}`);
+        // Got the jukebox state from the server
+        const deserialized = JSON.parse(await res.text());
+        const pcm = Base64.decode(deserialized.pcm);
+
+        this._audioRecording = expandAudioRecording(new Float32Array(pcm.buffer));
+        this._instrumentOrder = deserialized.instrumentOrder;
+        this._instrumentIndex = deserialized.instrumentIndex;
+
+        setTimeout(() => {
+            this._audioOutputProvider.enqueueAudioFrame(
+                this._audioRecording[0].audioFrame,
+                this._audioRecording[0].audioFrameShape
+            );
+        }, 1000);
+        
+
+        console.log(this._audioRecording[0].audioFrameShape);
+
+        console.log(`Completely done with jukebox#${this.id}`);
     }
 }

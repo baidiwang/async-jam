@@ -4,6 +4,7 @@ import SIK from "SpectaclesInteractionKit.lspkg/SIK";
 import { JukeboxPlacementController } from "./JukeboxPlacementController";
 import { MusicGenerator } from "./MusicGenerator";
 import { expandAudioRecording, SAMPLE_RATE } from "./Audio";
+import WorldCameraFinderProvider from "SpectaclesInteractionKit.lspkg/Providers/CameraProvider/WorldCameraFinderProvider";
 
 @component
 export class DebugMenuController extends BaseScriptComponent {
@@ -56,6 +57,11 @@ export class DebugMenuController extends BaseScriptComponent {
             const pos = hand.indexTip.position;
             const rot = quat.lookAt(vec3.forward(), vec3.up());
             const transform = mat4.compose(pos, rot, vec3.one());
+            // const camera = WorldCameraFinderProvider.getInstance().getTransform();
+            // const offset = camera.back.uniformScale(60);
+            // const position = camera.getWorldPosition().add(offset);
+            // const rotation = quat.lookAt(vec3.forward(), vec3.up());
+            // const transform = mat4.compose(position, rotation, vec3.one());
 
             this._jukeboxGhost
                 .getTransform()

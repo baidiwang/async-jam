@@ -54,6 +54,7 @@
     "":
       firstTrackTooltip: !<reference.SceneObject> c3c3f286-90fc-4b18-a042-4b0d12e5e143
       audioOutput: !<reference.AudioTrackAsset> 6b03233a-ae85-4cdb-aa3b-27f5c26b77b8
+      internetModule: !<reference.InternetModule> 01b60f09-03f1-4d02-8e7e-dca803cb76a2
   ScriptTypes:
     "":
       {}
@@ -92,6 +93,21 @@
     []
   Components:
     - !<own> 0afcd85f-47ea-4d66-8580-55e86b7fd77e
+- !<SceneObject/4002a8b3-29ec-4fc3-b152-4a5bbe0b553e>
+  PrefabRemaps:
+    []
+  Name: Object 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cb045031-ee60-4317-8c29-634bd7ef2c30
 - !<ObjectPrefabAssetData/a2d9289d-e592-45a9-a652-52072ff7b4e5>
   Prototype: !<ObjectOwner/01f826a1-7a32-4f69-b0b9-f2f555b5b2cf>
     PackagePath: ""
@@ -127,9 +143,27 @@
   Children:
     - !<own> 2a89c945-9e19-43ff-9c9e-053f632790f8
     - !<own> c3c3f286-90fc-4b18-a042-4b0d12e5e143
+    - !<own> 4002a8b3-29ec-4fc3-b152-4a5bbe0b553e
   Components:
     - !<own> f05c9135-f100-4dab-925e-83999ad6a42c
     - !<own> 04081d88-a90e-45c4-9599-19b4970f2751
+- !<AudioComponent/cb045031-ee60-4317-8c29-634bd7ef2c30>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 6b03233a-ae85-4cdb-aa3b-27f5c26b77b8
+  EnableAutoplayLoop: true
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: true
+  EnableDistanceEffect: true
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: true
+  EnablePositionEffect: true
 - !<Text/e61992e0-7f4f-42ba-a6f9-96b3384976c1>
   PrefabRemaps:
     []

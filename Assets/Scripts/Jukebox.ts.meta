@@ -28,6 +28,7 @@
   ScriptInputsHidden:
     audioOutput: false
     firstTrackTooltip: false
+    internetModule: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -39,9 +40,11 @@
   DefaultScriptInputs:
     - firstTrackTooltip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       audioOutput: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      internetModule: !<reference.InternetModule> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input SceneObject firstTrackTooltip
     - // @input Asset.AudioTrackAsset audioOutput
+    - // @input Asset.InternetModule internetModule

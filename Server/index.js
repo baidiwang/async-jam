@@ -26,7 +26,7 @@ app.post('/:uuid', async (req, res) => {
     
     try {
         await fs.writeFile(filePath, req.body, 'utf8');
-        res.status(201).json({ success: true, id: uuid });
+        res.status(200).json({ success: true, id: uuid });
     } catch (err) {
         console.error('Error writing file:', err);
         res.status(500).json({ error: 'Failed to save data.' });

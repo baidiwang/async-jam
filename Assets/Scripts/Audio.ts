@@ -8,6 +8,10 @@ export type AudioRecording = AudioFrameData[];
 export const SAMPLE_RATE = 48_000;
 
 export function flattenAudioRecording(frames: AudioRecording): Float32Array {
+    if (frames.length === 1) {
+        return frames[0].audioFrame;
+    } 
+    
     const len = frames.reduce((acc, f) => acc + f.audioFrameShape.x, 0);
     const out = new Float32Array(len);
     

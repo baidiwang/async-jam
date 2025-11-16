@@ -156,6 +156,7 @@
     "":
       firstTrackTooltip: !<reference.SceneObject> 10734b40-2657-4de1-a174-1b7ad37333b2
       audioOutput: !<reference.AudioTrackAsset> 6b03233a-ae85-4cdb-aa3b-27f5c26b77b8
+      internetModule: !<reference.InternetModule> 01b60f09-03f1-4d02-8e7e-dca803cb76a2
   ScriptTypes:
     "":
       {}
@@ -185,6 +186,8 @@
     - b07c2393-f3b9-46a3-a896-4155dddecdef: f05c9135-f100-4dab-925e-83999ad6a42c
     - c4534f43-5d39-48e7-9bba-c898ae22d8d3: c4534f43-5d39-48e7-6445-376751dd272c
     - c5a5c26f-85d4-46ab-910f-92e8b6a0fb39: 0afcd85f-47ea-4d66-8580-55e86b7fd77e
+    - e7bbcdb0-b05d-4409-9126-92b503c28aee: 4002a8b3-29ec-4fc3-b152-4a5bbe0b553e
+    - ff5b365d-9551-435c-8921-6bb847e408f5: cb045031-ee60-4317-8c29-634bd7ef2c30
   Name: Cylinder
   Enabled: true
   Layers: 1
@@ -196,6 +199,7 @@
   Children:
     - !<own> 66f1acc0-eec7-4749-86f8-028a8765d9d8
     - !<own> 10734b40-2657-4de1-a174-1b7ad37333b2
+    - !<own> e7bbcdb0-b05d-4409-9126-92b503c28aee
   Components:
     - !<own> b07c2393-f3b9-46a3-a896-4155dddecdef
     - !<own> 6daaf0ec-c2cc-485e-a556-39205a2d85ea
@@ -219,3 +223,35 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/e7bbcdb0-b05d-4409-9126-92b503c28aee>
+  PrefabRemaps:
+    []
+  Name: Object 1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff5b365d-9551-435c-8921-6bb847e408f5
+- !<AudioComponent/ff5b365d-9551-435c-8921-6bb847e408f5>
+  PrefabRemaps:
+    []
+  Name: Audio
+  Enabled: true
+  AudioTrack: !<reference> 6b03233a-ae85-4cdb-aa3b-27f5c26b77b8
+  EnableAutoplayLoop: true
+  Volume: 1.000000
+  EnableMixToSnap: false
+  RecordVolume: 1.000000
+  EnableSpatialAudio: true
+  EnableDistanceEffect: true
+  CurveType: Logarithm
+  MinDistance: 0.000000
+  MaxDistance: 100.000000
+  EnableDirectivityEffect: true
+  EnablePositionEffect: true

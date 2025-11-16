@@ -21,7 +21,7 @@ export class JukeboxPlacementController extends BaseScriptComponent {
     private async onStart() {
         const anchorSessionOptions = new AnchorSessionOptions();
         
-        anchorSessionOptions.area = "devland4";
+        anchorSessionOptions.area = "myarea1";
         anchorSessionOptions.scanForWorldAnchors = true;
 
         this.anchorSession = await this.anchorModule.openSession(anchorSessionOptions);
@@ -41,13 +41,13 @@ export class JukeboxPlacementController extends BaseScriptComponent {
     public async createAnchor(worldTransform: mat4) {
         const anchor = await this.anchorSession.createWorldAnchor(worldTransform);
 
+        this.attachNewObjectToAnchor(anchor);
+
         try {
             this.localizationTooltip.enabled = true;
             const userAnchor = await this.anchorSession.saveAnchor(anchor);
 
             // if made it this far (call above has finished), then the area scan is done
-            
-            this.attachNewObjectToAnchor(userAnchor);
 
             console.log(`Sucesfully saved anchor ${userAnchor.id}`);
         } catch (e) {
@@ -62,6 +62,7 @@ export class JukeboxPlacementController extends BaseScriptComponent {
         const obj = this.jukeboxPrefab.instantiate(this.getSceneObject());
         obj.setParent(this.getSceneObject());
 
+        // const anchorComponent = obj.createComponent(AnchorComponent.getTypeName()) as AnchorComponent;
         const anchorComponent = obj.getComponent(AnchorComponent.getTypeName());
         const jukeboxComponent = obj.getComponent(Jukebox.getTypeName());
 

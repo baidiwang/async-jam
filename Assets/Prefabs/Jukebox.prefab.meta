@@ -53,8 +53,10 @@
   ScriptInputs:
     "":
       firstTrackTooltip: !<reference.SceneObject> c3c3f286-90fc-4b18-a042-4b0d12e5e143
+      audio: !<reference.AudioComponent> f787e843-7a30-4299-a37a-e0ca3df21888
       audioOutput: !<reference.AudioTrackAsset> 6b03233a-ae85-4cdb-aa3b-27f5c26b77b8
       internetModule: !<reference.InternetModule> 01b60f09-03f1-4d02-8e7e-dca803cb76a2
+      camera: !<reference.SceneObject> 00000000-0000-0065-0000-000000000064
   ScriptTypes:
     "":
       {}
@@ -154,7 +156,7 @@
   Enabled: true
   AudioTrack: !<reference> 6b03233a-ae85-4cdb-aa3b-27f5c26b77b8
   EnableAutoplayLoop: true
-  Volume: 1.000000
+  Volume: 0.520000
   EnableMixToSnap: false
   RecordVolume: 1.000000
   EnableSpatialAudio: true

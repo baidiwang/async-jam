@@ -1,5 +1,5 @@
 import { AnchorComponent } from "Spatial Anchors.lspkg/AnchorComponent";
-import { AudioRecording, expandAudioRecording, flattenAudioRecording, SAMPLE_RATE } from "./Audio";
+import { AudioRecording, expandAudioRecording, flattenAudioRecording, SAMPLE_RATE, totalDuration } from "./Audio";
 import { Instrument, shuffledInstruments } from "./Instrument";
 import { MusicGenerator } from "./MusicGenerator";
 import { setTimeout } from "SpectaclesInteractionKit.lspkg/Utils/FunctionTimingUtils";
@@ -40,14 +40,15 @@ enum State {
 @component
 export class Jukebox extends BaseScriptComponent {    
     @input firstTrackTooltip: SceneObject;
+    @input audio: AudioComponent;
     @input audioOutput: AudioTrackAsset;
     @input internetModule: InternetModule;
+    @input camera: SceneObject;
     
     private _anchorComponent?: AnchorComponent;
     private _audioRecording: AudioRecording;
     private _instrumentOrder: Instrument[];
     private _instrumentIndex: number;
-    private _persistentStorage: GeneralDataStore;
     private _audioOutputProvider: AudioOutputProvider;
     
     onAwake() {
@@ -55,8 +56,19 @@ export class Jukebox extends BaseScriptComponent {
         
         this._audioOutputProvider = this.audioOutput.control as AudioOutputProvider;
         this._audioOutputProvider.sampleRate = SAMPLE_RATE;
+
+        this.createEvent("UpdateEvent").bind(() => this.onUpdate());
     }
 
+    onUpdate() {
+        const camPos = this.camera.getTransform().getWorldPosition();
+        const mePos = this.getTransform().getWorldPosition();
+
+        const dist = camPos.distance(mePos);
+
+        this.audio.volume = dist <= 120 ? 100 : 35;
+    }
+ 
     get id(): string {
         if (!this._anchorComponent) {
             throw new Error("Jukebox needs an anchor component attached!");
@@ -101,7 +113,6 @@ export class Jukebox extends BaseScriptComponent {
      */
     async save() {
         const pcm = flattenAudioRecording(this._audioRecording);
-        console.log("here C");
         
         const serialized = {
             pcm: Base64.encode(new Uint8Array(pcm.buffer, pcm.byteOffset, pcm.byteLength)),
@@ -109,15 +120,11 @@ export class Jukebox extends BaseScriptComponent {
             instrumentIndex: this._instrumentIndex,
         };
 
-        console.log("here D");
-
         const req = new Request(`${SERVER_URL}/${this.id}`, {
             method: "POST",
             body: JSON.stringify(serialized),
         });
         const res = await this.internetModule.fetch(req);
-
-        console.log("here E");
         
         if (res.status != 200 && res.status != 201) {
             console.error(`Error saving ${JSON.stringify(await res.json())} (error code ${res.status})`);
@@ -154,16 +161,9 @@ export class Jukebox extends BaseScriptComponent {
 
                 this._audioRecording = expandAudioRecording(track);
 
-                console.log(`HERE A: ${this._audioRecording[0].audioFrameShape.x}`);
-
                 await this.save();
 
-                console.log("HERE B");
-
-                this._audioOutputProvider.enqueueAudioFrame(
-                    this._audioRecording[0].audioFrame,
-                    this._audioRecording[0].audioFrameShape
-                );
+                this.playAudioLoop();
             });
             return;
         };
@@ -178,16 +178,21 @@ export class Jukebox extends BaseScriptComponent {
         this._instrumentOrder = deserialized.instrumentOrder;
         this._instrumentIndex = deserialized.instrumentIndex;
 
-        setTimeout(() => {
-            this._audioOutputProvider.enqueueAudioFrame(
-                this._audioRecording[0].audioFrame,
-                this._audioRecording[0].audioFrameShape
-            );
-        }, 1000);
-        
-
-        console.log(this._audioRecording[0].audioFrameShape);
+        this.playAudioLoop();
 
         console.log(`Completely done with jukebox#${this.id}`);
+    }
+
+    private playAudioLoop() {
+        console.log("looping...");
+
+        setTimeout(() => {
+            this.playAudioLoop();
+        }, 1000 * (totalDuration(this._audioRecording) + 1));
+
+        this._audioOutputProvider.enqueueAudioFrame(
+            this._audioRecording[0].audioFrame,
+            this._audioRecording[0].audioFrameShape,
+        )
     }
 }

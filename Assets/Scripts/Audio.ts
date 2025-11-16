@@ -7,6 +7,10 @@ export type AudioRecording = AudioFrameData[];
 
 export const SAMPLE_RATE = 48_000;
 
+export function totalDuration(frames: AudioRecording): number {
+    return frames.reduce((acc, f) => acc + f.audioFrameShape.x, 0) / SAMPLE_RATE;
+}
+
 export function flattenAudioRecording(frames: AudioRecording): Float32Array {
     if (frames.length === 1) {
         return frames[0].audioFrame;

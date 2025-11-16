@@ -26,12 +26,14 @@
   Enabled: true
   ScriptAsset: !<reference> 43daf11b-53d9-4d30-b190-28a589bc7010
   ScriptInputsDefault:
-    {}
+    firstTrackTooltip: true
+    audioOutput: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      {}
+      firstTrackTooltip: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      audioOutput: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}

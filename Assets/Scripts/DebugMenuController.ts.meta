@@ -27,7 +27,9 @@
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
     addJukeboxButton: false
+    audioOutput: false
     closeButton: false
+    generateMusicButton: false
     jukeboxGhostPrefab: false
     jukeboxPlacementController: false
     menuUi: false
@@ -43,8 +45,10 @@
     - menuUi: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       closeButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
       addJukeboxButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      generateMusicButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
       jukeboxGhostPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
-      jukeboxPlacementController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      jukeboxPlacementController: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      audioOutput: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -52,5 +56,7 @@
     - // @input SceneObject menuUi
     - // @input AssignableType closeButton
     - // @input AssignableType_1 addJukeboxButton
+    - // @input AssignableType_2 generateMusicButton
     - // @input Asset.ObjectPrefab jukeboxGhostPrefab
-    - // @input AssignableType_2 jukeboxPlacementController
+    - // @input AssignableType_3 jukeboxPlacementController
+    - // @input Asset.AudioTrackAsset audioOutput

@@ -21,7 +21,7 @@ export class JukeboxPlacementController extends BaseScriptComponent {
     private async onStart() {
         const anchorSessionOptions = new AnchorSessionOptions();
         
-        anchorSessionOptions.area = "devland3";
+        anchorSessionOptions.area = "devland4";
         anchorSessionOptions.scanForWorldAnchors = true;
 
         this.anchorSession = await this.anchorModule.openSession(anchorSessionOptions);
@@ -44,6 +44,8 @@ export class JukeboxPlacementController extends BaseScriptComponent {
             // if made it this far (call above has finished), then the area scan is done
             
             this.attachNewObjectToAnchor(userAnchor);
+
+            console.log(`Sucesfully saved anchor ${userAnchor.id}`);
         } catch (e) {
             console.error(`Error saving anchor: ${e}`)
             console.error(`Error saving anchor. stack trace: ${e.stack}`);

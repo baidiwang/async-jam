@@ -2,15 +2,18 @@ import { PinchButton } from "SpectaclesInteractionKit.lspkg/Components/UI/PinchB
 import { Interactor, InteractorInputType } from "SpectaclesInteractionKit.lspkg/Core/Interactor/Interactor";
 import SIK from "SpectaclesInteractionKit.lspkg/SIK";
 import { JukeboxPlacementController } from "./JukeboxPlacementController";
-import WorldCameraFinderProvider from "SpectaclesInteractionKit.lspkg/Providers/CameraProvider/WorldCameraFinderProvider";
+import { MusicGenerator } from "./MusicGenerator";
+import { expandAudioRecording, SAMPLE_RATE } from "./Audio";
 
 @component
 export class DebugMenuController extends BaseScriptComponent {
     @input menuUi: SceneObject;
     @input closeButton: PinchButton;
     @input addJukeboxButton: PinchButton;
+    @input generateMusicButton: PinchButton;
     @input jukeboxGhostPrefab: ObjectPrefab;
     @input jukeboxPlacementController: JukeboxPlacementController;
+    @input audioOutput: AudioTrackAsset;
     
     private _openDebugMenuTime: number = 0;
     private _openDebugMenuHand?: 'lt' | 'rt';
@@ -19,6 +22,8 @@ export class DebugMenuController extends BaseScriptComponent {
     private _rightHand?: Interactor;
 
     private _jukeboxGhost?: SceneObject;
+
+    private _audioOutputProvider: AudioOutputProvider;
     
     onAwake() {
         this.createEvent("OnStartEvent").bind(() => this.onStart());
@@ -33,6 +38,10 @@ export class DebugMenuController extends BaseScriptComponent {
 
         this.closeButton.onButtonPinched(() => this.closeMenu());
         this.addJukeboxButton.onButtonPinched(() => this.addJukeboxGhost());
+        this.generateMusicButton.onButtonPinched(() => this.generateMusic());
+
+        this._audioOutputProvider = this.audioOutput.control as AudioOutputProvider;
+        this._audioOutputProvider.sampleRate = SAMPLE_RATE;
     }
 
     get isMenuOpen(): boolean {
@@ -104,5 +113,14 @@ export class DebugMenuController extends BaseScriptComponent {
     private destroyJukeboxGhost() {
         this._jukeboxGhost.destroy();
         this._jukeboxGhost = null;
+    }
+
+    private async generateMusic() {
+        console.log("Generating music...");
+        const track = expandAudioRecording(await MusicGenerator.generateRandomTrack());
+
+        console.log("Done, playing...");
+
+        this._audioOutputProvider.enqueueAudioFrame(track[0].audioFrame, track[0].audioFrameShape);
     }
 }

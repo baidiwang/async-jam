@@ -1,6 +1,7 @@
 import { AnchorComponent } from "Spatial Anchors.lspkg/AnchorComponent";
-import { AudioRecording, expandAudioRecording, flattenAudioRecording } from "./Audio";
+import { AudioRecording, expandAudioRecording, flattenAudioRecording, SAMPLE_RATE } from "./Audio";
 import { Instrument, shuffledInstruments } from "./Instrument";
+import { MusicGenerator } from "./MusicGenerator";
 
 // Keys are appended the anchor ID
 const SERIALIZATION_KEYS = {
@@ -42,17 +43,22 @@ enum State {
 
 @component
 export class Jukebox extends BaseScriptComponent {    
-    @input clickerSound: AudioTrackAsset;
+    @input firstTrackTooltip: SceneObject;
+    @input audioOutput: AudioTrackAsset;
     
     private _anchorComponent?: AnchorComponent;
     private _audioRecording: AudioRecording;
     private _instrumentOrder: Instrument[];
     private _instrumentIndex: number;
     private _persistentStorage: GeneralDataStore;
+    private _audioOutputProvider: AudioOutputProvider;
     
     onAwake() {
         this._persistentStorage = global.persistentStorageSystem.store;
         this._anchorComponent = this.sceneObject.getComponent(AnchorComponent.getTypeName());
+        
+        this._audioOutputProvider = this.audioOutput.control as AudioOutputProvider;
+        this._audioOutputProvider.sampleRate = SAMPLE_RATE;
     }
 
     get id(): string {
@@ -119,11 +125,24 @@ export class Jukebox extends BaseScriptComponent {
         const s = this._persistentStorage;
 
         // New jukebox!
-        if (!s.has(SERIALIZATION_KEYS.RECORDING_PCM + id)) {
+        if (!s.has(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id)) {
             this._instrumentOrder = shuffledInstruments();
             this._instrumentIndex = 0;
-            this._audioRecording = expandAudioRecording(new Float32Array());
+            this._audioRecording = expandAudioRecording(new Float32Array([0]));
             
+            // generate first track
+            this.firstTrackTooltip.enabled = true;
+            MusicGenerator.generateRandomTrack().then((track) => {
+                this.firstTrackTooltip.enabled = false;
+
+                this._audioRecording = expandAudioRecording(track);
+                this._audioOutputProvider.enqueueAudioFrame(
+                    this._audioRecording[0].audioFrame,
+                    this._audioRecording[0].audioFrameShape
+                );
+                this.save();
+            });
+
             // save to persistent storage with initalized values
             this.save();
             return;
@@ -132,5 +151,7 @@ export class Jukebox extends BaseScriptComponent {
         this._audioRecording = expandAudioRecording(s.getFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id));
         this._instrumentOrder = [...s.getUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id)];
         this._instrumentIndex = s.getInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id);
+
+        console.log(`Loaded anchor#${id} with audio (${this._audioRecording.length} samples) and index = ${this._instrumentIndex}`);
     }
 }

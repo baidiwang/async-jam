@@ -27,10 +27,14 @@ export class JukeboxPlacementController extends BaseScriptComponent {
         this.anchorSession = await this.anchorModule.openSession(anchorSessionOptions);
         this.anchorSession.onAnchorNearby.add(this.onAnchorNearby.bind(this));
 
+        this.anchorSession.onAreaCapacityReached.add((e) => console.error(`DAMNITTTT ${e}`));
+
         this.localizationTooltip.enabled = false;
     }
 
     private onAnchorNearby(anchor: Anchor) {
+        console.log(`anchor#${anchor.id} is nearby!`);
+
         this.attachNewObjectToAnchor(anchor);
     }
 

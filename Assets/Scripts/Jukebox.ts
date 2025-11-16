@@ -59,6 +59,11 @@ export class Jukebox extends BaseScriptComponent {
         
         this._audioOutputProvider = this.audioOutput.control as AudioOutputProvider;
         this._audioOutputProvider.sampleRate = SAMPLE_RATE;
+
+        this._persistentStorage.onStoreFull = () => {
+            console.error(`Storage is full! Was ${this._persistentStorage.getSizeInBytes()} but max is ${this._persistentStorage.getMaxSizeInBytes()}`);
+        }
+        console.log(`Storage max: ${this._persistentStorage.getMaxSizeInBytes()} bytes`);
     }
 
     get id(): string {
@@ -106,13 +111,16 @@ export class Jukebox extends BaseScriptComponent {
     save() {
         const id = this.id;
         const s = this._persistentStorage;
+
         try {
-            s.putFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id, flattenAudioRecording(this.audioRecording));
+            s.putFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id, flattenAudioRecording(this._audioRecording));
             s.putUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id, new Uint8Array(this._instrumentOrder));
             s.putInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id, this._instrumentIndex);
         } catch (e) {
             console.error(`Error saving jukebox: ${e}`);
         }
+
+        console.log(`Storage is ${this._persistentStorage.getSizeInBytes()} / ${this._persistentStorage.getMaxSizeInBytes()} bytes`);
     }
 
     /**
@@ -135,12 +143,18 @@ export class Jukebox extends BaseScriptComponent {
             MusicGenerator.generateRandomTrack().then((track) => {
                 this.firstTrackTooltip.enabled = false;
 
+                if (track.length > SAMPLE_RATE * 10) {
+                    track = track.slice(0, SAMPLE_RATE * 10);
+                }
+
                 this._audioRecording = expandAudioRecording(track);
                 this._audioOutputProvider.enqueueAudioFrame(
                     this._audioRecording[0].audioFrame,
                     this._audioRecording[0].audioFrameShape
                 );
                 this.save();
+
+                console.log(s.getAllKeys());
             });
 
             // save to persistent storage with initalized values
@@ -148,9 +162,13 @@ export class Jukebox extends BaseScriptComponent {
             return;
         }
 
-        this._audioRecording = expandAudioRecording(s.getFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id));
-        this._instrumentOrder = [...s.getUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id)];
-        this._instrumentIndex = s.getInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id);
+        try {
+            this._audioRecording = expandAudioRecording(s.getFloat32Array(SERIALIZATION_KEYS.RECORDING_PCM + id));
+            this._instrumentOrder = [...s.getUint8Array(SERIALIZATION_KEYS.INSTRUMENT_ORDER + id)];
+            this._instrumentIndex = s.getInt(SERIALIZATION_KEYS.INSTRUMENT_INDEX + id);
+        } catch (e) {
+            console.error(`error loading jukebox: ${e}`);
+        }
 
         console.log(`Loaded anchor#${id} with audio (${this._audioRecording.length} samples) and index = ${this._instrumentIndex}`);
     }

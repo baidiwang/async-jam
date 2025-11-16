@@ -2,15 +2,15 @@
   ImportedAssetIds:
     .hidden/Material.001: !<reference> 1575fca6-1346-42ff-8eb1-db37aa3d209c
     .hidden/white: !<reference> aacbb74a-f85b-4554-970a-048445c52d8c
-    24f30b16f6ec3a9a: !<reference> de03d215-6931-4b42-a602-a289f59bac80
-    2f0e87e54686c93a: !<reference> 005c93a2-bc34-4604-ac09-c796fcff0057
-    66780cf3a4dcb2b8: !<reference> e4634036-a944-4c80-bf14-722a4f8e036d
+    2028ca51e4a54211: !<reference> 7cfca1f4-ea5f-44d8-9763-ce8e36515dd3
+    40259c094371e2c9: !<reference> 0112319b-f056-4580-87c1-f2cefce8073f
+    7572fb6805a9ee2b: !<reference> 4afd476b-50b3-4f80-b4fc-4629bf9817a2
+    7a0dd5cd69df73fa: !<reference> 6ed5f740-885b-41c7-9705-7f2ecce40097
     Animations/Note_NoteAction: !<reference> 7a1f9ff3-108c-424f-abe3-0a06e15b8c34
     Materials/Material.001: !<reference> 7664fc2f-0205-406a-882a-cad03ec88dbb
     Materials/Material.001|Material.001|GraphPassInfo: !<reference> dbc98456-7c40-4c4a-8356-07d8ebb34ef7
     Meshes/Note: !<reference> bee66c15-36be-438d-ab18-1172ee2178a4
     Scene: !<reference> 00c4d5e7-7ee9-479d-9a6e-b0d4ab65c335
-    d56449042852f529: !<reference> 1dea18cb-2369-434a-97c8-cbdd677349f5
   ImporterName: FbxImporter
   PrimaryAsset: !<reference> 00c4d5e7-7ee9-479d-9a6e-b0d4ab65c335
   PackageType: LegacyPackage
@@ -52,7 +52,7 @@
       jpg: Performance Compression
     Overrides:
       {}
-- !<SceneObject/005c93a2-bc34-4604-53f6-38690300ffa8>
+- !<SceneObject/0112319b-f056-4580-783e-0d310317f8c0>
   PrefabRemaps:
     []
   Name: Note
@@ -66,34 +66,8 @@
   Children:
     []
   Components:
-    - !<own> de03d215-6931-4b42-59fd-5d760a64537f
-- !<AnimationPlayer/1dea18cb-2369-434a-6837-3422988cb60a>
-  PrefabRemaps:
-    []
-  Name: component_1
-  Enabled: true
-  Autoplay: true
-  ClipRangeType: Frames
-  AnimationClips:
-    - !<AnimationClip>
-      AnimationAsset: !<reference> 7a1f9ff3-108c-424f-abe3-0a06e15b8c34
-      Name: Note|NoteAction
-      Weight: 1.000000
-      PlaybackSpeed: 1.000000
-      Begin: 0.000000
-      End: 119.000000
-      Offset: 0.000000
-      Reversed: false
-      Disabled: false
-      BlendMode: Default
-      ScaleMode: Multiply
-      PlaybackMode: Loop
-- !<ObjectPrefabAssetData/cf306c50-7c09-49b2-8ef4-ad38acacadf1>
-  Prototype: !<ObjectOwner/41f2d26e-d49e-4c24-824c-37e022de365c>
-    PackagePath: ""
-    objects:
-      - !<own> e4634036-a944-4c80-40eb-8dd5b071fc92
-- !<RenderMeshVisual/de03d215-6931-4b42-59fd-5d760a64537f>
+    - !<own> 4afd476b-50b3-4f80-4b03-b9d64067e85d
+- !<RenderMeshVisual/4afd476b-50b3-4f80-4b03-b9d64067e85d>
   PrefabRemaps:
     []
   Name: component_0
@@ -113,7 +87,7 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/e4634036-a944-4c80-40eb-8dd5b071fc92>
+- !<SceneObject/6ed5f740-885b-41c7-68fa-80d1331bff68>
   PrefabRemaps:
     []
   Name: Note
@@ -125,6 +99,32 @@
     Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     HasSegmentScaleCompensation: false
   Children:
-    - !<own> 005c93a2-bc34-4604-53f6-38690300ffa8
+    - !<own> 0112319b-f056-4580-783e-0d310317f8c0
   Components:
-    - !<own> 1dea18cb-2369-434a-6837-3422988cb60a
+    - !<own> 7cfca1f4-ea5f-44d8-689c-3171c9aea22c
+- !<AnimationPlayer/7cfca1f4-ea5f-44d8-689c-3171c9aea22c>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7a1f9ff3-108c-424f-abe3-0a06e15b8c34
+      Name: Note|NoteAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 3.966667
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<ObjectPrefabAssetData/cf306c50-7c09-49b2-8ef4-ad38acacadf1>
+  Prototype: !<ObjectOwner/41f2d26e-d49e-4c24-824c-37e022de365c>
+    PackagePath: ""
+    objects:
+      - !<own> 6ed5f740-885b-41c7-68fa-80d1331bff68

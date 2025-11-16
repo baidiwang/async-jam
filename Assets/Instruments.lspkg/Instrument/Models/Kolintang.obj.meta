@@ -2,39 +2,38 @@
   ImportedAssetIds:
     .hidden/Material 1: !<reference> bfec1d0c-d435-48b7-846d-db0c1e48735d
     .hidden/white: !<reference> 0d1c35a8-34c3-4fc3-800f-a2186892d7a5
-    0074ff7350bf4eda: !<reference> 6f26c3ee-c707-48fe-8939-d490fd37b02a
-    038ea84353064ac4: !<reference> ab48fb9c-3221-4bbc-a312-ee8f16b8eacb
-    08a7cb7d13dc0335: !<reference> 76540268-90b1-462e-9029-c009979c6c90
-    09e3e29031cc5976: !<reference> 8b53ab77-ab07-4a29-b338-f59d586f251e
-    0ac1806338d4edd0: !<reference> 2f773b80-67d2-4a27-92e5-a109a2dc5fea
-    25db77fd8b7ecd18: !<reference> 27937eb0-88b0-4bb6-b07b-b3d51f5ae393
-    2722b19cb2ebc208: !<reference> ed2583c3-0ba5-4932-a70c-f6ea4725fb2d
-    2814a8d6d844b38b: !<reference> ffc2a6d8-582a-41b0-8e20-387763d0da3e
-    2889c875822c3678: !<reference> 78e46ed2-6018-455c-87d6-6e5848a035f9
-    3033c43a9ad5cc08: !<reference> 8785168a-96ee-49b6-ba00-a791fea1f556
-    387f1178d1a5b047: !<reference> 64db388d-a7ea-4b59-918a-0e804b440969
-    3d3dd547a58dea00: !<reference> a8f6786d-c528-4508-b703-85c5bf551b5d
-    3dbc22f671bb9a40: !<reference> af92121c-d0af-4923-b5f1-f4a6a055ded3
-    432e873fdc26bdc1: !<reference> d8d45af2-2840-4253-939f-f95623a37e52
-    4662dd33666c455e: !<reference> d9c7c1a6-00e0-4bbb-a93a-7c93bdbc9627
-    58ca07ef1912d409: !<reference> eaaac0d4-fac2-46eb-86e5-de8a24bb33ea
-    6120301ab7006029: !<reference> 2b8dd1dc-0573-4ac9-a8de-9649d075165a
-    6599d7ae337b9b47: !<reference> c9146ff9-4190-40b8-9d31-25016078d270
-    66780cf3a4dcb2b8: !<reference> e1a54407-190d-4cfd-af48-76b72859d22c
-    667a4e8f700c856d: !<reference> ea3cba39-ee3e-4fb4-8cb0-44be4305fe11
-    675be5fb9a89b2c8: !<reference> a76beb6c-1eb4-4c68-9f24-a01b059a3134
-    68283ba14abe79e5: !<reference> b05f37cc-b4d6-4eeb-9449-366644ef88da
-    69405bf787f59acf: !<reference> 7fe7f6e1-039b-4cf7-a69b-b31f691bf264
-    72928c3d4b02bd23: !<reference> a057831d-6967-42a1-bf38-fd5e59230cc9
-    8195bd5da6dd29fc: !<reference> 7be52b1d-b4fc-46fd-9675-36741c49118c
-    82dab4c4cbf98fdd: !<reference> 0e6f1c3c-3057-4045-9277-b300d31dc1a7
-    83f7a76a0da747b3: !<reference> 130679b4-85e0-46ed-b509-c24b693f0923
-    861af2f42b0a6d2f: !<reference> 5d5171d7-d6c3-46c8-91a7-eb19c22f3353
-    8997564bef6dbdb9: !<reference> d2d00f4d-1658-4487-9856-c3301e7c8a6d
-    9005ccffe7d6ed9f: !<reference> 020574a9-576f-4977-8b0d-a6a9e5b3321b
-    987645d53cdcc37e: !<reference> fbc3e49f-4486-42e4-9841-3a296ea27e98
-    9a6706bfc268e88f: !<reference> 6dee8ba1-aaa9-40ed-a984-c981578d0c48
-    9e3800d5e3ae74b1: !<reference> de21f5a2-cc45-40da-b922-049b7a3bf65a
+    073eaeed3108f3a8: !<reference> c4c9fb82-7fb8-4cfe-b982-8aafb4134723
+    15ceda5c160dcdb0: !<reference> 0e35a990-b624-4641-afc7-6cab613ead68
+    189dc322109f17a2: !<reference> f7fb8ba7-9a97-4e5f-bf93-46126fe1cbe0
+    1fb45b1acde25d0f: !<reference> 4bc1453d-931e-4ac0-bf61-7be6dc3b3a37
+    20653e5b6eda7361: !<reference> ea9f91ab-d1b3-4c30-b067-fde50936909a
+    22a20fdc332a837a: !<reference> 0b59d91d-9125-460c-a3e8-d564e69af2b5
+    2fa812111d556566: !<reference> 3071cc68-c2b3-436e-b88b-2c79826082ac
+    3008b776bd7e8088: !<reference> 6bbd4e28-a127-4cd8-bc8a-4454c1067a4c
+    34d0b7f86086f9ea: !<reference> e3688a94-e899-4028-b4da-be3834091dbc
+    3800b25f7df8b791: !<reference> 82d9cb47-005b-42a8-9d4b-17d2908f76f8
+    39e4dd1f4793813c: !<reference> 96289791-dd2a-4acc-9b0a-7dcdcf598731
+    3ba591def6be2e06: !<reference> 44ea657c-5cf7-4b54-894c-4348eea6bbbb
+    3d35e43a3e61d8fb: !<reference> ef7af0b6-b69d-4ef1-a1d1-16fe0dabd215
+    41c3aa8014d3f619: !<reference> 299d0219-5c23-40aa-a88c-e50a74542ef1
+    488e3bd2c8f48bb7: !<reference> 359818ce-da6a-4491-881c-6ee7fd8571a8
+    48c62810c173478b: !<reference> f3340bd1-e845-46b4-b89f-971d783a0517
+    5144f4dd49882828: !<reference> 1df38559-2c53-4fcf-94d4-713617d3a34e
+    5161e493e0b1ee2a: !<reference> b5c9e13f-8cc2-4d60-882b-16131defba5a
+    5aa2fc2c55bc6c18: !<reference> 2c371e8e-1300-4291-9fd5-d4fd4bd28750
+    5b6f15adbf924891: !<reference> 554e3e5a-8176-4f54-8679-4c0d02073605
+    5f0c18c1981429d8: !<reference> 8b56ebc0-c4d6-435f-9703-0eb3c678c009
+    66dabdb3f524dc88: !<reference> e3f22004-74c1-45df-9c08-bf930bc8ea20
+    6978a94e5d316812: !<reference> 7e9535ec-fe1c-4a57-991a-4fed265fd954
+    6a45da032e441fa3: !<reference> 3f291529-04f6-4c15-b2b6-3cb47a6c4a2f
+    7738b81b3c247306: !<reference> 8393ff89-47b3-4246-8f20-a7144fda4a9e
+    77a2422a81249b7e: !<reference> 396d05c3-e125-4fd9-a110-77ea6deaa0c2
+    7a0dd5cd69df73fa: !<reference> ff537830-76cf-4d67-8db5-3523e44de94d
+    84a63a857322ffb6: !<reference> eb2901ae-a6aa-42cd-b076-a803c46e3a08
+    8b369406d6d92b2d: !<reference> 9b0b265d-c4ca-461c-b04f-7442a659ae89
+    901fe90434f9a143: !<reference> 0e4ec5e8-117c-4159-a14c-f3feb04c99ec
+    966e5f8ed8bdfbfa: !<reference> d2b0f5e1-64a1-46f5-80ee-9b34b6a532fa
+    987c8212978e1a1a: !<reference> 1beff4ea-fbb4-4857-a53b-b1b695a33ce6
     Materials/Material 1: !<reference> 46338fa9-222c-4648-97a1-306eb73f9f33
     Materials/Material 1|Material 1|GraphPassInfo: !<reference> 05d7212e-88a3-4abc-a95d-28724ee434de
     Meshes/Kolintang01_立方体.081: !<reference> 1869501f-18d7-43bb-96ad-9bf89c67d09b
@@ -62,22 +61,23 @@
     Meshes/Kolintangdeco11_立方体.026: !<reference> 26e7a368-8a11-4b7b-b8e5-6e520248943d
     Meshes/Kolintangdeco12_立方体.021: !<reference> 575c9de4-e11b-425d-b432-b5f94b29addf
     Scene: !<reference> 8cfc3b49-37a7-4892-870e-1159d9506757
-    a1774b5398944661: !<reference> 9e120285-92cd-4dac-ada0-adfe073f65db
-    a1abb67b3ed24777: !<reference> d077a2e9-3202-4611-8c3b-afbb1f1671bb
-    a475f77d23928dd0: !<reference> 8353bbde-213a-4910-a2ed-d09a23535c4d
-    a99a3f70338106a0: !<reference> b3841ac5-d973-43f1-b29e-5b20cb0a4225
-    abae6b47d6697eac: !<reference> f6ceeca1-347d-4425-b1f1-62377cc712c4
-    b1bb986f8003249f: !<reference> 2f804d83-506b-4fd1-bda5-007dfbe1dee2
-    b2f8ba84eedf090b: !<reference> a62d63fc-3350-44e8-b9ee-6efa491c1e6f
-    b4cc2ea28f8d6cf6: !<reference> 938e022c-132c-45ee-b94b-3294c94e325d
-    b5cf0ae42ffcd026: !<reference> e032f710-fe4a-4b6d-b8e6-1d53bfc5042b
-    b8c4c288e172b22f: !<reference> 6231345d-fc66-46b6-b4bc-1231dd0df966
-    c60331a49adba0dc: !<reference> 395d8a10-78ee-4244-9f09-36f8460c5eaf
-    de1d503b13040610: !<reference> 7717d4a0-5969-4e50-a57c-c0c51a932797
-    e5c07e528209d720: !<reference> 953e52ee-cd2a-4b39-bdc1-4b92e2698938
-    e6196a100446a199: !<reference> 8d1d3557-73a7-43a1-8594-515beba83844
-    eba0a5c9220216b6: !<reference> 38570633-bb5c-46f3-8bc9-18feae17145b
-    fc5e4ea063e5d6ed: !<reference> b0f02da2-896b-4b04-80a8-cdbd9fad8e11
+    a1cf28f1306a496d: !<reference> 632e2d4b-8119-4fd1-97ea-6167b44ff19a
+    a3ea912a65d12822: !<reference> 1b093c10-8769-4947-9b6b-8ea02a61275c
+    a9cbd86812ceefe6: !<reference> af8236f0-d2ab-44c1-a4eb-b7b631c501c8
+    b298d360dd7d6d80: !<reference> d9b65b3f-6986-4400-9c99-f5dadaf0e915
+    bffd1dea162f39cb: !<reference> a62119ed-91b0-4c78-9dc3-8d5c846e7760
+    ca00448429a790b5: !<reference> c07e0f5c-fcaf-4db0-99dd-2cf80b0bb3f5
+    ccb61616a3e7293b: !<reference> ab2d58e0-9dae-4026-9d69-83ec76c22dfa
+    ce43873d9b8db41d: !<reference> 2fc75b99-e7dc-495a-b0f6-17eb93ce3188
+    d2f9cf5c3e334d48: !<reference> ce575051-273b-41fa-92e6-14ae3133bcef
+    df583f3843221d95: !<reference> 4740dd72-3747-4c74-a5b6-5c0cebd49579
+    e3d52a2b32ba9cef: !<reference> 1b0ad31d-7721-4631-9fe7-54372fc7e375
+    e41ebfb913f5825c: !<reference> 972ad5b9-6e57-4962-87c0-16ec4a1913b2
+    eb8ac58262f9b9d0: !<reference> 10d98410-125b-43ef-9e24-dbe017f8211c
+    f82e0016a52ae16d: !<reference> 3f8ff924-cfec-42e2-b368-96b8ca886348
+    fa33ee27dca67959: !<reference> 3971af8f-5bbd-4e23-9b93-d0098e522c70
+    fcd35d1016459970: !<reference> c2525d66-7eeb-4383-93e6-08f93637f2f6
+    feccca088760a4dc: !<reference> 10d63ced-4cec-4f86-8c9c-b0cf27516fba
   ImporterName: ObjImporter
   PrimaryAsset: !<reference> 8cfc3b49-37a7-4892-870e-1159d9506757
   PackageType: LegacyPackage
@@ -108,30 +108,10 @@
       mesh: None Compression
     Overrides:
       {}
-- !<RenderMeshVisual/020574a9-576f-4977-74f2-59561a4ccde4>
+- !<SceneObject/0b59d91d-9125-460c-5c17-2a9b19650d4a>
   PrefabRemaps:
     []
-  Name: component_15
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 5b05f06c-f08c-4a37-be0a-192097892b35
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/0e6f1c3c-3057-4045-6d88-4cff2ce23e58>
-  PrefabRemaps:
-    []
-  Name: Kolintang12_立方体.070
+  Name: Kolintangdeco09_立方体.034
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -142,133 +122,8 @@
   Children:
     []
   Components:
-    - !<own> ab48fb9c-3221-4bbc-5ced-1170e9471534
-- !<RenderMeshVisual/130679b4-85e0-46ed-4af6-3db496c0f6dc>
-  PrefabRemaps:
-    []
-  Name: component_17
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> a5a98854-1731-4c9b-949b-ed5460578f1b
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/27937eb0-88b0-4bb6-4f84-4c2ae0a51c6c>
-  PrefabRemaps:
-    []
-  Name: component_10
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 737d0ea8-f579-467e-b9c0-9e1ea0e0e292
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/2b8dd1dc-0573-4ac9-5721-69b62f8ae9a5>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco02_立方体.064
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 27937eb0-88b0-4bb6-4f84-4c2ae0a51c6c
-- !<SceneObject/2f773b80-67d2-4a27-6d1a-5ef65d23a015>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco10_立方体.030
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> c9146ff9-4190-40b8-62ce-dafe9f872d8f
-- !<RenderMeshVisual/2f804d83-506b-4fd1-425a-ff82041e211d>
-  PrefabRemaps:
-    []
-  Name: component_1
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 26e7a368-8a11-4b7b-b8e5-6e520248943d
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/38570633-bb5c-46f3-7436-e70151e8eba4>
-  PrefabRemaps:
-    []
-  Name: component_4
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 702b4b6a-4033-44ac-8476-98776064f28e
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/395d8a10-78ee-4244-60f6-c907b9f3a150>
-  PrefabRemaps:
-    []
-  Name: Kolintang01_立方体.081
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 5d5171d7-d6c3-46c8-6e58-14e63dd0ccac
-- !<RenderMeshVisual/5d5171d7-d6c3-46c8-6e58-14e63dd0ccac>
+    - !<own> 8b56ebc0-c4d6-435f-68fc-f14c39873ff6
+- !<RenderMeshVisual/0e35a990-b624-4641-5038-93549ec15297>
   PrefabRemaps:
     []
   Name: component_23
@@ -288,537 +143,7 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<RenderMeshVisual/6231345d-fc66-46b6-4b43-edce22f20699>
-  PrefabRemaps:
-    []
-  Name: component_21
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 879aa3f5-70c1-4b99-a291-785361d6456f
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/64db388d-a7ea-4b59-6e75-f17fb4bbf696>
-  PrefabRemaps:
-    []
-  Name: component_22
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 2f6e99de-2e88-42a5-9317-f390c921670e
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/6dee8ba1-aaa9-40ed-567b-367ea872f3b7>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco05_立方体.050
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> ea3cba39-ee3e-4fb4-734f-bb41bcfa01ee
-- !<RenderMeshVisual/6f26c3ee-c707-48fe-76c6-2b6f02c84fd5>
-  PrefabRemaps:
-    []
-  Name: component_0
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 575c9de4-e11b-425d-b432-b5f94b29addf
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/76540268-90b1-462e-6fd6-3ff66863936f>
-  PrefabRemaps:
-    []
-  Name: component_11
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 2dc14bcf-4073-4fef-9330-fc5dc0ac4c95
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/7717d4a0-5969-4e50-5a83-3f3ae56cd868>
-  PrefabRemaps:
-    []
-  Name: component_8
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> fd71b61b-a654-46f0-8cf4-03cd437e184b
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/78e46ed2-6018-455c-7829-91a7b75fca06>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco12_立方体.021
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 6f26c3ee-c707-48fe-76c6-2b6f02c84fd5
-- !<SceneObject/7be52b1d-b4fc-46fd-698a-c98be3b6ee73>
-  PrefabRemaps:
-    []
-  Name: Kolintang08_立方体.074
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> e032f710-fe4a-4b6d-4719-e2ac403afbd4
-- !<ObjectPrefabAssetData/7f990e26-d9db-44e8-90d8-bc5bd7b7bb09>
-  Prototype: !<ObjectOwner/d5b4f824-584a-46fd-a6cd-6b1b79e955f5>
-    PackagePath: ""
-    objects:
-      - !<own> e1a54407-190d-4cfd-50b7-8948d7a62dd3
-- !<SceneObject/7fe7f6e1-039b-4cf7-5964-4ce096e40d9b>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco04_立方体.056
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 7717d4a0-5969-4e50-5a83-3f3ae56cd868
-- !<SceneObject/8353bbde-213a-4910-5d12-2f65dcaca3b2>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco06_立方体.046
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> d2d00f4d-1658-4487-67a9-3ccfe1837592
-- !<RenderMeshVisual/8785168a-96ee-49b6-45ff-586e015e0aa9>
-  PrefabRemaps:
-    []
-  Name: component_9
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 135c4ea8-6ed2-4375-9ab8-a1ed2b65cce6
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/8b53ab77-ab07-4a29-4cc7-0a62a790dae1>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco07_立方体.043
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> fbc3e49f-4486-42e4-67be-c5d6915d8167
-- !<RenderMeshVisual/8d1d3557-73a7-43a1-7a6b-aea41457c7bb>
-  PrefabRemaps:
-    []
-  Name: component_18
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 4cb4f048-06e9-4725-98ba-fb822ac7e066
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/938e022c-132c-45ee-46b4-cd6b36b1cda2>
-  PrefabRemaps:
-    []
-  Name: Kolintang05_立方体.077
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> d9c7c1a6-00e0-4bbb-56c5-836c424369d8
-- !<SceneObject/953e52ee-cd2a-4b39-423e-b46d1d9676c7>
-  PrefabRemaps:
-    []
-  Name: Kolintang07_立方体.075
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 130679b4-85e0-46ed-4af6-3db496c0f6dc
-- !<RenderMeshVisual/9e120285-92cd-4dac-525f-5201f8c09a24>
-  PrefabRemaps:
-    []
-  Name: component_13
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> ee334751-1a88-4218-8985-78e194451c89
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/a057831d-6967-42a1-40c7-02a1a6dcf336>
-  PrefabRemaps:
-    []
-  Name: Kolintang06_立方体.076
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 8d1d3557-73a7-43a1-7a6b-aea41457c7bb
-- !<SceneObject/a62d63fc-3350-44e8-4611-9105b6e3e190>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco09_立方体.034
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> b0f02da2-896b-4b04-7f57-3242605271ee
-- !<RenderMeshVisual/a76beb6c-1eb4-4c68-60db-5fe4fa65cecb>
-  PrefabRemaps:
-    []
-  Name: component_14
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> f8d31912-7320-4e44-b3af-5327b763526f
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/a8f6786d-c528-4508-48fc-7a3a40aae4a2>
-  PrefabRemaps:
-    []
-  Name: Kolintang10_立方体.072
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> a76beb6c-1eb4-4c68-60db-5fe4fa65cecb
-- !<RenderMeshVisual/ab48fb9c-3221-4bbc-5ced-1170e9471534>
-  PrefabRemaps:
-    []
-  Name: component_12
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 4bbf7b64-63a8-449e-8de7-31b691c6ac04
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/af92121c-d0af-4923-4a0e-0b595faa212c>
-  PrefabRemaps:
-    []
-  Name: Kolintang04_立方体.078
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> d077a2e9-3202-4611-73c4-5044e0e98e44
-- !<SceneObject/b05f37cc-b4d6-4eeb-6bb6-c999bb107725>
-  PrefabRemaps:
-    []
-  Name: Kolintang11_立方体.071
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 9e120285-92cd-4dac-525f-5201f8c09a24
-- !<RenderMeshVisual/b0f02da2-896b-4b04-7f57-3242605271ee>
-  PrefabRemaps:
-    []
-  Name: component_3
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 944d57d8-5fdf-4ad7-9e5f-4b56de929b6f
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/b3841ac5-d973-43f1-4d61-a4df34f5bdda>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco11_立方体.026
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 2f804d83-506b-4fd1-425a-ff82041e211d
-- !<RenderMeshVisual/c9146ff9-4190-40b8-62ce-dafe9f872d8f>
-  PrefabRemaps:
-    []
-  Name: component_2
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> af62e448-2c16-489e-9c91-2962d24a5c0d
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/d077a2e9-3202-4611-73c4-5044e0e98e44>
-  PrefabRemaps:
-    []
-  Name: component_20
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 7537fad6-77b0-497e-a9dd-8202ef58f443
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<RenderMeshVisual/d2d00f4d-1658-4487-67a9-3ccfe1837592>
-  PrefabRemaps:
-    []
-  Name: component_6
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 296e05a1-57f1-436f-b449-cb4f571cd00e
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/d8d45af2-2840-4253-6c60-06a9dc5c81ad>
-  PrefabRemaps:
-    []
-  Name: Kolintangdeco03_立方体.060
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 8785168a-96ee-49b6-45ff-586e015e0aa9
-- !<RenderMeshVisual/d9c7c1a6-00e0-4bbb-56c5-836c424369d8>
-  PrefabRemaps:
-    []
-  Name: component_19
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    []
-  Mesh: !<reference> 05eeca89-7890-4306-94b8-c42f2f0ffc39
-  Skin: !<reference> 00000000-0000-0000-0000-000000000000
-  BlendShapesEnabled: true
-  BlendNormals: false
-  BlendShapes:
-    {}
-- !<SceneObject/de21f5a2-cc45-40da-46dd-fb6485c409a5>
+- !<SceneObject/0e4ec5e8-117c-4159-5eb3-0c014fb36613>
   PrefabRemaps:
     []
   Name: Kolintangdeco08_立方体.040
@@ -832,8 +157,8 @@
   Children:
     []
   Components:
-    - !<own> 38570633-bb5c-46f3-7436-e70151e8eba4
-- !<RenderMeshVisual/e032f710-fe4a-4b6d-4719-e2ac403afbd4>
+    - !<own> 4bc1453d-931e-4ac0-409e-841923c4c5c8
+- !<RenderMeshVisual/10d63ced-4cec-4f86-7363-4f30d8ae9045>
   PrefabRemaps:
     []
   Name: component_16
@@ -853,48 +178,10 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/e1a54407-190d-4cfd-50b7-8948d7a62dd3>
+- !<RenderMeshVisual/10d98410-125b-43ef-61db-241fe807dee3>
   PrefabRemaps:
     []
-  Name: Kolintang
-  Enabled: true
-  Layers: 1
-  LocalTransform: !<TransformEntity>
-    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    HasSegmentScaleCompensation: false
-  Children:
-    - !<own> 78e46ed2-6018-455c-7829-91a7b75fca06
-    - !<own> b3841ac5-d973-43f1-4d61-a4df34f5bdda
-    - !<own> 2f773b80-67d2-4a27-6d1a-5ef65d23a015
-    - !<own> a62d63fc-3350-44e8-4611-9105b6e3e190
-    - !<own> de21f5a2-cc45-40da-46dd-fb6485c409a5
-    - !<own> 8b53ab77-ab07-4a29-4cc7-0a62a790dae1
-    - !<own> 8353bbde-213a-4910-5d12-2f65dcaca3b2
-    - !<own> 6dee8ba1-aaa9-40ed-567b-367ea872f3b7
-    - !<own> 7fe7f6e1-039b-4cf7-5964-4ce096e40d9b
-    - !<own> d8d45af2-2840-4253-6c60-06a9dc5c81ad
-    - !<own> 2b8dd1dc-0573-4ac9-5721-69b62f8ae9a5
-    - !<own> eaaac0d4-fac2-46eb-791a-2175db44cc15
-    - !<own> 0e6f1c3c-3057-4045-6d88-4cff2ce23e58
-    - !<own> b05f37cc-b4d6-4eeb-6bb6-c999bb107725
-    - !<own> a8f6786d-c528-4508-48fc-7a3a40aae4a2
-    - !<own> f6ceeca1-347d-4425-4e0e-9dc88338ed3b
-    - !<own> 7be52b1d-b4fc-46fd-698a-c98be3b6ee73
-    - !<own> 953e52ee-cd2a-4b39-423e-b46d1d9676c7
-    - !<own> a057831d-6967-42a1-40c7-02a1a6dcf336
-    - !<own> 938e022c-132c-45ee-46b4-cd6b36b1cda2
-    - !<own> af92121c-d0af-4923-4a0e-0b595faa212c
-    - !<own> ffc2a6d8-582a-41b0-71df-c7889c2f25c1
-    - !<own> ed2583c3-0ba5-4932-58f3-0915b8da04d2
-    - !<own> 395d8a10-78ee-4244-60f6-c907b9f3a150
-  Components:
-    []
-- !<RenderMeshVisual/ea3cba39-ee3e-4fb4-734f-bb41bcfa01ee>
-  PrefabRemaps:
-    []
-  Name: component_7
+  Name: component_15
   Enabled: true
   RenderOrder: 0
   StretchMode: Stretch
@@ -905,16 +192,96 @@
   ShadowDensity: 1.000000
   Materials:
     []
-  Mesh: !<reference> 4c2b2fae-a35a-4a32-bf8f-74b6944d7cef
+  Mesh: !<reference> 5b05f06c-f08c-4a37-be0a-192097892b35
   Skin: !<reference> 00000000-0000-0000-0000-000000000000
   BlendShapesEnabled: true
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/eaaac0d4-fac2-46eb-791a-2175db44cc15>
+- !<RenderMeshVisual/1b093c10-8769-4947-6494-715fd59ed8a3>
   PrefabRemaps:
     []
-  Name: Kolintangdeco01_立方体.068
+  Name: component_18
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 4cb4f048-06e9-4725-98ba-fb822ac7e066
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1b0ad31d-7721-4631-6018-abc8d0381c8a>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2dc14bcf-4073-4fef-9330-fc5dc0ac4c95
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1beff4ea-fbb4-4857-5ac4-4e496a5cc319>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 135c4ea8-6ed2-4375-9ab8-a1ed2b65cce6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/1df38559-2c53-4fcf-6b2b-8ec9e82c5cb1>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 7537fad6-77b0-497e-a9dd-8202ef58f443
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/299d0219-5c23-40aa-5773-1af58babd10e>
+  PrefabRemaps:
+    []
+  Name: Kolintang08_立方体.074
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -925,11 +292,31 @@
   Children:
     []
   Components:
-    - !<own> 76540268-90b1-462e-6fd6-3ff66863936f
-- !<SceneObject/ed2583c3-0ba5-4932-58f3-0915b8da04d2>
+    - !<own> 10d63ced-4cec-4f86-7363-4f30d8ae9045
+- !<RenderMeshVisual/2c371e8e-1300-4291-602a-2b02b42d78af>
   PrefabRemaps:
     []
-  Name: Kolintang02_立方体.080
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> ee334751-1a88-4218-8985-78e194451c89
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/2fc75b99-e7dc-495a-4f09-e8146c31ce77>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco02_立方体.064
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -940,11 +327,11 @@
   Children:
     []
   Components:
-    - !<own> 64db388d-a7ea-4b59-6e75-f17fb4bbf696
-- !<SceneObject/f6ceeca1-347d-4425-4e0e-9dc88338ed3b>
+    - !<own> ef7af0b6-b69d-4ef1-5e2e-e901f2542dea
+- !<SceneObject/3071cc68-c2b3-436e-4774-d3867d9f7d53>
   PrefabRemaps:
     []
-  Name: Kolintang09_立方体.073
+  Name: Kolintang12_立方体.070
   Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
@@ -955,8 +342,43 @@
   Children:
     []
   Components:
-    - !<own> 020574a9-576f-4977-74f2-59561a4ccde4
-- !<RenderMeshVisual/fbc3e49f-4486-42e4-67be-c5d6915d8167>
+    - !<own> 632e2d4b-8119-4fd1-6815-9e984bb00e65
+- !<SceneObject/359818ce-da6a-4491-77e3-9118027a8e57>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco06_立方体.046
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d9b65b3f-6986-4400-6366-0a25250f16ea
+- !<RenderMeshVisual/396d05c3-e125-4fd9-5eef-881592155f3d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 575c9de4-e11b-425d-b432-b5f94b29addf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/3971af8f-5bbd-4e23-646c-2ff671add38f>
   PrefabRemaps:
     []
   Name: component_5
@@ -976,7 +398,327 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<SceneObject/ffc2a6d8-582a-41b0-71df-c7889c2f25c1>
+- !<SceneObject/3f291529-04f6-4c15-4d49-c34b8593b5d0>
+  PrefabRemaps:
+    []
+  Name: Kolintang05_立方体.077
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> af8236f0-d2ab-44c1-5b14-4849ce3afe37
+- !<RenderMeshVisual/3f8ff924-cfec-42e2-4c97-694735779cb7>
+  PrefabRemaps:
+    []
+  Name: component_17
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> a5a98854-1731-4c9b-949b-ed5460578f1b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/44ea657c-5cf7-4b54-76b3-bcb711594444>
+  PrefabRemaps:
+    []
+  Name: Kolintang06_立方体.076
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1b093c10-8769-4947-6494-715fd59ed8a3
+- !<SceneObject/4740dd72-3747-4c74-5a49-a3f3142b6a86>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco11_立方体.026
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eb2901ae-a6aa-42cd-4f89-57fc3b91c5f7
+- !<RenderMeshVisual/4bc1453d-931e-4ac0-409e-841923c4c5c8>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 702b4b6a-4033-44ac-8476-98776064f28e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/554e3e5a-8176-4f54-7986-b3f2fdf8c9fa>
+  PrefabRemaps:
+    []
+  Name: Kolintang01_立方体.081
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0e35a990-b624-4641-5038-93549ec15297
+- !<RenderMeshVisual/632e2d4b-8119-4fd1-6815-9e984bb00e65>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 4bbf7b64-63a8-449e-8de7-31b691c6ac04
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6bbd4e28-a127-4cd8-4375-bbab3ef985b3>
+  PrefabRemaps:
+    []
+  Name: Kolintang09_立方体.073
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 10d98410-125b-43ef-61db-241fe807dee3
+- !<RenderMeshVisual/7e9535ec-fe1c-4a57-66e5-b012d9a026ab>
+  PrefabRemaps:
+    []
+  Name: component_21
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 879aa3f5-70c1-4b99-a291-785361d6456f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/7f990e26-d9db-44e8-90d8-bc5bd7b7bb09>
+  Prototype: !<ObjectOwner/d5b4f824-584a-46fd-a6cd-6b1b79e955f5>
+    PackagePath: ""
+    objects:
+      - !<own> ff537830-76cf-4d67-724a-cadc1bb216b2
+- !<SceneObject/82d9cb47-005b-42a8-62b4-e82d6f708907>
+  PrefabRemaps:
+    []
+  Name: Kolintang02_立方体.080
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a62119ed-91b0-4c78-623c-72a37b91889f
+- !<RenderMeshVisual/8393ff89-47b3-4246-70df-58ebb025b561>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> fd71b61b-a654-46f0-8cf4-03cd437e184b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8b56ebc0-c4d6-435f-68fc-f14c39873ff6>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 944d57d8-5fdf-4ad7-9e5f-4b56de929b6f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/96289791-dd2a-4acc-64f5-823230a678ce>
+  PrefabRemaps:
+    []
+  Name: Kolintang11_立方体.071
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2c371e8e-1300-4291-602a-2b02b42d78af
+- !<SceneObject/972ad5b9-6e57-4962-783f-e913b5e6ec4d>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco03_立方体.060
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1beff4ea-fbb4-4857-5ac4-4e496a5cc319
+- !<SceneObject/9b0b265d-c4ca-461c-4fb0-8bbd59a65176>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco10_立方体.030
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e3f22004-74c1-45df-63f7-406cf43715df
+- !<RenderMeshVisual/a62119ed-91b0-4c78-623c-72a37b91889f>
+  PrefabRemaps:
+    []
+  Name: component_22
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2f6e99de-2e88-42a5-9317-f390c921670e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ab2d58e0-9dae-4026-6296-7c13893dd205>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 4c2b2fae-a35a-4a32-bf8f-74b6944d7cef
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/af8236f0-d2ab-44c1-5b14-4849ce3afe37>
+  PrefabRemaps:
+    []
+  Name: component_19
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 05eeca89-7890-4306-94b8-c42f2f0ffc39
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b5c9e13f-8cc2-4d60-77d4-e9ece21045a5>
   PrefabRemaps:
     []
   Name: Kolintang03_立方体.079
@@ -990,4 +732,262 @@
   Children:
     []
   Components:
-    - !<own> 6231345d-fc66-46b6-4b43-edce22f20699
+    - !<own> 7e9535ec-fe1c-4a57-66e5-b012d9a026ab
+- !<SceneObject/c07e0f5c-fcaf-4db0-6622-d307f4f44c0a>
+  PrefabRemaps:
+    []
+  Name: Kolintang04_立方体.078
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1df38559-2c53-4fcf-6b2b-8ec9e82c5cb1
+- !<SceneObject/c2525d66-7eeb-4383-6c19-f706c9c80d09>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco05_立方体.050
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ab2d58e0-9dae-4026-6296-7c13893dd205
+- !<SceneObject/c4c9fb82-7fb8-4cfe-467d-75504becb8dc>
+  PrefabRemaps:
+    []
+  Name: Kolintang10_立方体.072
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ce575051-273b-41fa-6d19-eb51cecc4310
+- !<RenderMeshVisual/ce575051-273b-41fa-6d19-eb51cecc4310>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> f8d31912-7320-4e44-b3af-5327b763526f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d2b0f5e1-64a1-46f5-7f11-64cb495acd05>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco12_立方体.021
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 396d05c3-e125-4fd9-5eef-881592155f3d
+- !<RenderMeshVisual/d9b65b3f-6986-4400-6366-0a25250f16ea>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 296e05a1-57f1-436f-b449-cb4f571cd00e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/e3688a94-e899-4028-4b25-41c7cbf6e243>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco07_立方体.043
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3971af8f-5bbd-4e23-646c-2ff671add38f
+- !<RenderMeshVisual/e3f22004-74c1-45df-63f7-406cf43715df>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> af62e448-2c16-489e-9c91-2962d24a5c0d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ea9f91ab-d1b3-4c30-4f98-021af6c96f65>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco04_立方体.056
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8393ff89-47b3-4246-70df-58ebb025b561
+- !<RenderMeshVisual/eb2901ae-a6aa-42cd-4f89-57fc3b91c5f7>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 26e7a368-8a11-4b7b-b8e5-6e520248943d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ef7af0b6-b69d-4ef1-5e2e-e901f2542dea>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 737d0ea8-f579-467e-b9c0-9e1ea0e0e292
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f3340bd1-e845-46b4-4760-68e287c5fae8>
+  PrefabRemaps:
+    []
+  Name: Kolintangdeco01_立方体.068
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1b0ad31d-7721-4631-6018-abc8d0381c8a
+- !<SceneObject/f7fb8ba7-9a97-4e5f-406c-b9ed901e341f>
+  PrefabRemaps:
+    []
+  Name: Kolintang07_立方体.075
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3f8ff924-cfec-42e2-4c97-694735779cb7
+- !<SceneObject/ff537830-76cf-4d67-724a-cadc1bb216b2>
+  PrefabRemaps:
+    []
+  Name: Kolintang
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d2b0f5e1-64a1-46f5-7f11-64cb495acd05
+    - !<own> 4740dd72-3747-4c74-5a49-a3f3142b6a86
+    - !<own> 9b0b265d-c4ca-461c-4fb0-8bbd59a65176
+    - !<own> 0b59d91d-9125-460c-5c17-2a9b19650d4a
+    - !<own> 0e4ec5e8-117c-4159-5eb3-0c014fb36613
+    - !<own> e3688a94-e899-4028-4b25-41c7cbf6e243
+    - !<own> 359818ce-da6a-4491-77e3-9118027a8e57
+    - !<own> c2525d66-7eeb-4383-6c19-f706c9c80d09
+    - !<own> ea9f91ab-d1b3-4c30-4f98-021af6c96f65
+    - !<own> 972ad5b9-6e57-4962-783f-e913b5e6ec4d
+    - !<own> 2fc75b99-e7dc-495a-4f09-e8146c31ce77
+    - !<own> f3340bd1-e845-46b4-4760-68e287c5fae8
+    - !<own> 3071cc68-c2b3-436e-4774-d3867d9f7d53
+    - !<own> 96289791-dd2a-4acc-64f5-823230a678ce
+    - !<own> c4c9fb82-7fb8-4cfe-467d-75504becb8dc
+    - !<own> 6bbd4e28-a127-4cd8-4375-bbab3ef985b3
+    - !<own> 299d0219-5c23-40aa-5773-1af58babd10e
+    - !<own> f7fb8ba7-9a97-4e5f-406c-b9ed901e341f
+    - !<own> 44ea657c-5cf7-4b54-76b3-bcb711594444
+    - !<own> 3f291529-04f6-4c15-4d49-c34b8593b5d0
+    - !<own> c07e0f5c-fcaf-4db0-6622-d307f4f44c0a
+    - !<own> b5c9e13f-8cc2-4d60-77d4-e9ece21045a5
+    - !<own> 82d9cb47-005b-42a8-62b4-e82d6f708907
+    - !<own> 554e3e5a-8176-4f54-7986-b3f2fdf8c9fa
+  Components:
+    []

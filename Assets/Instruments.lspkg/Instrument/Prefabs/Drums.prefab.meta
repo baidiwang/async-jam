@@ -233,7 +233,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
 - !<SceneObject/215522e9-7236-45d0-4a1a-6a1319513939>
   PrefabRemaps:
     []
@@ -343,7 +343,6 @@
   Enabled: true
   ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
   ScriptInputsDefault:
-    targetingMode: true
     targetingVisual: true
     ignoreInteractionPlane: true
     keepHoverOnTrigger: true
@@ -359,7 +358,7 @@
     {}
   ScriptInputs:
     "":
-      targetingMode: !<float> 3.000000
+      targetingMode: !<float> 4.000000
       targetingVisual: !<float> 1.000000
       ignoreInteractionPlane: false
       keepHoverOnTrigger: false
@@ -1068,22 +1067,6 @@
   BlendNormals: false
   BlendShapes:
     {}
-- !<ScriptComponent/80a75476-02b8-4ad2-ac95-ba292051820c>
-  PrefabRemaps:
-    []
-  Name: InstrumentTarget
-  Enabled: false
-  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<RenderMeshVisual/811c301d-a265-4cb0-5db0-b1c1ae3513a5>
   PrefabRemaps:
     []
@@ -2436,7 +2419,6 @@
   Components:
     - !<own> 2a332ce7-d888-4fe2-8e0d-4b230fd5aabc
     - !<own> 203eadb8-cd3c-4171-a481-385e5b9499a8
-    - !<own> 80a75476-02b8-4ad2-ac95-ba292051820c
 - !<RenderMeshVisual/f93db20a-c7ab-436d-673e-db5560ae1200>
   PrefabRemaps:
     []

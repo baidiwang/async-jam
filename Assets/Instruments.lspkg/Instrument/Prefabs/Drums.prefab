@@ -37,7 +37,6 @@
     - 134a4b3f-692d-40ee-9efb-560abce8e6a7: 134a4b3f-692d-40ee-6104-a9f543171958
     - 1b790305-b039-4635-ab2c-a6875c82ddfa: 1b790305-b039-4635-54d3-5978a37d2205
     - 1c6610a4-1ddc-43f7-8009-4208e91c8dad: 7d56e060-1f55-45c8-8e6e-f47ea930b339
-    - 1c6ab24e-68fe-4cd6-8c6e-f7a262ff2baa: 80a75476-02b8-4ad2-ac95-ba292051820c
     - 1dc51397-0d9c-440d-b601-0c838536c8f9: 1dc51397-0d9c-440d-49fe-f37c7ac93706
     - 1f3015e1-4d4b-43ff-804c-ffc96cd9656d: 1f3015e1-4d4b-43ff-7fb3-003693269a92
     - 2107e95a-81c2-4b7a-b0d5-0540ed5bfd98: 203eadb8-cd3c-4171-a481-385e5b9499a8
@@ -323,22 +322,6 @@
     - !<own> 3a72024b-6d5b-40f5-b292-d3e2cb2d1208
   Components:
     []
-- !<ScriptComponent/1c6ab24e-68fe-4cd6-8c6e-f7a262ff2baa>
-  PrefabRemaps:
-    []
-  Name: InstrumentTarget
-  Enabled: false
-  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/1dc51397-0d9c-440d-b601-0c838536c8f9>
   PrefabRemaps:
     []
@@ -392,7 +375,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
 - !<SceneObject/215522e9-7236-45d0-b5e5-95ece6aec6c6>
   PrefabRemaps:
     []
@@ -646,7 +629,6 @@
   Components:
     - !<own> c0743ccb-6df3-494a-88e8-0ecb345f64ae
     - !<own> 2107e95a-81c2-4b7a-b0d5-0540ed5bfd98
-    - !<own> 1c6ab24e-68fe-4cd6-8c6e-f7a262ff2baa
 - !<RenderMeshVisual/3df93220-b90c-4651-b45c-04d4c6218177>
   PrefabRemaps:
     []
@@ -1838,7 +1820,6 @@
   Enabled: true
   ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
   ScriptInputsDefault:
-    targetingMode: true
     targetingVisual: true
     ignoreInteractionPlane: true
     keepHoverOnTrigger: true
@@ -1854,7 +1835,7 @@
     {}
   ScriptInputs:
     "":
-      targetingMode: !<float> 3.000000
+      targetingMode: !<float> 4.000000
       targetingVisual: !<float> 1.000000
       ignoreInteractionPlane: false
       keepHoverOnTrigger: false

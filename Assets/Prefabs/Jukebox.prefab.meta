@@ -14,6 +14,21 @@
   ImporterSettings: !<AssetImporterSettings>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/00654768-6ceb-41bb-a79b-0eba3acdb355>
+  PrefabRemaps:
+    []
+  Name: Note
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4660cda1-3d07-4d7e-bdb8-cd29956223bb
+  Components:
+    - !<own> 61df2fe3-33bc-482e-b315-a21e7b8ea8e7
 - !<ScriptComponent/014001b2-4c74-4811-88ba-4f7b9c10c79d>
   PrefabRemaps:
     []
@@ -80,11 +95,58 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<RenderMeshVisual/1b97d542-c03f-42f6-b441-c07dba519d89>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6b97f7a6-25a9-4e81-b208-f925625fead9
+  Mesh: !<reference> f70d7974-3ae2-4a73-bcb5-8b99f60519c7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/23c970e3-93b5-4ba0-89c7-7b9dafda48b1>
+  PrefabRemaps:
+    - 00654768-6ceb-41bb-a79b-0eba3acdb355: 5d10997b-e281-42fd-5ae7-b5dd71af1ce0
+    - 1b97d542-c03f-42f6-b441-c07dba519d89: 5f24e43f-594d-41cd-5a33-36c87be86549
+    - 23c970e3-93b5-4ba0-89c7-7b9dafda48b1: 73d9325c-6694-4806-71dd-61608ba3cca3
+    - 405b5871-c8e8-4036-bb77-ae5efbf78f41: 13fd715b-6805-432a-402e-09be36d98a1d
+    - 4660cda1-3d07-4d7e-bdb8-cd29956223bb: b8cc9054-c61e-4417-5b52-54d2d59fbf9c
+    - 61df2fe3-33bc-482e-b315-a21e7b8ea8e7: 56f943f9-2893-42eb-79e2-f51daefafdc7
+    - 88675f92-1789-4750-a153-0ed4b0c8c4ad: 70ac5ac0-bae2-4922-76aa-de535578ac7d
+    - bbd6480b-98bf-4f0d-b073-77de215e8f0b: f6036451-55cc-4c5e-7bc2-da27725c2246
+    - c1b3ef8f-e9e9-4164-840f-f4672d3b4bb6: e0e3cfe1-e502-49ce-57be-c095accedf9f
+    - c62cf079-7d1c-49e8-b99b-7b2a13924f95: bfe8667f-b7a3-4484-7c4d-dfba2e035936
+    - d0057765-c667-44ed-8a05-7380b9ec961b: 7bdbee25-9a7e-496a-5019-8fd673e9e4a0
+    - d07109fe-9f08-4707-9d25-ade5d5b20d6b: fdf11fb5-3578-4c30-6815-33888406b7dd
+  Name: Musicnote
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 00654768-6ceb-41bb-a79b-0eba3acdb355
+    - !<own> d0057765-c667-44ed-8a05-7380b9ec961b
+  Components:
+    []
 - !<SceneObject/2a89c945-9e19-43ff-9c9e-053f632790f8>
   PrefabRemaps:
     []
   Name: Object 0
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -110,11 +172,117 @@
     []
   Components:
     - !<own> cb045031-ee60-4317-8c29-634bd7ef2c30
+- !<RenderMeshVisual/405b5871-c8e8-4036-bb77-ae5efbf78f41>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 269253bd-2138-463f-bafc-7e755d86cf7b
+  Mesh: !<reference> bee66c15-36be-438d-ab18-1172ee2178a4
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4660cda1-3d07-4d7e-bdb8-cd29956223bb>
+  PrefabRemaps:
+    []
+  Name: Note
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: -8.304610}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 405b5871-c8e8-4036-bb77-ae5efbf78f41
+- !<AnimationPlayer/61df2fe3-33bc-482e-b315-a21e7b8ea8e7>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> 7a1f9ff3-108c-424f-abe3-0a06e15b8c34
+      Name: Note|NoteAction
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 119.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<RenderMeshVisual/88675f92-1789-4750-a153-0ed4b0c8c4ad>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6b97f7a6-25a9-4e81-b208-f925625fead9
+  Mesh: !<reference> 16a88eee-dcfe-46eb-9cbb-32a0745f9af6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<ObjectPrefabAssetData/a2d9289d-e592-45a9-a652-52072ff7b4e5>
   Prototype: !<ObjectOwner/01f826a1-7a32-4f69-b0b9-f2f555b5b2cf>
     PackagePath: ""
     objects:
       - !<own> c4534f43-5d39-48e7-6445-376751dd272c
+- !<SceneObject/bbd6480b-98bf-4f0d-b073-77de215e8f0b>
+  PrefabRemaps:
+    []
+  Name: Belt.001_环体.002
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c62cf079-7d1c-49e8-b99b-7b2a13924f95
+- !<SceneObject/c1b3ef8f-e9e9-4164-840f-f4672d3b4bb6>
+  PrefabRemaps:
+    []
+  Name: Belt.002_环体.003
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1b97d542-c03f-42f6-b441-c07dba519d89
 - !<SceneObject/c3c3f286-90fc-4b18-a042-4b0d12e5e143>
   PrefabRemaps:
     []
@@ -146,9 +314,30 @@
     - !<own> 2a89c945-9e19-43ff-9c9e-053f632790f8
     - !<own> c3c3f286-90fc-4b18-a042-4b0d12e5e143
     - !<own> 4002a8b3-29ec-4fc3-b152-4a5bbe0b553e
+    - !<own> 23c970e3-93b5-4ba0-89c7-7b9dafda48b1
   Components:
     - !<own> f05c9135-f100-4dab-925e-83999ad6a42c
     - !<own> 04081d88-a90e-45c4-9599-19b4970f2751
+- !<RenderMeshVisual/c62cf079-7d1c-49e8-b99b-7b2a13924f95>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6b97f7a6-25a9-4e81-b208-f925625fead9
+  Mesh: !<reference> 557ec612-f207-40a0-8c54-4ccdfa99a2ea
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<AudioComponent/cb045031-ee60-4317-8c29-634bd7ef2c30>
   PrefabRemaps:
     []
@@ -166,6 +355,38 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: true
   EnablePositionEffect: true
+- !<SceneObject/d0057765-c667-44ed-8a05-7380b9ec961b>
+  PrefabRemaps:
+    []
+  Name: Notewave
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 10.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 50.000000, y: 50.000000, z: 50.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d07109fe-9f08-4707-9d25-ade5d5b20d6b
+    - !<own> bbd6480b-98bf-4f0d-b073-77de215e8f0b
+    - !<own> c1b3ef8f-e9e9-4164-840f-f4672d3b4bb6
+  Components:
+    []
+- !<SceneObject/d07109fe-9f08-4707-9d25-ade5d5b20d6b>
+  PrefabRemaps:
+    []
+  Name: Belt_环体.001
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 88675f92-1789-4750-a153-0ed4b0c8c4ad
 - !<Text/e61992e0-7f4f-42ba-a6f9-96b3384976c1>
   PrefabRemaps:
     []

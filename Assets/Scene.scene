@@ -908,7 +908,6 @@
     - c428eded-e688-4f49-aa87-7095e930cd3a: d82d15d9-43b5-49d5-74ee-51b21606a0cc
     - c5f43269-1bae-4067-9004-3861d38eb981: dcc3ad47-9f41-442f-54e2-c3f9809fe2f8
     - c774f359-fdb1-439f-9a16-3a0ccf4fe56e: aed83fce-f379-4f5d-4dc1-b6f0458712d7
-    - c7fc4259-73d0-4521-b6c0-32ac88c3392c: 80a75476-02b8-4ad2-ac95-ba292051820c
     - ca0f6499-b510-4414-a2e7-215883b4616c: 83529754-9ef4-47b8-629b-621b619801f8
     - ca8385b3-b39a-4d67-b030-c94e670594b7: 33ae5104-db81-4a1e-570d-453ead79f666
     - cbbbb0cf-57c1-4974-bec1-eb50109e1b1a: a8aae687-b4d1-4cab-679b-fe53de3f8455
@@ -936,7 +935,7 @@
     - fb3a1b75-659c-449d-8acb-a235f899f6d9: 122b2ffd-6598-4a54-7c55-299f32c0262a
     - fef8829f-2931-43de-a6bf-e986824808eb: 81557430-89f8-4120-4f44-e8735ff1ec3e
   Name: Drums
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -1732,7 +1731,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
 - !<SceneObject/3947f89f-f328-4980-a820-5cef25f80042>
   PrefabRemaps:
     []
@@ -3790,7 +3789,6 @@
   Components:
     - !<own> 9082a24e-c0dd-49dd-9fe2-55627db81727
     - !<own> 39256843-b7df-402e-9c5d-9dcf44cb0c25
-    - !<own> c7fc4259-73d0-4521-b6c0-32ac88c3392c
 - !<SceneObject/805bb70d-0e93-48e5-a665-76bd8c8928ce>
   PrefabRemaps:
     []
@@ -4170,7 +4168,6 @@
   Enabled: true
   ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
   ScriptInputsDefault:
-    targetingMode: true
     targetingVisual: true
     ignoreInteractionPlane: true
     keepHoverOnTrigger: true
@@ -4186,7 +4183,7 @@
     {}
   ScriptInputs:
     "":
-      targetingMode: !<float> 3.000000
+      targetingMode: !<float> 4.000000
       targetingVisual: !<float> 1.000000
       ignoreInteractionPlane: false
       keepHoverOnTrigger: false
@@ -5736,22 +5733,6 @@
     - !<own> b1169d8a-9815-475d-ba9c-0fa119d1e02e
   Components:
     []
-- !<ScriptComponent/c7fc4259-73d0-4521-b6c0-32ac88c3392c>
-  PrefabRemaps:
-    []
-  Name: InstrumentTarget
-  Enabled: false
-  ScriptAsset: !<reference> 2cad58ce-6de7-4a96-87f6-d4e64658a52a
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<ScriptComponent/c88dce2c-2138-4265-a083-83640b10ebdd>
   PrefabRemaps:
     []

@@ -24,9 +24,8 @@ export class InstrumentAudioManager extends BaseScriptComponent {
     }
 
     private registerInteractable(interactable: Interactable, sound: AudioTrackAsset) {
-        console.log("registering...");
+        interactable.targetingMode = 4;
         interactable.onTriggerStart(() => {
-            console.log("trigger start for hi-hat");
             this.playNote(sound);
         });
     }
